@@ -102,7 +102,7 @@
 
 		////////////////////////////////////////////////////
 		// 00. Cart Toggle Js
-		let cartToggleStatus = false;
+		let cartToggleStatus = true;
 		$(".cart__toggle").on("click", function () {
 			$(".cart__mini").addClass("cart__opened");
 			if (cartToggleStatus === false){
@@ -1089,7 +1089,3 @@
 	
 		
 })(jQuery);
-
-
-
-
