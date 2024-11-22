@@ -2256,7 +2256,7 @@ p {
 }
 .product__item:hover .product__add-btn {
   bottom: 35px;
-  visibility: visible;
+  visibility: block;
   opacity: 1;
 }
 .product__item:hover .product__add-btn-4 {
@@ -5646,3 +5646,7 @@ p.checkout-coupon input[type=text]:focus {
     transform: rotate(360deg);
   }
 }
+
+
+
+

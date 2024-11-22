@@ -95,10 +95,11 @@
 		// 00. Toggle MEnu Js
 		$('.cat-toggle-btn').on('click', function () {
 			$('.cat__menu').slideToggle(500);
-		});
-		$('.cat-toggle-btn-2').on('click', function () {
-			$('.side-menu').slideToggle(500);
-		});
+		  });
+		  $('.cat-toggle-btn-2').on('click', function () {
+			$('.side-menu').slideToggle(500);  
+		  });
+		  
 
 		////////////////////////////////////////////////////
 		// 00. Cart Toggle Js
@@ -1089,3 +1090,9 @@
 	
 		
 })(jQuery);
+
+
+
+
+
+
