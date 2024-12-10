@@ -742,6 +742,10 @@ p {
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
 }
+.cat__menu {
+  position: relative; /* Ensure the container is positioned */
+}
+
 
 .cat__menu ul {
   background: #ffffff;
@@ -857,8 +861,9 @@ p {
 .cat__menu ul li:hover .mega-menu {
   visibility: visible;
   opacity: 1;
-  top: 0;
+  /* top: -100%; */
 }
+
 .cat__menu ul li:hover .submenu {
   top: 0;
   visibility: visible;
@@ -866,8 +871,8 @@ p {
 }
 .cat__menu ul li .mega-menu {
   position: absolute;
+  top: 100%;
   left: 100%;
-  top: 0;
   width: 800px;
   background: #ffffff;
   z-index: 1;

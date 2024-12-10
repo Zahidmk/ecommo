@@ -1,0 +1,537 @@
+
+.banner__content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transparent 0.3s;
+}
+
+.shop-now-btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.product-img {
+    width: 80px;
+    /* Small image */
+    height: auto;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.product-details {
+    margin-left: 20px;
+    /* Space between image and content */
+    flex-grow: 1;
+    /* Keeps content within bounds */
+}
+
+.card-content-wrapper {
+    display: flex;
+    align-items: center;
+    /* Align content vertically */
+}
+
+
+.section-header {
+    color: white;
+    border-radius: 8px;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-header.blue {
+    background-image: url('https://via.placeholder.com/400x150/003366/FFFFFF?text=');
+}
+
+.section-header.green {
+    background-image: url('https://via.placeholder.com/400x150/007f5f/FFFFFF?text=');
+}
+
+.section-header.orange {
+    background-image: url('https://via.placeholder.com/400x150/ff9800/FFFFFF?text');
+}
+
+/* Product List Styling */
+.product-list {
+    margin-top: 15px;
+}
+
+/* Product Card Styling */
+.product-card {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    /* Spacing between cards */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Product Details Styling */
+
+.product {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+
+    border-radius: 8px;
+
+    margin-bottom: 15px;
+    /* Spacing between cards */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+.product:hover {
+    transform: translateY(-1px);
+
+}
+
+.product-details {
+    flex-grow: .5;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.logo {
+    width: 150px;
+    /* Adjust width as needed */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    /* Slightly enlarge on hover */
+
+}
+
+
+
+.scroll-container {
+    width: 100%;
+    /* Adjust width as needed */
+    height: 150px;
+    /* Adjust height as needed */
+    overflow: hidden;
+    /* Hide overflow */
+    white-space: nowrap;
+    /* Prevent line breaks */
+    position: relative;
+    /* For positioning */
+    cursor: grab;
+    /* Change cursor to indicate draggable area */
+}
+
+.logo-container {
+    display: inline-block;
+    /* Keep logos in a single row */
+    transform: translateX(0);
+    /* For automatic scrolling */
+    transition: transform 0.1s linear;
+    /* Smooth movement for auto scroll */
+}
+
+.logo {
+    display: inline-block;
+    /* Ensure logos stay in line */
+    margin-right: 10px;
+    /* Add spacing between logos */
+}
+
+
+
+/* Horizontal Scrolling Row */
+.category-row {
+    display: flex;
+    overflow-x: auto;
+    /* Horizontal scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling for mobile devices */
+    padding-bottom: 10px;
+    gap: 15px;
+    /* Optional spacing between items */
+    scroll-behavior: smooth;
+    /* Smooth scrolling effect */
+}
+
+/* Hide Scrollbar */
+.category-row::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in Webkit browsers */
+}
+
+.category-row {
+    scrollbar-width: none;
+    /* Hide scrollbar in Firefox */
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-btn.left-btn {
+    left: 10px;
+}
+
+.scroll-btn.right-btn {
+    right: 10px;
+}
+
+.scroll-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Category Item Styling */
+.category-item {
+    flex: 0 0 auto;
+    /* Prevent items from shrinking and fit to their content */
+    text-align: center;
+    width: 120px;
+    /* Width of each item */
+}
+
+.category-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.category-icon {
+    font-size: 30px;
+    color: #007bff;
+}
+
+.category-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 576px) {
+    .category-item {
+        width: 50px;
+        /* Reduce width on small screens */
+    }
+
+    .category-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .category-icon {
+        font-size: 24px;
+    }
+
+    .category-title {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+.category-card {
+    width: 120px;
+    /* Fixed width */
+    height: 150px;
+    /* Fixed height */
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-card p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.row>.col {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Container Styling */
+.custom-scroll-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Soft background color */
+}
+
+/* Row Styling */
+.custom-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* Space between rows */
+}
+
+/* Box and Image Styling */
+.custom-row-content {
+    display: flex;
+    gap: 25px;
+    /* Space between boxes */
+}
+
+.custom-logo {
+    width: 200px;
+    /* Set uniform width */
+    height: 100px;
+    /* Set uniform height */
+    object-fit: contain;
+    /* Maintain aspect ratio within the box */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
+    background: white;
+    /* Background color for logo boxes */
+    padding: 10px;
+    /* Padding inside each box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Hover effect transition */
+}
+
+/* Hover Effect */
+.custom-logo:hover {
+    transform: scale(1.1);
+    /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    /* Stronger shadow */
+}
+
+
+.unique-deals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: stretch;
+}
+
+.unique-deal-item,
+.unique-deal-banner {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.unique-deal-banner {
+    grid-column: span 2;
+    /* Spans across two columns */
+    background: url('assets/img/power-bank.jpg') no-repeat center center;
+    background-size: cover;
+    /* Ensures the image covers the entire container */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    /* Text color to contrast with the background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.unique-deal-item img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.unique-deal-store {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #999;
+}
+
+.unique-deal-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
+
+.unique-banner-title {
+    color: #e63946;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.unique-banner-description {
+    font-size: 14px;
+    color: #444;
+}
+
+.unique-banner-code {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.unique-banner-button {
+    background: #e63946;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.unique-banner-button:hover {
+    background: #c5303d;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .unique-deals-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .unique-deal-banner {
+        grid-column: span 2;
+        /* Full width in smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .unique-deals-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .unique-deal-banner {
+        grid-column: span 1;
+    }
+}
