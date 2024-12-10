@@ -1943,9 +1943,24 @@
 
 
 
-        <div class="custom-scroll-container">
-            <div class="custom-row custom-row-1">
-                <div class="custom-row-content">
+        <div class="custom-scroll-container" >
+       
+
+
+
+
+            <div class="custom-row custom-row-1 " style="--duration: 20s; --direction: normal;">
+                <div class="custom-row-content " >
+                    <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
+                    <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
+                    <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
+                    <img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo">
+                    <!-- </div>
+    <div class="custom-row-content"> -->
+                    <img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo">
+                    <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
+                    <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
+                    <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
                     <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
                     <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
                     <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
@@ -1959,8 +1974,18 @@
                 </div>
             </div>
 
-            <div class="custom-row custom-row-2">
+            <div class="custom-row custom-row-2" style="animation-direction:reverse">
                 <div class="custom-row-content">
+                    <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
+                    <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
+                    <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
+                    <img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo">
+                    <!-- </div>
+    <div class="custom-row-content"> -->
+                    <img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo">
+                    <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
+                    <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
+                    <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
                     <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
                     <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
                     <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
@@ -1974,8 +1999,18 @@
                 </div>
             </div>
 
-            <div class="custom-row custom-row-3">
+            <div class="custom-row custom-row-3" style="--duration: 20s; --direction: normal;">
                 <div class="custom-row-content">
+                    <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
+                    <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
+                    <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
+                    <img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo">
+                    <!-- </div>
+    <div class="custom-row-content"> -->
+                    <img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo">
+                    <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
+                    <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
+                    <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
                     <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
                     <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
                     <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
@@ -4434,31 +4469,36 @@
     <script>
         const customRows = document.querySelectorAll('.custom-row');
 
-        function infiniteScroll(row, speed) {
-            let position = 0;
+function infiniteScroll(row, speed) {
+    let position = 0;
 
-            function animate() {
-                position += speed;
+    // Clone the content for seamless scrolling
+    const content = row.querySelector('.custom-row-content');
+    const clone = content.cloneNode(true);
+    row.appendChild(clone);
 
-                // Reset position when scrolled past one set of logos
-                const totalWidth = row.querySelector('.custom-row-content').offsetWidth;
-                if (speed > 0 && position >= totalWidth) {
-                    position = 0;
-                } else if (speed < 0 && position <= -totalWidth) {
-                    position = 0;
-                }
+    const contentWidth = content.offsetWidth;
 
-                row.style.transform = `translateX(${position}px)`;
-                requestAnimationFrame(animate);
-            }
+    function animate() {
+        position -= speed;
 
-            animate();
+        // Reset position when the scrolling completes one cycle
+        if (Math.abs(position) >= contentWidth) {
+            position = 0;
         }
 
-        // Start scrolling for each row with different speeds/directions
-        infiniteScroll(customRows[0], 1); // Row 1 scrolls right
-        infiniteScroll(customRows[1], -1); // Row 2 scrolls left
-        infiniteScroll(customRows[2], 1); // Row 3 scrolls right
+        row.style.transform = `translateX(${position}px)`;
+        requestAnimationFrame(animate);
+    }
+
+    animate();
+}
+
+// Start scrolling for each row with different speeds/directions
+// infiniteScroll(customRows[0], 1);  // Row 1 scrolls left
+// infiniteScroll(customRows[1], -1); // Row 2 scrolls right
+// infiniteScroll(customRows[2], 1);  // Row 3 scrolls left
+
     </script>
 
     <script>

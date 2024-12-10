@@ -384,17 +384,42 @@
 /* Row Styling */
 .custom-row {
     display: flex;
-    justify-content: center;
+    overflow: hidden; /* Hide content outside the row */
+    /* justify-content: center; */
     margin-bottom: 20px;
     /* Space between rows */
+    white-space: nowrap;
+    position: relative;
 }
+/* .custom-row .inner {
+    display: flex;
+    animation: loop var(--duration, 20s) linear infinite;
+    
+  } */
+  .custom-row .custom-row-content  {
+    display: flex;
+    animation: loop var(--duration, 20s) linear infinite;
+    /* direction revers */
+    animation-direction: var(--duration , reverse);
+  }
+  
+  @keyframes loop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 
 /* Box and Image Styling */
 .custom-row-content {
-    display: flex;
+    display: inline-flex;
+    white-space: nowrap;
     gap: 25px;
     /* Space between boxes */
 }
+
 
 .custom-logo {
     width: 200px;
