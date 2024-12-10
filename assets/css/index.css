@@ -403,14 +403,14 @@
     animation-direction: var(--duration , reverse);
   }
   
-  @keyframes loop {
+  /* @keyframes loop {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(-50%);
     }
-  }
+  } */
 
 /* Box and Image Styling */
 .custom-row-content {

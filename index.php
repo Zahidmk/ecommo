@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php include('fragments/css.php'); ?>
-   
+
 </head>
 
 <body>
@@ -1943,14 +1943,14 @@
 
 
 
-        <div class="custom-scroll-container" >
-       
+        <div class="custom-scroll-container">
+
 
 
 
 
             <div class="custom-row custom-row-1 " style="--duration: 20s; --direction: normal;">
-                <div class="custom-row-content " >
+                <div class="custom-row-content ">
                     <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
                     <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
                     <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
@@ -4467,9 +4467,9 @@
     <!-- JS here -->
     <?php include('fragments/js.php'); ?>
     <script>
-        const customRows = document.querySelectorAll('.custom-row');
+       const customRows = document.querySelectorAll('.custom-row');
 
-function infiniteScroll(row, speed) {
+function infiniteScroll(row, direction) {
     let position = 0;
 
     // Clone the content for seamless scrolling
@@ -4477,17 +4477,22 @@ function infiniteScroll(row, speed) {
     const clone = content.cloneNode(true);
     row.appendChild(clone);
 
-    const contentWidth = content.offsetWidth;
+    const duration = parseFloat(getComputedStyle(row.parentElement).getPropertyValue('--duration')) * 1000;
 
     function animate() {
-        position -= speed;
+        position += direction;
+        row.style.transform = `translateX(${position}px)`;
 
-        // Reset position when the scrolling completes one cycle
-        if (Math.abs(position) >= contentWidth) {
-            position = 0;
+        const thirdLogo = content.children[2]; // Reference the third logo in the original content
+        const thirdLogoRightEdge = thirdLogo.getBoundingClientRect().right;
+        const thirdLogoLeftEdge = thirdLogo.getBoundingClientRect().left;
+        const containerRightEdge = row.parentElement.getBoundingClientRect().right;
+        const containerLeftEdge = row.parentElement.getBoundingClientRect().left;
+
+        if (thirdLogoRightEdge >= containerRightEdge || thirdLogoLeftEdge <= containerLeftEdge) {
+            direction *= -1; // Reverse direction
         }
 
-        row.style.transform = `translateX(${position}px)`;
         requestAnimationFrame(animate);
     }
 
@@ -4495,10 +4500,9 @@ function infiniteScroll(row, speed) {
 }
 
 // Start scrolling for each row with different speeds/directions
-// infiniteScroll(customRows[0], 1);  // Row 1 scrolls left
-// infiniteScroll(customRows[1], -1); // Row 2 scrolls right
-// infiniteScroll(customRows[2], 1);  // Row 3 scrolls left
-
+infiniteScroll(customRows[0], 1); // Row 1 scrolls left
+infiniteScroll(customRows[1], -1); // Row 2 scrolls right
+infiniteScroll(customRows[2], 1); // Row 3 scrolls left
     </script>
 
     <script>
