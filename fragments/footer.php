@@ -1,197 +1,140 @@
-<!-- footer area start -->
-<footer>
-            <div class="footer__area footer-bg">
-                <div class="footer__top pt-80 pb-40">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-7 col-lg-12">
-                                <div class="footer__top-left">
-                                    <div class="row">
-                                        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6">
-                                            <div class="footer__widget">
-                                                <div class="footer__widget-title mb-45">
-                                                    <div class="footer__logo">
-                                                        <a href="index.html"><img src="assets/img/favicon.png" alt=""></a>
-                                                    </div>
-                                                </div>
-                                                <div class="footer__widget-content">
-                                                    <div class="footer__hotline d-flex align-items-center mb-30">
-                                                        <div class="icon mr-15">
-                                                            <i class="fal fa-headset"></i>
-                                                        </div>
-                                                        <div class="text">
-                                                            <h4>Hotline Free 24/24:</h4>
-                                                            <span><a href="tel:100-123-456-7890">(+100) 123 456 7890</a></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="footer__info">
-                                                        <ul>
-                                                            <li>
-                                                                <span> <a target="_blank" href="https:m/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">Aswaq Al-Qurain, Mubarak Al-Kabeer 35706 Kuwait</a></span></li>
-                                                            <li><span>Email: <a href="mailto: mymarkasouq@gmail.com">Email: mymarkasouq@gmail.com</a>  </span></li>
-                                                            <li><span>Fax: <a href="tel:123-456-7890">(+100) 123 456 7890</a> - <a href="tel:-100-123-456-7891">(+100) 123 456 7891</a> </span></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-6">
-                                            <div class="row">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                                    <div class="footer__widget">
-                                                        <div class="footer__widget-title">
-                                                            <h4>Information</h4>
-                                                        </div>
-                                                        <div class="footer__widget-content">
-                                                            <div class="footer__link">
-                                                                <ul>
-                                                                    <li><a href="#"> Custom Service </a></li>
-                                                                    <li><a href="#">F.A.Q.’s</a></li>
-                                                                    <li><a href="#">Ordering Tracking</a></li>
-                                                                    <li><a href="#"> Contacts</a></li>
-                                                                    <li><a href="#">Events</a></li>
-                                                                    <li><a href="#">Popular</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                                    <div class="footer__widget">
-                                                        <div class="footer__widget-title">
-                                                            <h4>Our Services</h4>
-                                                        </div>
-                                                        <div class="footer__widget-content">
-                                                            <div class="footer__link">
-                                                                <ul>
-                                                                    <li><a href="#">Sitemap</a></li>
-                                                                    <li><a href="#">Privacy Policy</a></li>
-                                                                    <li><a href="#">Your Account</a></li>
-                                                                    <li><a href="#">Advanced Search</a></li>
-                                                                    <li><a href="#">Terms & Condition</a></li>
-                                                                    <li><a href="#"> Contact Us</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-5 col-lg-12">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="footer__widget">
-                                            <div class="footer__widget-title">
-                                                <h4>My Account</h4>
-                                            </div>
-                                            <div class="footer__widget-content">
-                                                <div class="footer__link">
-                                                    <ul>
-                                                        <li><a href="#"> About us </a></li>
-                                                        <li><a href="#">Delivery Information</a></li>
-                                                        <li><a href="#">Privacy Policy</a></li>
-                                                        <li><a href="#">Discount</a></li>
-                                                        <li><a href="#">Custom Service</a></li>
-                                                        <li><a href="#">Terms & Condition</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="footer__widget">
-                                            <div class="footer__widget-title">
-                                                <h4>Payment & Shipping</h4>
-                                            </div>
-                                            <div class="footer__widget-content">
-                                                <div class="footer__link">
-                                                    <ul>
-                                                        <li><a href="#">Terms Of Use</a></li>
-                                                        <li><a href="#">Payment Methods</a></li>
-                                                        <li><a href="#">Shipping Guide</a></li>
-                                                        <li><a href="#">Locations We Ship To</a></li>
-                                                        <li><a href="#">Estimated Delivery Time</a></li>
-                                                        <li><a href="#">Express</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__bottom pt-60 pb-60">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="footer__links text-center">
-                                    <p>
-                                        <a href="#">Air Conditioners</a>
-                                        <a href="#">Audios & Theaters</a>
-                                        <a href="#">Car Electronics</a>
-                                        <a href="#">Office Electronics</a>
-                                        <a href="#">TV Televisions</a>
-                                        <a href="#">Washing Machines</a>
-                                    </p>
-                                    <p>
-                                        <a href="#">Cookware</a>
-                                        <a href="#">Decoration</a>
-                                        <a href="#">Furniture </a>
-                                        <a href="#">Garden Tools</a>
-                                        <a href="#">Garden Equipments</a>
-                                        <a href="#">Powers And Hand Tools </a>
-                                        <a href="#">Utensil & Gadget </a>
-                                        <a href="#">Printers</a>
-                                        <a href="#">Projectors</a>
-                                        <a href="#">Scanners</a>
-                                        <a href="#">Store</a>
-                                        <a href="#">Business</a>
-                                    </p>
-                                    <p>
-                                        <a href="#">4K Ultra</a>
-                                        <a href="#"> HD TVs </a>
-                                        <a href="#">LED TVs</a>
-                                        <a href="#">OLED TVs</a>
-                                        <a href="#">Desktop</a>
-                                        <a href="#">PC</a>
-                                        <a href="#">Laptop</a>
-                                        <a href="#">Smartphones</a>
-                                        <a href="#">Tablet</a>
-                                        <a href="#">Game Controller</a>
-                                        <a href="#">Audio & Video</a>
-                                        <a href="#"> Wireless Speaker</a>
-                                        <a href="#">Drone</a>
-                                    </p>
-                                </div>
-                                <div class="footer__download text-center">
-                                    <h4>Download The App - Get 30% Sale Coupon</h4>
-                                    <a href="#" class="m-img"><img src="assets/img/icon/app-store.jpg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__copyright pt-30 pb-35 footer-bottom-bg">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="footer__copyright-text">
-                                    <p>Copyright © <a href="index.html">Marka Souq. </a> All Rights Reserved. <a href="#"></a></p>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="footer__payment f-right">
-                                    <a href="#" class="m-img"><img src="assets/img/icon/payment.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer area end -->
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .footer {
+      background-color: #f9f9f9;
+      padding: 40px 20px;
+      color: #333;
+      border-top: 1px solid #ddd;
+    }
+    .footer .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-column {
+      flex: 1;
+      min-width: 100px;
+      margin: 10px 20px;
+    }
+    .footer-column h4 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #000;
+    }
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-column ul li {
+      margin-bottom: 10px;
+    }
+    .footer-column ul li a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.3s;
+    }
+    .footer-column ul li a:hover {
+      color: #007bff;
+    }
+    .social-icons {
+      display: flex;
+      gap: 10px;
+    }
+    .social-icons a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #333;
+    }
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+    }
+    .footer-bottom a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+    .store-info p {
+      margin: 5px 0;
+    }
+    .payment-icons img {
+      max-height: 30px;
+      margin: 5px;
+    }
+  </style>
+
+<footer class="footer">
+    <div class="container">
+      <div class="footer-colum">
+      <img> <img src="assets/img/logo/Icon.png"  alt="logo" width="80px" height="80px">
+        <p>Aswaq Al-Qurain, Mubarak Al-Kabeer 35706 Kuwait<br>Email: mymarkasouq@gmail.com</p>
+        <div class="social-icons " style="margin-bottom: 50px;">
+  <a href="#"><i class="fab fa-facebook-f "></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-dribbble"></i></a>
+</div>
+
+
+      </div>
+      <div class="footer-column">
+      <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Buyer Protection</a></li>
+                    <li><a href="#">Warranty & Return</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                </ul>
+      </div>
+      <div class="footer-column">
+      <h4>Shop with Us</h4>
+                <ul>
+                    <li><a href="#">Your Shopping Cart</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                </ul>
+      </div>
+      <div class="footer-column">
+      <h4>Sell with Us</h4>
+                <ul>
+                    <li><a href="#">Become a Seller</a></li>
+                    <li><a href="#">Register as Seller</a></li>
+                    <li><a href="#">Pricing & Fees</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+      </div>
+
+      <div class="footer-column">
+      <h4>Learn About Us</h4>
+                <ul>
+                    <li><a href="#">About Adam</a></li>
+                    <li><a href="#">Privacy Policy & Cookies</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+      </div>
+      
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 MARKA SOUQ is proudly powered by <a href="#">Sygmetiv</a></p>
+      <div class="payment-icons">
+        <img src="assets/img/logo/payment-icon-black.webp" alt="G Pay">
+        
+      </div>
+    </div>
+  </footer>

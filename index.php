@@ -167,9 +167,330 @@
     }
 
     .logo:hover {
-      transform: scale(1.6); /* Slightly enlarge on hover */
+      transform: scale(1.1); /* Slightly enlarge on hover */
    
     }
+
+
+
+    .scroll-container {
+  width: 100%; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent line breaks */
+  position: relative; /* For positioning */
+  cursor: grab; /* Change cursor to indicate draggable area */
+}
+
+.logo-container {
+  display: inline-block; /* Keep logos in a single row */
+  transform: translateX(0); /* For automatic scrolling */
+  transition: transform 0.1s linear; /* Smooth movement for auto scroll */
+}
+
+.logo {
+  display: inline-block; /* Ensure logos stay in line */
+  margin-right: 10px; /* Add spacing between logos */
+}
+
+
+
+/* Horizontal Scrolling Row */
+.category-row {
+  display: flex;
+  overflow-x: auto; /* Horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile devices */
+  padding-bottom: 10px;
+  gap: 15px; /* Optional spacing between items */
+  scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+/* Hide Scrollbar */
+.category-row::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers */
+}
+.category-row {
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-btn.left-btn {
+  left: 10px;
+}
+
+.scroll-btn.right-btn {
+  right: 10px;
+}
+
+.scroll-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Category Item Styling */
+.category-item {
+  flex: 0 0 auto; /* Prevent items from shrinking and fit to their content */
+  text-align: center;
+  width: 120px; /* Width of each item */
+}
+
+.category-circle {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.category-icon {
+  font-size: 30px;
+  color: #007bff;
+}
+
+.category-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 576px) {
+  .category-item {
+    width: 50px; /* Reduce width on small screens */
+  }
+
+  .category-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .category-icon {
+    font-size: 24px;
+  }
+
+  .category-title {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+.category-card {
+            width: 120px; /* Fixed width */
+            height: 150px; /* Fixed height */
+            text-align: center;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .category-card img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .category-card p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+
+        .row > .col {
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+       /* Container Styling */
+.custom-scroll-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Soft background color */
+}
+
+/* Row Styling */
+.custom-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Space between rows */
+}
+
+/* Box and Image Styling */
+.custom-row-content {
+  display: flex;
+  gap: 25px; /* Space between boxes */
+}
+
+.custom-logo {
+  width: 200px; /* Set uniform width */
+  height: 100px; /* Set uniform height */
+  object-fit: contain; /* Maintain aspect ratio within the box */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  background: white; /* Background color for logo boxes */
+  padding: 10px; /* Padding inside each box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transition */
+}
+
+/* Hover Effect */
+.custom-logo:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+}
+
+
+.unique-deals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.unique-deal-item, .unique-deal-banner {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.unique-deal-banner {
+  grid-column: span 2; /* Spans across two columns */
+  background: url('assets/img/power-bank.jpg') no-repeat center center;
+  background-size: cover; /* Ensures the image covers the entire container */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #fff; /* Text color to contrast with the background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit:cover;
+}
+
+.unique-deal-item img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.unique-deal-store {
+  font-size: 12px;
+  margin: 5px 0;
+  color: #999;
+}
+
+.unique-deal-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+.unique-banner-title {
+  color: #e63946;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.unique-banner-description {
+  font-size: 14px;
+  color: #444;
+}
+
+.unique-banner-code {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.unique-banner-button {
+  background: #e63946;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.unique-banner-button:hover {
+  background: #c5303d;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .unique-deals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .unique-deal-banner {
+    grid-column: span 2; /* Full width in smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .unique-deals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .unique-deal-banner {
+    grid-column: span 1;
+  }
+}
+
 
             </style>
     </head>
@@ -181,13 +502,13 @@
         <!-- Add your site or application content here -->
 
         <!-- preloader area start -->
-        <div id="loading">
+        <!-- <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
                     <div id="object"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- preloader area end -->
 
 
@@ -255,13 +576,13 @@
                                 <div class="col-xxl-8 col-lg-12 col-md-8 mb-20">
                                     <div class="slider__inner slider-active">
                                         <div class="single-slider single-slider-4 w-img" >
-                                            <img src="assets/img/hero1 (2).webp" alt="slider">
+                                            <img src="assets/img/hero-2.jpg" alt="slider">
                                         </div>
                                         <div class="single-slider single-slider-4 w-img">
-                                            <img src="assets/img/hero2.webp" alt="slider">
+                                            <img src="assets/img/hero-1.jpg" alt="slider">
                                         </div>
                                         <div class="single-slider single-slider-4 w-img">
-                                            <img src="assets/img/hero1 (2).webp" alt="slider">
+                                            <img src="assets/img/hero-1.1.jpg" alt="slider">
                                         </div>
                                     </div>
                                 </div>
@@ -270,13 +591,13 @@
                                         <div class="row">
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item mb-20 w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero1 (2).webp" alt=""></a>
+                                                    <a href="product-details.html"><img src="assets/img/hero-1.jpg" alt=""></a>
                                                 </div>
                                             </div>
                                            
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero1 (2).webp" style=" margin-top:-7px" alt=""></a>
+                                                    <a href="product-details.html"><img src="assets/img/hero-1.1.jpg" style=" margin-top:-7px" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -290,74 +611,171 @@
             <!-- slider area end -->
           
            
+            <div class="container py-5">
+        <div class="row g-2">
+            <!-- 10 cards -->
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/mobile-tablet.webp" alt="Mobile & Tablet">
+                    <p>Mobile & Tablet</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/computer&.webp" alt="Computers & Gaming">
+                    <p>Computers & Gaming</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/electronics.webp" alt="Electronics">
+                    <p>Electronics</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/home&ki.webp" alt="Home & Kitchen">
+                    <p>Home & Kitchen</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/fashion&.webp" alt="Fashion">
+                    <p>Fashion</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/health&bue.webp" alt="Health & Beauty">
+                    <p>Health & Beauty</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/automative&.webp" alt="Automotives">
+                    <p>Automotives</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/toys&.webp" alt="Toys, Games & Kids">
+                    <p>Toys, Games & Kids</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/offroad.webp" alt="Offroad">
+                    <p>Offroad</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="category-card">
+                    <img src="assets/img/hotdeals.webp" alt="Hot Deals">
+                    <p>Hot Deals</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
             <img src="assets/img/free-delivery.webp" alt="slider" class="img-fluid"> 
 
 
+         
             <section class="py-5">
-                    <div class="container">
-                        <h2 class="text-center mb-4">Love our categories</h2>
-                        <div class="row">
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-phone category-icon"></i>
-                                </div>
-                                <div class="category-title">Phones</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-headphones category-icon"></i>
-                                </div>
-                                <div class="category-title">Headphones</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-laptop category-icon"></i>
-                                </div>
-                                <div class="category-title">Laptops</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-tv category-icon"></i>
-                                </div>
-                                <div class="category-title">TVs</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-tablet category-icon"></i>
-                                </div>
-                                <div class="category-title">Tablets</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-camera category-icon"></i>
-                                </div>
-                                <div class="category-title">Cameras</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-watch category-icon"></i>
-                                </div>
-                                <div class="category-title">Watches</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-watch category-icon"></i>
-                                </div>
-                                <div class="category-title">Watches</div>
-                            </div>
-                            <div class="col-1 category-item">
-                                <div class="category-circle">
-                                    <i class="bi bi-speaker category-icon"></i>
-                                </div>
-                                <div class="category-title">Speakers</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            
+  <div class="container">
+    <!-- <h2 class="text-center mb-4">Love Our Categories</h2> -->
+    <div class="category-row d-flex overflow-auto">
+      <!-- Phones -->
+      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="https://youtube.com/shorts/8XUunkGJw4g?si=HK8Jc0juItbaEQFV">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-phone category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Phones</div>
+      </div>
+      <!-- Laptops -->
+      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/laptops.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-laptop category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Laptops</div>
+      </div>
+      <!-- TVs -->
+      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/tvs.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-tv category-icon"></i>
+        </div>
+        <div class="category-title mt-2">TVs</div>
+      </div>
+      <!-- Cameras -->
+      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/cameras.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-camera category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Cameras</div>
+      </div>
+      <!-- Speakers -->
+      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/speakers.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-speaker category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Speakers</div>
+      </div>
+      <!-- Tablets -->
+      <div class="category-item text-center me-3" data-video="assets/videos/tablets.mp4" data-link="assets/videos/tablets.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-tablet category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Tablets</div>
+      </div>
+      <!-- Watches -->
+      <div class="category-item text-center me-3" data-video="assets/videos/watches.mp4" data-link="assets/videos/watches.mp4">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-watch category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Watches</div>
+      </div>
+      <!-- Headphones -->
+      <div class="category-item text-center me-3" data-video="assets/videos/headphones.mp4" data-link="product.php">
+        <div class="category-circle mx-auto">
+          <i class="bi bi-headphones category-icon"></i>
+        </div>
+        <div class="category-title mt-2">Headphones</div>
+      </div>
+    </div>
+  </div>
+</section>
 
+
+
+  <!-- Modal Structure -->
+  <div id="storyModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-video-container">
+      <!-- Profile Icon -->
+      <div class="profile-icon">
+        <img src="https://via.placeholder.com/40" alt="Profile Icon">
+      </div>
+      <!-- Video Controls -->
+      <div class="video-controls">
+        <div class="control-icon" id="playPause">&#9658;</div> <!-- Play Icon -->
+        <div class="control-icon" id="toggleSound">&#128266;</div> <!-- Sound Icon -->
+      </div>
+      <!-- Video Element -->
+      <video id="storyVideo" class="modal-video" autoplay muted loop></video>
+      <!-- Video Progress Bar -->
+      <div id="progressBar" class="progress-bar"></div>
+    </div>
+    <div class="modal-body">
+      <div class="product-title">Product Title Here</div>
+      <div class="product-description">
+        A short description of the product goes here to give the user more context.
+      </div>
+      <a id="productLink" href="product.php" target="product.php" class="product-link">View Product</a>
+    </div>
+    <button id="closeModal" class="close-btn">&times;</button>
+  </div>
+</div>
 
 
 
@@ -367,31 +785,31 @@
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item w-img mb-30 position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-1.webp" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-1.jpg" alt=""></a>
                     <div class="banner__content">
-                        <h3>Top Deals on Electronics</h3>
-                        <p>Get the best prices on your favorite electronic devices and gadgets.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <h3>Top Deals  on  <BR>Electronics</h3>
+                     
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-2.webp" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-2.jpg" alt=""></a>
                     <div class="banner__content">
-                        <h3>Upgrade Your Gear</h3>
-                        <p>Discover high-performance laptops, tablets, and more for your needs.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <h3>Upgrade <BR> Your  Gear</h3>
+                       
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/img-3.webp" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-3.jpg" alt=""></a>
                     <div class="banner__content">
-                        <h3>Smart TVs & Accessories</h3>
-                        <p>Experience the best in entertainment with our range of smart TVs.</p>
-                        <a href="product-details.html" class="shop-now-btn">Shop Now</a>
+                        <h3>Smart TVs & <BR> Accessories</h3>
+                      
+                        <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -1382,7 +1800,7 @@
 
             <section class="promo-section" style="background: url('assets/img/special-deal.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative;">
 
-    <div class="promo-content">
+    <div class="promo-content d-none d-md-block">
         <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
         <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Get up to 30% off on mobile gadgets!</h1>
         <div class="countdown-timer" style="font-size: 24px; font-weight: 500; display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
@@ -1395,6 +1813,38 @@
             SHOP NOW!
         </button>
     </div>
+
+
+    <div class="promo-content d-block d-md-none" 
+     style="width: 300%; max-width: 320px; text-align: center; position: relative; left: 50%; transform: translateX(-50%);">
+    <h4 style="font-size: 10px; color: #333; font-weight: 600; margin-bottom: 5px; word-wrap: break-word;">
+        EXCLUSIVE DEALS ON ELECTRONICS
+    </h4>
+    <h1 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; word-wrap: break-word;">
+        Get up to 30% off on mobile gadgets!
+    </h1>
+    <div class="countdown-timer" 
+         style="font-size: 14px; font-weight: 500; display: flex; justify-content: space-around; gap: 10px; margin-bottom: 20px;">
+        <div class="countdown-item" style="flex: 1; text-align: center;">
+            00 <br><span style="font-size: 7px; color: #666;">DAYS</span>
+        </div>
+        <div class="countdown-item" style="flex: 1; text-align: center;">
+            00 <br><span style="font-size: 7px; color: #666;">HOURS</span>
+        </div>
+        <div class="countdown-item" style="flex: 1; text-align: center;">
+            00 <br><span style="font-size: 7px; color: #666;">MINUTES</span>
+        </div>
+        <div class="countdown-item" style="flex: 1; text-align: center;">
+            00 <br><span style="font-size: 7px; color: #666;">SECONDS</span>
+        </div>
+    </div>
+    <button class="promo-button" 
+            style="background-color: #000; color: #fff; padding: 8px 20px; border: none; border-radius: 5px; font-size: 14px; cursor: pointer; width: 100%; max-width: 200px; margin: 0 auto;">
+        SHOP NOW!
+    </button>
+</div>
+
+
     <!-- Sample decorative mobile images -->
     <div class="promo-images" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; opacity: 0.3;">
         <img src="path/to/electronic-image-1.png" alt="Electronic Device 1" style="position: absolute; top: 20px; left: 30px; width: 150px;">
@@ -1476,14 +1926,14 @@
                     <div class="row">
                         <div class="col-xl-12"></div>
                             <div class="section__title text-center mb-40">
-                                <h3>Todays special deals</h3>
+                                <h3> special deals</h3>
                             </div>
     <!-- Product 1 -->
     <div class="col-md-3" >
       <div class="product-card position-relative p-5">
         <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
         <div class="card-content-wrapper ">
-          <img src="assets/img/grosery-product-11.webp" alt="Product Image" class="product-img mt-5">
+          <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-5">
           <div class="product-details">
             <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
             <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
@@ -1500,7 +1950,7 @@
       <div class="product-card position-relative p-5">
         <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
         <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-12.webp" alt="Product Image" class="product-img">
+          <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img">
           <div class="product-details">
             <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
             <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
@@ -1517,7 +1967,7 @@
       <div class="product-card position-relative p-5">
         <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
         <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-13.webp" alt="Product Image" class="product-img">
+          <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img">
           <div class="product-details">
             <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
             <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
@@ -1534,7 +1984,7 @@
       <div class="product-card position-relative p-5">
         <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
         <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-14.webp" alt="Product Image" class="product-img">
+          <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img">
           <div class="product-details">
             <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
             <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
@@ -1572,11 +2022,11 @@
             <!-- Second Banner: Electronics -->
             <div class="col-xl-6 col-lg-6">
                 <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                    <img src="assets/img/special-deal.jpg" alt="Electronics Offer" style="width: 100%; height:300px; border-radius: 10px;">
+                    <img src="assets/img/special-deal.jpg" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
                     <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-                        <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 20% OFF</p>
-                        <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Top Electronics</h3>
-                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$299</span></p>
+                        <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
+                        <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
+                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div>
                 </div>
@@ -1871,7 +2321,7 @@
       <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
         <!-- Product 1 -->
         <div class="product p-4 ">
-          <img src="assets/img/grosery-product-11.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Nescafe gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
@@ -1880,7 +2330,7 @@
         </div>
         <!-- Product 2 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-12.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
@@ -1889,7 +2339,7 @@
         </div>
         <!-- Product 3 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-13.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
@@ -1906,7 +2356,7 @@
       <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
         <!-- Product 1 -->
         <div class="product p-4 ">
-          <img src="assets/img/grosery-product-11.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Nescafe gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
@@ -1915,7 +2365,7 @@
         </div>
         <!-- Product 2 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-12.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
@@ -1924,7 +2374,7 @@
         </div>
         <!-- Product 3 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-13.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
@@ -1941,16 +2391,16 @@
       <div class="section-header orange">RECEIVE 20% OFF<br>Featured products</div>
         <!-- Product 1 -->
         <div class="product p-4 ">
-          <img src="assets/img/grosery-product-11.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
-            <div class="product-name">Nescafe gold blend coffee</div>
+            <div class="product-name">NescafeEEEE gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
             <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
           </div>
         </div>
         <!-- Product 2 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-12.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
@@ -1959,7 +2409,7 @@
         </div>
         <!-- Product 3 -->
         <div class="product p-4">
-          <img src="assets/img/grosery-product-13.webp" alt="Product Image" class="product-image">
+          <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
@@ -1971,14 +2421,2352 @@
   </div>
 </div>
 
-<div class="logo-container">
-    <img src="assets/img/logo-1.png" alt="Kellogg's Logo" class="logo">
-    <img src="assets/img/logo-2.png" alt="Nature's Way Logo" class="logo">
-    <img src="assets/img/logo-3.png" alt="Nestlé Logo" class="logo">
-    <img src="assets/img/logo-4.png" alt="Fresh Logo" class="logo">
-    <img src="assets/img/logo-5.png" alt="Libby's Logo" class="logo">
-    <img src="assets/img/logo-6.png" alt="Tropicana Logo" class="logo">
+
+
+
+
+<div class="custom-scroll-container">
+  <div class="custom-row custom-row-1">
+    <div class="custom-row-content">
+      <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
+      <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
+      <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
+      <img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo">
+    <!-- </div>
+    <div class="custom-row-content"> -->
+      <img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo">
+      <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
+      <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
+      <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
+    </div>
   </div>
+
+  <div class="custom-row custom-row-2">
+    <div class="custom-row-content">
+      <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
+      <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
+      <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
+      <img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo">
+    <!-- </div>
+    <div class="custom-row-content"> -->
+      <img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo">
+      <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
+      <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
+      <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
+    </div>
+  </div>
+
+  <div class="custom-row custom-row-3">
+    <div class="custom-row-content">
+      <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
+      <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
+      <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
+      <img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo">
+    <!-- </div>
+    <div class="custom-row-content"> -->
+      <img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo">
+      <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
+      <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
+      <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
+    </div>
+  </div>
+</div>
+
+
+
+
+<section class="unique-latest-deals ">
+<div class="section__title">
+                                    <h3 class="ml-5">Best<span>in Powerbanks</span></h3>
+                                </div>
+    <div class="unique-deals-grid">
+      <!-- Deal Item 1 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
+      </div>
+      <!-- Deal Item 2 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-6.webp" alt="Ring Doorbell">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+      </div>
+      <!-- Promo Banner -->
+      <div class="unique-deal-banner">
+        
+        <h3 class="unique-banner-title">Daily Deals</h3>
+        <p class="unique-banner-description">Best Offers from UBUY</p>
+        <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+        <button class="unique-banner-button">Shop Now</button>
+      </div>
+      <!-- Deal Item 3 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
+      </div>
+      <!-- Deal Item 4 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
+      </div>
+      <!-- Deal Item 5 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
+      </div>
+      <!-- Deal Item 6 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  
+<section class="unique-latest-deals ">
+<div class="section__title">
+                                    <h3 class="ml-5">Mobile cases with your Fashion</span></h3>
+                                </div>
+    <div class="unique-deals-grid">
+      <!-- Deal Item 1 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-1.webp" alt="Monster Energy Drink">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
+      </div>
+      <!-- Deal Item 2 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-2.webp" alt="Ring Doorbell">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+      </div>
+      
+      <!-- Deal Item 3 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-3.webp" alt="Makeup Vanity Mirror">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
+      </div>
+      <!-- Deal Item 4 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-4.webp" alt="Red Light Therapy Mask">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
+      </div>
+
+      <!-- Promo Banner -->
+      <div class="unique-deal-banner">
+        
+        <h3 class="unique-banner-title">Daily Deals</h3>
+        <p class="unique-banner-description">Best Offers from UBUY</p>
+        <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+        <button class="unique-banner-button">Shop Now</button>
+      </div>
+      <!-- Deal Item 5 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-5.webp" alt="Amazon Fire HD Tablet">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
+      </div>
+      <!-- Deal Item 6 -->
+      <div class="unique-deal-item">
+        <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
+        <p class="unique-deal-store">🇺🇸 US Store</p>
+        <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+      </div>
+    </div>
+  </section>
+            <!-- Flash sell area start -->
+            <section class="flash__sell pt-25 pb-40 grey-bg-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section__head d-md-flex justify-content-between mb-40">
+                                <div class="section__title">
+                                    <h3>Lifestyle Gadgets<span> & Smart Gadgets</span></h3>
+                                </div>
+                                <div class="product__nav-tab"> 
+                                    <ul class="nav nav-tabs" id="flast-sell-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="computer-tab" data-bs-toggle="tab" data-bs-target="#computer" type="button" role="tab" aria-controls="computer" aria-selected="true">computer</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="samsung-tab" data-bs-toggle="tab" data-bs-target="#samsung" type="button" role="tab" aria-selected="false">samsung</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="htc-tab" data-bs-toggle="tab" data-bs-target="#htc" type="button" role="tab" aria-selected="false">HTC</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="nokia-tab" data-bs-toggle="tab" data-bs-target="#nokia" type="button" role="tab" aria-selected="false">Nokia</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="cell-tab" data-bs-toggle="tab" data-bs-target="#cell" type="button" role="tab"  aria-selected="false">Cell Phones</button>
+                                        </li>
+                                      </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="tab-content" id="flast-sell-tabContent">
+                                <div class="tab-pane fade show active" id="computer" role="tabpanel" aria-labelledby="computer-tab">
+                                    <div class="row">
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-1.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-1.web" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$720.00</span>
+                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-2.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-2.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$350.00</span>
+                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-3.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-3.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function    </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$120.00</span>
+                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-4.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-4.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$250.00</span>
+                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb product__thumb-big pb-15 p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/jbl.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/jbl.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- <span class="new mb-5">$120.00</span>
+                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                        <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
+                                                        <div class="add-cart">
+                                                            <button class="t-y-btn t-y-btn-2">add to cart</button>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-5.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-5.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$90.00</span>
+                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-6.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-6.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$300.00</span>
+                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-7.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-7.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$175.00</span>
+                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-8.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-8.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$220.00</span>
+                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
+                                    <div class="row">
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-9.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-9.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$720.00</span>
+                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/L-1.webp" alt="product">
+                                                            <img class="second-img" src="assets/img/L-1.webp" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$350.00</span>
+                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-14.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function    </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$120.00</span>
+                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-21.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$250.00</span>
+                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb product__thumb-big pb-15 p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new mb-5">$120.00</span>
+                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                        <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
+                                                        <div class="add-cart">
+                                                            <button class="t-y-btn t-y-btn-2">add to cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-17.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$90.00</span>
+                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-23.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$300.00</span>
+                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-20.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$175.00</span>
+                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$220.00</span>
+                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="htc" role="tabpanel" aria-labelledby="htc-tab">
+                                    <div class="row">
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-12.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$720.00</span>
+                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-19.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$350.00</span>
+                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-14.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function    </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$120.00</span>
+                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-21.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$250.00</span>
+                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb product__thumb-big pb-15 p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new mb-5">$120.00</span>
+                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                        <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
+                                                        <div class="add-cart">
+                                                            <button class="t-y-btn t-y-btn-2">add to cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-17.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$90.00</span>
+                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-23.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$300.00</span>
+                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-20.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$175.00</span>
+                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$220.00</span>
+                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nokia" role="tabpanel" aria-labelledby="nokia-tab">
+                                    <div class="row">
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-12.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$720.00</span>
+                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-19.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$350.00</span>
+                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-14.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function    </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$120.00</span>
+                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-21.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$250.00</span>
+                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb product__thumb-big pb-15 p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new mb-5">$120.00</span>
+                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                        <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
+                                                        <div class="add-cart">
+                                                            <button class="t-y-btn t-y-btn-2">add to cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-17.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$90.00</span>
+                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-23.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$300.00</span>
+                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-20.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$175.00</span>
+                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$220.00</span>
+                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="cell" role="tabpanel" aria-labelledby="cell-tab">
+                                    <div class="row">
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-12.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$720.00</span>
+                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-19.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$350.00</span>
+                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-14.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function    </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$120.00</span>
+                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-21.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$250.00</span>
+                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb product__thumb-big pb-15 p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new mb-5">$120.00</span>
+                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                        <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
+                                                        <div class="add-cart">
+                                                            <button class="t-y-btn t-y-btn-2">add to cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-17.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$90.00</span>
+                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-23.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory  </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$300.00</span>
+                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-20.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$175.00</span>
+                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-wrapper mb-20">
+                                                <div class="product__item white-bg">
+                                                    <div class="product__thumb p-relative">
+                                                        <a href="product-details.html" class="w-img">
+                                                            <img src="assets/img/shop/product/product-24.jpg" alt="product">
+                                                            <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                        </a>
+                                                        <div class="product__action p-absolute">
+                                                            <ul>
+                                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
+                                                                <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
+                                                                <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__content text-center">
+                                                        <h6 class="product-name">
+                                                            <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger   </a>
+                                                        </h6>
+                                                        <div class="rating">
+                                                            <ul>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                                <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="new">$220.00</span>
+                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                    </div>
+                                                    <div class="product__add-btn">
+                                                        <button type="button">Add to Cart</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- banner area start -->
+    <!-- <section class="banner__area pb-10 grey-bg-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 w-img">
+                                <a href="product-details.html"><img src="assets/img/banner/banner-6.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 w-img">
+                                <a href="product-details.html"><img src="assets/img/banner/banner-7.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="banner__item mb-30 w-img">
+                                <a href="product-details.html"><img src="assets/img/banner/banner-8.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!-- banner area end -->
+
+            <!-- onsale product area start -->
+            <section class="onsell__area pt-15 pb-35 grey-bg-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section__head d-flex justify-content-between mb-40">
+                                <div class="section__title">
+                                    <h3>Trending<span>Products</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="sale__slider owl-carousel">
+                                <div class="product__item-wrapper">
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-1.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-1.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$720.00</span>
+                                            <span class="price-old"> <del>$800.00</del> </span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-2.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-2.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">Portable Watch Phone with Blood Pressure Monitor OLED</a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$90.00</span>
+                                            <span class="price-old"> <del>$100.00</del> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item-wrapper">
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-3.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-3.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function 1.14" IPS LCD IP68</a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$150.00</span>
+                                            <span class="price-old"> <del>$200.00</del> </span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-4.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-4.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$90.00</span>
+                                            <span class="price-old"> <del>$100.00</del> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item-wrapper">
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-5.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-5.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">TF Camera Clock Support Bt 4.0 for Ios Android Round Watch </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$40.00</span>
+                                            <span class="price-old"> <del>$100.00</del> </span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/L-6.webp" alt="product">
+                                                <img class="second-img" src="assets/img/L-6.webp" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html"> 24 Inch LCD Monitor with Touch Screen for Computer Display </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$90.00</span>
+                                            <span class="price-old"> <del>$100.00</del> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item-wrapper">
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/shop/product/product-2.jpg" alt="product">
+                                                <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">Capacitive Touch Screen 22 Inch Advertising LCD Display Monitor </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$190.00</span>
+                                            <span class="price-old"> <del>$200.00</del> </span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/shop/product/product-20.jpg" alt="product">
+                                                <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html"> Original Smart Phone for Original for iPhone 6s </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$250.00</span>
+                                            <span class="price-old"> <del>$300.00</del> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__item-wrapper">
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/shop/product/product-13.jpg" alt="product">
+                                                <img class="second-img" src="assets/img/shop/product/product-7.jpg" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function 1.14" IPS LCD IP68</a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$150.00</span>
+                                            <span class="price-old"> <del>$200.00</del> </span>
+                                        </div>
+                                    </div>
+                                    <div class="product__item white-bg d-flex mb-20">
+                                        <div class="product__thumb product__thumb-sale p-relative">
+                                            <a href="product-details.html" class="w-img">
+                                                <img src="assets/img/shop/product/product-15.jpg" alt="product">
+                                                <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product__content">
+                                            <h6 class="product-name">
+                                                <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
+                                            </h6>
+                                            <div class="rating">
+                                                <ul>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="new new-2">$90.00</span>
+                                            <span class="price-old"> <del>$100.00</del> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+    <!-- blog area start -->
+    <section class="blog__area pb-40 grey-bg-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section__head d-flex justify-content-between mb-40">
+                                <div class="section__title">
+                                    <h3>Recommended <span>For You</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="blog__slider owl-carousel">
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/R-1.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">Curabitur Lobortis News</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 01-Jul-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/R-2.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">The Brushed Steel</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 05-Aug-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/R-3.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">Koma and Torus</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 15-Aug-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/R-4.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">Grip and Allows</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 20-Aug-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/blog/blog-5.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">Pitterarum Formas</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 25-Aug-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                                <div class="blog__item mb-30">
+                                    <div class="blog__thumb fix">
+                                        <a href="blog-details.html">
+                                            <img src="assets/img/blog/blog-6.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog__content white-bg">
+                                        <h3><a href="blog-details.html">Shelving Burgundy</a></h3>
+                                        <div class="blog__meta">
+                                            <span>Post Date:</span>
+                                            <span class="date"> 02-Sep-2020</span>
+                                        </div>
+                                        <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog area end -->
+
+            <!-- subscribe area start -->
+            <!-- <section class="subscribe__area pt-35 pb-30">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="subscribe__content d-sm-flex align-items-center">
+                                <div class="subscribe__icon mr-25">
+                                    <img src="assets/img/icon/icon_email.png" alt="">
+                                </div>
+                                <div class="subscribe__text">
+                                    <h4>Sign up to Newsletter</h4>
+                                    <p>Get email updates about our latest shop...and receive <span>$30 Coupon For First Shopping</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="subscribe__form f-right">
+                                <form action="#">
+                                    <input type="email" placeholder="Enter your email here...">
+                                    <button class="t-y-btn t-y-btn-sub">subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
             
             <!-- subscribe area end -->
 
@@ -2125,7 +4913,121 @@
 
 		<!-- JS here -->
         <?php include('fragments/js.php'); ?>
-      
+      <script>
+        const customRows = document.querySelectorAll('.custom-row');
+
+function infiniteScroll(row, speed) {
+  let position = 0;
+
+  function animate() {
+    position += speed;
+
+    // Reset position when scrolled past one set of logos
+    const totalWidth = row.querySelector('.custom-row-content').offsetWidth;
+    if (speed > 0 && position >= totalWidth) {
+      position = 0;
+    } else if (speed < 0 && position <= -totalWidth) {
+      position = 0;
+    }
+
+    row.style.transform = `translateX(${position}px)`;
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+}
+
+// Start scrolling for each row with different speeds/directions
+infiniteScroll(customRows[0], 1);   // Row 1 scrolls right
+infiniteScroll(customRows[1], -1);  // Row 2 scrolls left
+infiniteScroll(customRows[2], 1);   // Row 3 scrolls right
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('storyModal');
+    const closeModal = document.getElementById('closeModal');
+    const storyVideo = document.getElementById('storyVideo');
+    const progressBar = document.getElementById('progressBar');
+    const playPause = document.getElementById('playPause');
+    const toggleSound = document.getElementById('toggleSound');
+    const productLink = document.getElementById('productLink');
+    const productTitle = document.querySelector('.product-title');
+    const productDescription = document.querySelector('.product-description');
+    const categoryItems = document.querySelectorAll('.category-item');
+
+    let playing = true; // Track play/pause state
+    let muted = true; // Track sound state
+
+    // Play/Pause toggle
+    playPause.addEventListener('click', () => {
+      if (playing) {
+        storyVideo.pause();
+        playPause.innerHTML = '&#9658;'; // Play icon
+      } else {
+        storyVideo.play();
+        playPause.innerHTML = '&#10074;&#10074;'; // Pause icon
+      }
+      playing = !playing;
+    });
+
+    // Mute/Unmute toggle
+    toggleSound.addEventListener('click', () => {
+      storyVideo.muted = !storyVideo.muted;
+      toggleSound.innerHTML = storyVideo.muted ? '&#128263;' : '&#128266;'; // Update icon
+    });
+
+    // Update progress bar
+    storyVideo.addEventListener('timeupdate', () => {
+      const progress = (storyVideo.currentTime / storyVideo.duration) * 100;
+      progressBar.style.width = progress + '%';
+    });
+
+    // Open modal and set content
+    categoryItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        const videoSrc = item.getAttribute('data-video');
+        const link = item.getAttribute('data-link');
+        const title = item.querySelector('.category-title').textContent;
+
+        storyVideo.src = videoSrc; // Set video source
+        productTitle.textContent = title; // Set product title
+        productDescription.textContent = 'A short description of ' + title; // Dynamic description
+        productLink.href = link; // Set product link
+
+        modal.classList.add('show'); // Show modal
+        storyVideo.play(); // Auto play video
+        storyVideo.muted = muted; // Maintain mute state
+        playing = true;
+        playPause.innerHTML = '&#10074;&#10074;'; // Update play/pause icon
+        toggleSound.innerHTML = muted ? '&#128263;' : '&#128266;'; // Update sound icon
+      });
+    });
+
+    // Close modal
+    closeModal.addEventListener('click', () => {
+      modal.classList.remove('show');
+      storyVideo.pause();
+      storyVideo.currentTime = 0; // Reset video
+    });
+  });
+</script>
+
+<script>
+function scrollLeft() {
+  const categoryRow = document.getElementById("categoryRow");
+  categoryRow.scrollBy({ left: -200, behavior: "smooth" });
+}
+
+function scrollRight() {
+  const categoryRow = document.getElementById("categoryRow");
+  categoryRow.scrollBy({ left: 200, behavior: "smooth" });
+}
+</script>
+
+
+
+
 
     </body>
 </html>

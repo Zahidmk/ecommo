@@ -106,26 +106,37 @@
 
             <!-- about area start -->
             <section class="about__area box-plr-75 p-relative about__mt--325">
-                <div class="container-fluid">
-                    <div class="about__inner white-bg">
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div class="about__wrapper">
-                                    <h3>About Topico Magento</h3>
-                                    <p class="about__text">Vivamus a lacinia sem. Integer in enim sapien. Aenean vitae hendrerit nisi, ut suscipit justo. Duis hendrerit sceleri sque dui. Donec ornare massa vitae neque lobortis rutrum.</p>
+    <div class="container-fluid">
+        <div class="about__inner white-bg">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="about__wrapper">
+                        <h3>Welcome to MarkaSouq.com</h3>
+                        <p class="about__text">
+                            Welcome to MarkaSouq.com, your premier online destination for cutting-edge gadgets and innovative accessories, where content seamlessly integrates with commerce for a personalized shopping experience.
+                        </p>
 
-                                    <div class="about__quote">
-                                        <blockquote>
-                                            <p>Lorem ipsum <span>dolor sit amet</span>, consectetur adipiscing elit. Nunc hendrerit tellus et nisi ultra trices, eu feugiat sapien commodo. Praesent vitae ipsum et risus.</p>
-                                        </blockquote>
-                                    </div>
-                                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit tellus et nisi ultrices, eu feugiat sapien com modo. Praesent vitae ipsum et risus tempus tincidunt in tincidunt justo. Nunc consectetur non sapien id faucibus. Curabitur id nibh eu felis pellentesque pellentesque quis vel nulla. Vivamus a lacinia sem. Integer in enim sapien. Aenean vitae hendrerit nisi, ut suscipit justo. Duis hendrerit scelerisque dui. Donec ornare massa vitae neque lobor tis rutrum.</p>
-                                </div>
-                            </div>
+                        <div class="about__quote">
+                            <blockquote>
+                                <p>
+                                    "At MarkaSouq.com, you will find a comprehensive selection of Mobile Accessories, Lifestyle Products, Electronics & Appliances, Smart Gadgets, and much more."
+                                </p>
+                            </blockquote>
                         </div>
+
+                        <p class="about__text">
+                            Launched by a team with over 25+ years of industry experience, MarkaSouq.com is designed to meet all your immediate technology needs.
+                        </p>
+                        <p class="about__text">
+                            Our platform provides a shopping experience customized to your preferences, featuring an intuitive interface that encourages repeat visits. Whether you are a tech enthusiast, a gadget lover, or someone focused on wellness, MarkaSouq.com is your ultimate hub for an inspiring and enriching lifestyle.
+                        </p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+</section>
+
             <!-- about area end -->
 
             <!-- what area start -->
@@ -276,31 +287,7 @@
             <!-- team area end -->
 
             <!-- subscribe area start -->
-            <section class="subscribe__area subscribe__border pt-35 pb-30 box-plr-75">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="subscribe__content d-sm-flex align-items-center">
-                                <div class="subscribe__icon mr-25">
-                                    <img src="assets/img/icon/icon_email.png" alt="">
-                                </div>
-                                <div class="subscribe__text">
-                                    <h4>Sign up to Newsletter</h4>
-                                    <p>Get email updates about our latest shop...and receive <span>$30 Coupon For First Shopping</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6">
-                            <div class="subscribe__form f-right">
-                                <form action="#">
-                                    <input type="email" placeholder="Enter your email here...">
-                                    <button class="t-y-btn t-y-btn-sub">subscribe</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+          
             <!-- subscribe area end -->
 
             <!-- back to top btn area start -->
