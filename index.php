@@ -4456,8 +4456,8 @@ function infiniteScroll(row, direction) {
         position += direction;
         row.style.transform = `translateX(${position}px)`;
 
-        const thirdLogo = content.children[2]; // Reference the third logo in the original content
-        const sixthLogo = content.children[2]; // Reference the third logo in the original content
+        const thirdLogo = content.children[1]; // Reference the third logo in the original content
+        const sixthLogo = content.children[5]; // Reference the third logo in the original content
         const thirdLogoRightEdge = thirdLogo.getBoundingClientRect().right;
         const sixthLogoRightEdge = sixthLogo.getBoundingClientRect().right;
 
