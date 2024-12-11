@@ -1961,16 +1961,7 @@
                     <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
                     <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
                     <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
-                    <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
-                    <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
-                    <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
-                    <img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo">
-                    <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
-                    <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
-                    <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
+                    
                 </div>
             </div>
 
@@ -1986,16 +1977,7 @@
                     <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
                     <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
                     <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
-                    <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
-                    <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
-                    <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
-                    <img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo">
-                    <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
-                    <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
-                    <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
+                    
                 </div>
             </div>
 
@@ -2011,16 +1993,7 @@
                     <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
                     <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
                     <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
-                    <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
-                    <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
-                    <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
-                    <img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo">
-                    <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
-                    <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
-                    <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
+                    
                 </div>
             </div>
         </div>
@@ -4484,12 +4457,17 @@ function infiniteScroll(row, direction) {
         row.style.transform = `translateX(${position}px)`;
 
         const thirdLogo = content.children[2]; // Reference the third logo in the original content
+        const sixthLogo = content.children[2]; // Reference the third logo in the original content
         const thirdLogoRightEdge = thirdLogo.getBoundingClientRect().right;
+        const sixthLogoRightEdge = sixthLogo.getBoundingClientRect().right;
+
         const thirdLogoLeftEdge = thirdLogo.getBoundingClientRect().left;
+        const sixthLogoLeftEdge = sixthLogo.getBoundingClientRect().left;
+
         const containerRightEdge = row.parentElement.getBoundingClientRect().right;
         const containerLeftEdge = row.parentElement.getBoundingClientRect().left;
 
-        if (thirdLogoRightEdge >= containerRightEdge || thirdLogoLeftEdge <= containerLeftEdge) {
+        if (thirdLogoRightEdge >= containerRightEdge || thirdLogoLeftEdge <= containerLeftEdge || sixthLogoRightEdge >= containerRightEdge || sixthLogoLeftEdge <= containerLeftEdge ) {
             direction *= -1; // Reverse direction
         }
 

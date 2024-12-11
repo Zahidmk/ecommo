@@ -391,11 +391,9 @@
     white-space: nowrap;
     position: relative;
 }
-/* .custom-row .inner {
-    display: flex;
-    animation: loop var(--duration, 20s) linear infinite;
-    
-  } */
+
+
+
   .custom-row .custom-row-content  {
     display: flex;
     animation: loop var(--duration, 20s) linear infinite;
