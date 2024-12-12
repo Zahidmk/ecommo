@@ -587,12 +587,12 @@
                                 <div class="col-xxl-8 col-lg-12 col-md-8 mb-20">
                                     <div class="slider__inner slider-active">
                                         <div class="single-slider single-slider-4 w-img" >
-                                            <img src="assets/img/hero-2.jpg" alt="slider">
+                                            <img src="assets/img/hero-2.jpg" alt="slider"  style=" border-radius:15px;">
                                         </div>
-                                        <div class="single-slider single-slider-4 w-img">
+                                        <div class="single-slider single-slider-4 w-img" style="  border-radius:15px;">
                                             <img src="assets/img/hero-1.jpg" alt="slider">
                                         </div>
-                                        <div class="single-slider single-slider-4 w-img">
+                                        <div class="single-slider single-slider-4 w-img" style="  border-radius:15px;">
                                             <img src="assets/img/hero-1.1.jpg" alt="slider">
                                         </div>
                                     </div>
@@ -602,13 +602,13 @@
                                         <div class="row">
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item mb-20 w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero-1.jpg" alt=""></a>
+                                                    <a href="product-details.html"><img src="assets/img/hero-1.jpg" style=" margin-top:-7px; border-radius:15px;" alt=""></a>
                                                 </div>
                                             </div>
                                            
                                             <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                                 <div class="banner__item w-img">
-                                                    <a href="product-details.html"><img src="assets/img/hero-1.1.jpg" style=" margin-top:-7px" alt=""></a>
+                                                    <a href="product-details.html"><img src="assets/img/hero-1.1.jpg" style=" margin-top:-2px; border-radius:15px;" alt=""></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -689,16 +689,20 @@
     </div>
 
 
-            <img src="assets/img/banner-main.webp" alt="slider" class="img-fluid"> 
+            <!-- <img src="assets/img/banner-main.webp" alt="slider" class="img-fluid" style= "margin:25px;" >  -->
 
+            <section class="promo-section m-4" style="background: url('assets/img/banner-main.webp') no-repeat center center/cover; padding: 120px; text-align: center; position: relative; border-radius:15px; object-fit:cover; " >
+
+    
+</section>
 
          
             <section class="py-5">
   <div class="container">
     <!-- <h2 class="text-center mb-4">Love Our Categories</h2> -->
-    <div class="category-row d-flex overflow-auto">
+    <div class="category-row d-flex overflow-auto" >
       <!-- Phones -->
-      <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="https://youtube.com/shorts/8XUunkGJw4g?si=HK8Jc0juItbaEQFV">
+      <div class="category-item text-center me-3"  data-video="assets/img/v-1.mp4" data-link="https://youtube.com/shorts/8XUunkGJw4g?si=HK8Jc0juItbaEQFV">
         <div class="category-circle mx-auto">
           <i class="bi bi-phone category-icon"></i>
         </div>
@@ -796,7 +800,7 @@
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item w-img mb-30 position-relative">
-                    <a href="product-details.html"><img src="assets/img/top-1.jpg" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-1.jpg" alt="" style=" border-radius:15px;"></a>
                     <div class="banner__content">
                         <h3>Top Deals  on  <BR>Electronics</h3>
                      
@@ -806,7 +810,7 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/top-2.jpg" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-2.jpg" alt="" style=" border-radius:15px;"></a>
                     <div class="banner__content">
                         <h3>Upgrade <BR> Your  Gear</h3>
                        
@@ -816,7 +820,7 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="banner__item mb-30 w-img position-relative">
-                    <a href="product-details.html"><img src="assets/img/top-3.jpg" alt=""></a>
+                    <a href="product-details.html"><img src="assets/img/top-3.jpg" alt="" style=" border-radius:15px;"></a>
                     <div class="banner__content">
                         <h3>Smart TVs & <BR> Accessories</h3>
                       
@@ -864,7 +868,7 @@
                             <div class="tab-content" id="best-sell">
                                 <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
                                     <div class="product__slider owl-carousel">
-                                        <div class="product__item white-bg">
+                                        <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-1.webp" alt="product">
@@ -897,7 +901,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-2.webp" alt="product">
@@ -930,7 +934,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-3.webp" alt="product">
@@ -963,7 +967,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-4.webp" alt="product">
@@ -996,7 +1000,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                             <img src="assets/img/H-5.webp" alt="product">
                                                     <img class="second-img" src="assets/img/H-5.webp" alt="product">
@@ -1028,7 +1032,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-6.webp" alt="product">
@@ -1061,7 +1065,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-7.webp" alt="product">
@@ -1098,7 +1102,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
                                     <div class="product__slider owl-carousel">
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-8.webp" alt="product">
@@ -1131,7 +1135,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/H-9.webp" alt="product">
@@ -1164,7 +1168,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
@@ -1197,7 +1201,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
@@ -1230,7 +1234,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
@@ -1263,7 +1267,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
@@ -1296,7 +1300,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/product.webp" alt="product">
@@ -1333,7 +1337,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="hot" role="tabpanel" aria-labelledby="hot-tab">
                                     <div class="product__slider owl-carousel">
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-1.jpg" alt="product">
@@ -1366,7 +1370,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-3.jpg" alt="product">
@@ -1399,7 +1403,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-5.jpg" alt="product">
@@ -1432,7 +1436,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
@@ -1465,7 +1469,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-9.jpg" alt="product">
@@ -1498,7 +1502,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-11.jpg" alt="product">
@@ -1531,7 +1535,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
@@ -1568,7 +1572,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="random" role="tabpanel" aria-labelledby="random-tab">
                                     <div class="product__slider owl-carousel">
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-1.jpg" alt="product">
@@ -1601,7 +1605,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-3.jpg" alt="product">
@@ -1634,7 +1638,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-5.jpg" alt="product">
@@ -1667,7 +1671,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
@@ -1700,7 +1704,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-9.jpg" alt="product">
@@ -1733,7 +1737,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-11.jpg" alt="product">
@@ -1766,7 +1770,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/shop/product/product-7.jpg" alt="product">
@@ -1808,7 +1812,7 @@
             </section>
             <!-- best selling area end -->
 
-            <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative;">
+            <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; " >
 
     <div class="promo-content d-none d-md-block">
         <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
@@ -1868,8 +1872,8 @@
                 <div class="container">
                     <div class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 gx-0">
                         <div class="col">
-                            <div class="features__item d-flex white-bg">
-                                <div class="features__icon mr-15">
+                            <div class="features__item d-flex white-bg" style= " margin-left:-40px;">
+                                <div class="features__icon mr-15" >
                                     <i class="fal fa-rocket-launch"></i>
                                 </div>
                                 <div class="features__content">
@@ -1879,7 +1883,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="features__item d-flex white-bg">
+                            <div class="features__item d-flex white-bg" style= " margin-left:-40px;">
                                 <div class="features__icon mr-15">
                                     <i class="fal fa-sync"></i>
                                 </div>
@@ -1890,7 +1894,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="features__item d-flex white-bg">
+                            <div class="features__item d-flex white-bg" style= " margin-left:-40px;">
                                 <div class="features__icon mr-15">
                                     <i class="fal fa-user-headset"></i>
                                 </div>
@@ -1901,7 +1905,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="features__item d-flex white-bg">
+                            <div class="features__item d-flex white-bg" style= " margin-left:-40px;">
                                 <div class="features__icon mr-15">
                                     <i class="fal fa-thumbs-up"></i>
                                 </div>
@@ -1912,7 +1916,7 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="features__item features__item-last d-flex white-bg">
+                            <div class="features__item features__item-last d-flex white-bg" style= " margin-left:0px;">
                                 <div class="features__icon mr-15">
                                     <i class="fal fa-badge-dollar"></i>
                                 </div>
@@ -1940,7 +1944,7 @@
                             </div>
     <!-- Product 1 -->
     <div class="col-md-3">
-  <div class="product-card position-relative p-5">
+  <div class="product-card position-relative p-5" style="  border-radius:15px;">
     <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
     <div class="card-content-wrapper ">
       <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-5">
@@ -1957,7 +1961,7 @@
 
 <!-- Product 2 -->
 <div class="col-md-3">
-  <div class="product-card position-relative p-5">
+  <div class="product-card position-relative p-5" style="  border-radius:15px;">
     <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
     <div class="card-content-wrapper">
       <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img">
@@ -1974,7 +1978,7 @@
 
 <!-- Product 3 -->
 <div class="col-md-3">
-  <div class="product-card position-relative p-5">
+  <div class="product-card position-relative p-5" style="  border-radius:15px;">
     <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
     <div class="card-content-wrapper">
       <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img">
@@ -1991,7 +1995,7 @@
 
 <!-- Product 4 -->
 <div class="col-md-3">
-  <div class="product-card position-relative p-5">
+  <div class="product-card position-relative p-5" style="  border-radius:15px;">
     <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
     <div class="card-content-wrapper">
       <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img">
@@ -2015,8 +2019,8 @@
         <div class="row">
             <!-- First Banner: Mobile -->
             <div class="col-xl-6 col-lg-6">
-                <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                    <img src="assets/img/small-banner.webp" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
+                <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px; padding: 20px; text-align: center; margin-left:-20px; " >
+                    <img src="assets/img/small-banner.webp" alt="Mobile Offer" style="width: 120%; height:300px; border-radius: 15px; margin-right:250px;">
                     <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
@@ -2027,8 +2031,8 @@
             </div>
             <!-- Second Banner: Electronics -->
             <div class="col-xl-6 col-lg-6">
-                <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                    <img src="assets/img/small-banner-1.webp" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
+                <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px; padding: 20px; text-align: center;">
+                    <img src="assets/img/small-banner-1.webp" alt="Mobile Offer" style="width: 120%; height:300px; border-radius: 15px;">
                     <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
@@ -2065,7 +2069,7 @@
                             <div class="tab-content" id="best-sell">
                                 <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
                                     <div class="product__slider owl-carousel">
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-1.webp" alt="product">
@@ -2098,7 +2102,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-2.webp" alt="product">
@@ -2131,7 +2135,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-3.webp" alt="product">
@@ -2164,7 +2168,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-4.webp" alt="product">
@@ -2197,7 +2201,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-5.webp" alt="product">
@@ -2230,7 +2234,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-6.webp" alt="product">
@@ -2263,7 +2267,7 @@
                                                 <button type="button">Add to Cart</button>
                                             </div>
                                         </div>
-                                        <div class="product__item white-bg">
+                                      <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
                                                     <img src="assets/img/new-7.webp" alt="product">
@@ -2626,7 +2630,7 @@
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-1.webp" alt="product">
@@ -2662,7 +2666,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-2.webp" alt="product">
@@ -2700,7 +2704,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-3.webp" alt="product">
@@ -2736,7 +2740,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-4.webp" alt="product">
@@ -2774,7 +2778,7 @@
                                         </div>
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px; height: 780px;">
                                                     <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/jbl.webp" alt="product">
@@ -2813,7 +2817,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-5.webp" alt="product">
@@ -2849,7 +2853,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-6.webp" alt="product">
@@ -2887,7 +2891,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-7.webp" alt="product">
@@ -2923,7 +2927,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-8.webp" alt="product">
@@ -2965,7 +2969,7 @@
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-9.webp" alt="product">
@@ -3001,7 +3005,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/L-1.webp" alt="product">
@@ -3039,7 +3043,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-14.jpg" alt="product">
@@ -3075,7 +3079,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-21.jpg" alt="product">
@@ -3113,7 +3117,7 @@
                                         </div>
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-15.jpg" alt="product">
@@ -3152,7 +3156,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-17.jpg" alt="product">
@@ -3188,7 +3192,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-23.jpg" alt="product">
@@ -3226,7 +3230,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-20.jpg" alt="product">
@@ -3262,7 +3266,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-24.jpg" alt="product">
@@ -3304,7 +3308,7 @@
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-12.jpg" alt="product">
@@ -3340,7 +3344,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-19.jpg" alt="product">
@@ -3378,7 +3382,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-14.jpg" alt="product">
@@ -3414,7 +3418,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-21.jpg" alt="product">
@@ -3452,7 +3456,7 @@
                                         </div>
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-15.jpg" alt="product">
@@ -3491,7 +3495,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-17.jpg" alt="product">
@@ -3527,7 +3531,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-23.jpg" alt="product">
@@ -3565,7 +3569,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-20.jpg" alt="product">
@@ -3601,7 +3605,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-24.jpg" alt="product">
@@ -3643,7 +3647,7 @@
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-12.jpg" alt="product">
@@ -3679,7 +3683,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-19.jpg" alt="product">
@@ -3717,7 +3721,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-14.jpg" alt="product">
@@ -3753,7 +3757,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-21.jpg" alt="product">
@@ -3791,7 +3795,7 @@
                                         </div>
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-15.jpg" alt="product">
@@ -3830,7 +3834,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-17.jpg" alt="product">
@@ -3866,7 +3870,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-23.jpg" alt="product">
@@ -3904,7 +3908,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-20.jpg" alt="product">
@@ -3940,7 +3944,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-24.jpg" alt="product">
@@ -3982,7 +3986,7 @@
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-12.jpg" alt="product">
@@ -4018,7 +4022,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-19.jpg" alt="product">
@@ -4056,7 +4060,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-14.jpg" alt="product">
@@ -4092,7 +4096,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-21.jpg" alt="product">
@@ -4130,7 +4134,7 @@
                                         </div>
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-15.jpg" alt="product">
@@ -4169,7 +4173,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-17.jpg" alt="product">
@@ -4205,7 +4209,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-23.jpg" alt="product">
@@ -4243,7 +4247,7 @@
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-20.jpg" alt="product">
@@ -4279,7 +4283,7 @@
                                                 </div>
                                             </div>
                                             <div class="product__item-wrapper mb-20">
-                                                <div class="product__item white-bg">
+                                              <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
                                                         <a href="product-details.html" class="w-img">
                                                             <img src="assets/img/shop/product/product-24.jpg" alt="product">
@@ -4372,8 +4376,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="sale__slider owl-carousel">
-                                <div class="product__item-wrapper">
-                                    <div class="product__item white-bg d-flex mb-20">
+                                <div class="product__item-wrapper" >
+                                    <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-1.webp" alt="product">
@@ -4397,7 +4401,7 @@
                                             <span class="price-old"> <del>KWD 800.00</del> </span>
                                         </div>
                                     </div>
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-2.webp" alt="product">
@@ -4423,7 +4427,7 @@
                                     </div>
                                 </div>
                                 <div class="product__item-wrapper">
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-3.webp" alt="product">
@@ -4447,7 +4451,7 @@
                                             <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-4.webp" alt="product">
@@ -4473,7 +4477,7 @@
                                     </div>
                                 </div>
                                 <div class="product__item-wrapper">
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-5.webp" alt="product">
@@ -4497,7 +4501,7 @@
                                             <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/L-6.webp" alt="product">
@@ -4523,7 +4527,7 @@
                                     </div>
                                 </div>
                                 <div class="product__item-wrapper">
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/shop/product/product-2.jpg" alt="product">
@@ -4547,7 +4551,7 @@
                                             <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/shop/product/product-20.jpg" alt="product">
@@ -4573,7 +4577,7 @@
                                     </div>
                                 </div>
                                 <div class="product__item-wrapper">
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/shop/product/product-13.jpg" alt="product">
@@ -4597,7 +4601,7 @@
                                             <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
-                                    <div class="product__item white-bg d-flex mb-20">
+                               <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
                                             <a href="product-details.html" class="w-img">
                                                 <img src="assets/img/shop/product/product-15.jpg" alt="product">
@@ -4645,14 +4649,14 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="blog__slider owl-carousel">
-                                <div class="blog__item mb-30">
+                            <div class="blog__slider owl-carousel" >
+                                <div class="blog__item mb-30" >
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/R-1.webp" alt="">
+                                            <img src="assets/img/R-1.webp" alt="" style=" border-radius: 15px;">
                                         </a>
-                                    </div>
-                                    <div class="blog__content white-bg">
+                                    </div> 
+                                    <div class="blog__content white-bg" >
                                         <h3><a href="blog-details.html">Curabitur Lobortis News</a></h3>
                                         <div class="blog__meta">
                                             <span>Post Date:</span>
@@ -4664,7 +4668,7 @@
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/R-2.webp" alt="">
+                                            <img src="assets/img/R-2.webp" alt="" style=" border-radius: 15px;">
                                         </a>
                                     </div>
                                     <div class="blog__content white-bg">
@@ -4679,7 +4683,7 @@
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/R-3.webp" alt="">
+                                            <img src="assets/img/R-3.webp" alt="" style=" border-radius: 15px;">
                                         </a>
                                     </div>
                                     <div class="blog__content white-bg">
@@ -4694,7 +4698,7 @@
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/R-4.webp" alt="">
+                                            <img src="assets/img/R-4.webp" alt="" style=" border-radius: 15px;">
                                         </a>
                                     </div>
                                     <div class="blog__content white-bg">
@@ -4709,7 +4713,7 @@
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
-                                            <img src="assets/img/blog/blog-5.jpg" alt="">
+                                            <img src="assets/img/blog/blog-5.jpg" alt="" style=" border-radius: 15px;">
                                         </a>
                                     </div>
                                     <div class="blog__content white-bg">
