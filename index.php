@@ -89,7 +89,6 @@
 
 
 
-<<<<<<< HEAD
                         </div>
                         <div class="col-xxl-12 col-xl-12 offset-xxl-0 offset-xl-3 col-lg-12">
                             <div class="row">
@@ -119,44 +118,6 @@
                                                 <div class="banner__item w-img">
                                                     <a href="product-details.html"><img src="assets/img/hero-1.1.jpg" style=" margin-top:-2px; border-radius:15px;" alt=""></a>
                                                 </div>
-=======
-
-        <!-- slider area satrt -->
-        <!-- slider area satrt -->
-        <section class="slider__area pt-30 pb-30">
-            <div class="container custom-container">
-                <div class="row">
-                    <div class="col-xxl-2">
-
-                    </div>
-                    <div class="col-xxl-12 col-xl-12 offset-xxl-0 offset-xl-3 col-lg-12">
-                        <div class="row">
-                            <div class="col-xxl-8 col-lg-12 col-md-8 mb-20">
-                                <div class="slider__inner slider-active">
-                                    <div class="single-slider single-slider-4 w-img">
-                                        <img src="assets/img/hero-2.jpg" alt="slider">
-                                    </div>
-                                    <div class="single-slider single-slider-4 w-img">
-                                        <img src="assets/img/hero-1.jpg" alt="slider">
-                                    </div>
-                                    <div class="single-slider single-slider-4 w-img">
-                                        <img src="assets/img/hero-1.1.jpg" alt="slider">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-4 col-lg-12 col-md-4 col-sm-12">
-                                <div class="banner__area">
-                                    <div class="row">
-                                        <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                                            <div class="banner__item mb-20 w-img">
-                                                <a href="product-details.html"><img src="assets/img/hero-1.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                                            <div class="banner__item w-img">
-                                                <a href="product-details.html"><img src="assets/img/hero-1.1.jpg" style=" margin-top:-7px" alt=""></a>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +131,6 @@
         <!-- slider area end -->
 
 
-<<<<<<< HEAD
             <!-- <img src="assets/img/banner-main.webp" alt="slider" class="img-fluid" style= "margin:25px;" >  -->
 
             <section class="promo-section m-4" style="background: url('assets/img/banner-main.webp') no-repeat center center/cover; padding: 120px; text-align: center; position: relative; border-radius:15px; object-fit:cover; " >
@@ -307,69 +267,6 @@
                         <h3>Smart TVs & <BR> Accessories</h3>
                       
                         <a href="product-details.php" class="shop-now-btn">Shop Now</a>
-=======
-        <div class="container py-5">
-            <div class="row g-2">
-                <!-- 10 cards -->
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/mobile-tablet.webp" alt="Mobile & Tablet">
-                        <p>Mobile & Tablet</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/computer&.webp" alt="Computers & Gaming">
-                        <p>Computers & Gaming</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/electronics.webp" alt="Electronics">
-                        <p>Electronics</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/home&ki.webp" alt="Home & Kitchen">
-                        <p>Home & Kitchen</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/fashion&.webp" alt="Fashion">
-                        <p>Fashion</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/health&bue.webp" alt="Health & Beauty">
-                        <p>Health & Beauty</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/automative&.webp" alt="Automotives">
-                        <p>Automotives</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/toys&.webp" alt="Toys, Games & Kids">
-                        <p>Toys, Games & Kids</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/offroad.webp" alt="Offroad">
-                        <p>Offroad</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="category-card">
-                        <img src="assets/img/hotdeals.webp" alt="Hot Deals">
-                        <p>Hot Deals</p>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                     </div>
                 </div>
             </div>
@@ -491,7 +388,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="tab-content" id="best-sell">
@@ -543,94 +439,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="banner__item mb-30 w-img position-relative">
-                            <a href="product-details.html"><img src="assets/img/top-2.jpg" alt=""></a>
-                            <div class="banner__content">
-                                <h3>Upgrade <BR> Your Gear</h3>
-
-                                <a href="product-details.php" class="shop-now-btn">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="banner__item mb-30 w-img position-relative">
-                            <a href="product-details.html"><img src="assets/img/top-3.jpg" alt=""></a>
-                            <div class="banner__content">
-                                <h3>Smart TVs & <BR> Accessories</h3>
-
-                                <a href="product-details.php" class="shop-now-btn">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- banner area end -->
-
-        <!-- best selling area start -->
-        <section class="best__sell pt-15 pb-40 grey-bg-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section__head d-md-flex justify-content-between mb-40">
-                            <div class="section__title">
-                                <h3>Best Selling<span>Products</span></h3>
-                            </div>
-                            <div class="product__nav-tab mr-75">
-                                <ul class="nav nav-tabs" id="best-sell-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="new" aria-selected="true">New Arrival</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured" type="button" role="tab" aria-controls="featured" aria-selected="false">Featured</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="hot-tab" data-bs-toggle="tab" data-bs-target="#hot" type="button" role="tab" aria-controls="hot" aria-selected="false">Hot Sale</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="random-tab" data-bs-toggle="tab" data-bs-target="#random" type="button" role="tab" aria-controls="random" aria-selected="false">Random</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="tab-content" id="best-sell">
-                            <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-                                <div class="product__slider owl-carousel">
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$500.00</span>
                                         </div>
@@ -652,7 +460,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -666,20 +473,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$560.00</span>
                                         </div>
@@ -701,7 +494,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -715,20 +507,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$450.00</span>
                                         </div>
@@ -750,7 +528,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                             <img src="assets/img/H-5.webp" alt="product">
@@ -763,20 +540,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01 </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -798,7 +561,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
@@ -812,20 +574,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -847,7 +595,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -861,20 +608,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -916,7 +649,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
                                     <div class="product__slider owl-carousel">
                                       <div class="product__item white-bg" style="  border-radius:15px;">
@@ -965,37 +697,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
-                                <div class="product__slider owl-carousel">
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$500.00</span>
                                         </div>
@@ -1017,7 +718,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1031,20 +731,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$560.00</span>
                                         </div>
@@ -1066,7 +752,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1080,20 +765,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$450.00</span>
                                         </div>
@@ -1115,7 +786,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1129,20 +799,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1164,7 +820,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
@@ -1178,20 +833,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1213,7 +854,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1227,20 +867,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1282,7 +908,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="hot" role="tabpanel" aria-labelledby="hot-tab">
                                     <div class="product__slider owl-carousel">
                                       <div class="product__item white-bg" style="  border-radius:15px;">
@@ -1331,37 +956,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="hot" role="tabpanel" aria-labelledby="hot-tab">
-                                <div class="product__slider owl-carousel">
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/shop/product/product-1.jpg" alt="product">
-                                                <img class="second-img" src="assets/img/shop/product/product-2.jpg" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$500.00</span>
                                         </div>
@@ -1383,7 +977,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1397,20 +990,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$560.00</span>
                                         </div>
@@ -1432,7 +1011,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1446,20 +1024,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$450.00</span>
                                         </div>
@@ -1481,7 +1045,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1495,20 +1058,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1530,7 +1079,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
@@ -1544,20 +1092,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1579,7 +1113,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1593,20 +1126,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1648,7 +1167,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="random" role="tabpanel" aria-labelledby="random-tab">
                                     <div class="product__slider owl-carousel">
                                       <div class="product__item white-bg" style="  border-radius:15px;">
@@ -1697,37 +1215,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="random" role="tabpanel" aria-labelledby="random-tab">
-                                <div class="product__slider owl-carousel">
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/shop/product/product-1.jpg" alt="product">
-                                                <img class="second-img" src="assets/img/shop/product/product-2.jpg" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$500.00</span>
                                         </div>
@@ -1749,7 +1236,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1763,20 +1249,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$560.00</span>
                                         </div>
@@ -1798,7 +1270,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1812,20 +1283,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$450.00</span>
                                         </div>
@@ -1847,7 +1304,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1861,20 +1317,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1896,7 +1338,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
@@ -1910,20 +1351,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -1945,7 +1372,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                       <div class="product__item white-bg" style="  border-radius:15px;">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
@@ -1959,20 +1385,6 @@
                                                         
                                                     </ul>
                                                 </div>
-=======
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                             </div>
                                             <span class="price">$720.00</span>
                                         </div>
@@ -2022,11 +1434,7 @@
         </section>
         <!-- best selling area end -->
 
-<<<<<<< HEAD
             <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; " >
-=======
-        <section class="promo-section" style="background: url('assets/img/special-deal.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative;">
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
 
             <div class="promo-content d-none d-md-block">
                 <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
@@ -2081,7 +1489,6 @@
         </section>
 
 
-<<<<<<< HEAD
  <!-- features area start -->
  <section class="features__area grey-bg-2 pt-40 pb-20 pl-10 pr-10">
                 <div class="container">
@@ -2139,20 +1546,6 @@
                                     <h6>Member Discount</h6>
                                     <p>Upto 40% Discount All Products</p>
                                 </div>
-=======
-        <!-- features area start -->
-        <section class="features__area grey-bg-2 pt-40 pb-20 pl-10 pr-10">
-            <div class="container">
-                <div class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 gx-0">
-                    <div class="col">
-                        <div class="features__item d-flex white-bg">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-rocket-launch"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Free Shipping</h6>
-                                <p>Free Shipping On All Order</p>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                             </div>
                         </div>
                     </div>
@@ -2161,7 +1554,6 @@
                             <div class="features__icon mr-15">
                                 <i class="fal fa-sync"></i>
                             </div>
-<<<<<<< HEAD
     <!-- Product 1 -->
     <div class="col-md-3">
   <div class="product-card position-relative p-5" style="  border-radius:15px;">
@@ -2540,53 +1932,6 @@
             <!-- onsale product area start -->
             
             <!-- onsale product area end -->
-=======
-                            <div class="features__content">
-                                <h6>Money Guarantee</h6>
-                                <p>30 Day Money Back Guarantee</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item d-flex white-bg">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-user-headset"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Online Support 24/7</h6>
-                                <p>Technical Support Stand By</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item d-flex white-bg">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-thumbs-up"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Secure Payment</h6>
-                                <p>All Payment Method are accepted</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item features__item-last d-flex white-bg">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-badge-dollar"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Member Discount</h6>
-                                <p>Upto 40% Discount All Products</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- features area end -->
-
-        <section>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
 
 
             <div class="container my-5">
@@ -2666,7 +2011,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="tab-content" id="flast-sell-tabContent">
@@ -2742,668 +2086,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                </div>
-            </div>
-            </div>
-
-        </section>
-
-        <!-- banner area start -->
-        <section class="banner__area pt-20 grey-bg-2">
-            <div class="container">
-                <div class="row">
-                    <!-- First Banner: Mobile -->
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                            <img src="assets/img/special-deal.jpg" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
-                            <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-                                <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
-                                <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                                <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
-                                <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Second Banner: Electronics -->
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                            <img src="assets/img/special-deal.jpg" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
-                            <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-                                <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
-                                <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                                <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
-                                <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <!-- best selling area start -->
-        <section class="best__sell pt-15 pb-40 grey-bg-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section__head d-md-flex justify-content-between mb-40">
-                            <div class="section__title">
-                                <h3>New<span>Arrivals</span></h3>
-                            </div>
-                            <div class="product__nav-tab mr-75">
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="tab-content" id="best-sell">
-                            <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
-                                <div class="product__slider owl-carousel">
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$500.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$560.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$450.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01 </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$720.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$720.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$720.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                    <div class="product__item white-bg">
-                                        <div class="product__thumb p-relative">
-                                            <a href="product-details.html" class="w-img">
-                                                <img src="assets/img/product.webp" alt="product">
-                                                <img class="second-img" src="assets/img/product.webp" alt="product">
-                                            </a>
-                                            <div class="product__action p-absolute">
-                                                <ul>
-                                                    <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                    <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product__content text-center">
-                                            <h6 class="product-name">
-                                                <a class="product-item-link" href="product-details.html"> Blink Home Security Camera <br> System 01 </a>
-                                            </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <span class="price">$720.00</span>
-                                        </div>
-                                        <div class="product__add-btn">
-                                            <button type="button">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-- banner area end -->
-
-
-        <!-- Flash sell area end -->
-
-        <!-- banner area start -->
-
-        <!-- banner area end -->
-
-        <!-- onsale product area start -->
-
-        <!-- onsale product area end -->
-
-
-        <div class="container my-5">
-            <div class="row g-4">
-                <!-- Section 1 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Nescafe gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Section 2 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Nescafe gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Section 3 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header orange">RECEIVE 20% OFF<br>Featured products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">NescafeEEEE gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="custom-scroll-container">
-
-
-
-
-
-            <div class="custom-row custom-row-1 " style="--duration: 20s; --direction: normal;">
-                <div class="custom-row-content ">
-                    <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
-                    <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
-                    <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
-                    <img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo">
-                    <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
-                    <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
-                    <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
-                    
-                </div>
-            </div>
-
-            <div class="custom-row custom-row-2" style="animation-direction:reverse">
-                <div class="custom-row-content">
-                    <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
-                    <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
-                    <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
-                    <img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo">
-                    <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
-                    <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
-                    <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
-                    
-                </div>
-            </div>
-
-            <div class="custom-row custom-row-3" style="--duration: 20s; --direction: normal;">
-                <div class="custom-row-content">
-                    <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
-                    <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
-                    <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
-                    <img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo">
-                    <!-- </div>
-    <div class="custom-row-content"> -->
-                    <img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo">
-                    <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
-                    <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
-                    <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
-                    
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <section class="unique-latest-deals ">
-            <div class="section__title">
-                <h3 class="ml-5">Best<span>in Powerbanks</span></h3>
-            </div>
-            <div class="unique-deals-grid">
-                <!-- Deal Item 1 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
-                </div>
-                <!-- Deal Item 2 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-6.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
-                </div>
-                <!-- Promo Banner -->
-                <div class="unique-deal-banner">
-
-                    <h3 class="unique-banner-title">Daily Deals</h3>
-                    <p class="unique-banner-description">Best Offers from UBUY</p>
-                    <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-                    <button class="unique-banner-button">Shop Now</button>
-                </div>
-                <!-- Deal Item 3 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
-                </div>
-                <!-- Deal Item 4 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
-                </div>
-                <!-- Deal Item 5 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
-                </div>
-                <!-- Deal Item 6 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-
-        <section class="unique-latest-deals ">
-            <div class="section__title">
-                <h3 class="ml-5">Mobile cases with your Fashion</span></h3>
-            </div>
-            <div class="unique-deals-grid">
-                <!-- Deal Item 1 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-1.webp" alt="Monster Energy Drink">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
-                </div>
-                <!-- Deal Item 2 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-2.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
-                </div>
-
-                <!-- Deal Item 3 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-3.webp" alt="Makeup Vanity Mirror">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
-                </div>
-                <!-- Deal Item 4 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-4.webp" alt="Red Light Therapy Mask">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
-                </div>
-
-                <!-- Promo Banner -->
-                <div class="unique-deal-banner">
-
-                    <h3 class="unique-banner-title">Daily Deals</h3>
-                    <p class="unique-banner-description">Best Offers from UBUY</p>
-                    <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-                    <button class="unique-banner-button">Shop Now</button>
-                </div>
-                <!-- Deal Item 5 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-5.webp" alt="Amazon Fire HD Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
-                </div>
-                <!-- Deal Item 6 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-                </div>
-            </div>
-        </section>
-        <!-- Flash sell area start -->
-        <section class="flash__sell pt-25 pb-40 grey-bg-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section__head d-md-flex justify-content-between mb-40">
-                            <div class="section__title">
-                                <h3>Lifestyle Gadgets<span> & Smart Gadgets</span></h3>
-                            </div>
-                            <div class="product__nav-tab">
-                                <ul class="nav nav-tabs" id="flast-sell-tab" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="computer-tab" data-bs-toggle="tab" data-bs-target="#computer" type="button" role="tab" aria-controls="computer" aria-selected="true">computer</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="samsung-tab" data-bs-toggle="tab" data-bs-target="#samsung" type="button" role="tab" aria-selected="false">samsung</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="htc-tab" data-bs-toggle="tab" data-bs-target="#htc" type="button" role="tab" aria-selected="false">HTC</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="nokia-tab" data-bs-toggle="tab" data-bs-target="#nokia" type="button" role="tab" aria-selected="false">Nokia</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="cell-tab" data-bs-toggle="tab" data-bs-target="#cell" type="button" role="tab" aria-selected="false">Cell Phones</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="tab-content" id="flast-sell-tabContent">
-                            <div class="tab-pane fade show active" id="computer" role="tabpanel" aria-labelledby="computer-tab">
-                                <div class="row">
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-1.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-1.web" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
@@ -3413,7 +2095,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -3484,35 +2165,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-2.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-2.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
@@ -3522,7 +2174,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px; height: 780px;">
@@ -3538,23 +2189,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-3.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-3.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -3653,7 +2287,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -3724,37 +2357,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-5.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-5.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
@@ -3764,7 +2366,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -3799,21 +2400,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-6.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-6.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -3836,7 +2422,6 @@
                                                     <button type="button">Add to Cart</button>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
@@ -3851,24 +2436,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                        </div>
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-7.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-7.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -3930,7 +2497,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
@@ -4003,39 +2569,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="samsung" role="tabpanel" aria-labelledby="samsung-tab">
-                                <div class="row">
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-9.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-9.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
@@ -4045,7 +2578,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4116,35 +2648,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-1.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-1.webp" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
@@ -4154,7 +2657,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4170,23 +2672,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-14.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -4210,7 +2695,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4281,35 +2765,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-21.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
@@ -4319,7 +2774,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4371,37 +2825,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb product__thumb-big pb-15 p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-15.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
@@ -4413,7 +2836,6 @@
                                             </div>
                                         </div>
                                     </div>
-<<<<<<< HEAD
                                 </div>
                                 <div class="tab-pane fade" id="htc" role="tabpanel" aria-labelledby="htc-tab">
                                     <div class="row">
@@ -4487,36 +2909,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-17.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
@@ -4526,7 +2918,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4597,35 +2988,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-23.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
@@ -4635,7 +2997,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4651,23 +3012,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-20.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -4691,7 +3035,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -4762,40 +3105,10 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-24.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
-<<<<<<< HEAD
                                             </div>
                                         </div>
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
@@ -4869,16 +3182,11 @@
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
                                                     </div>
-=======
-                                                <div class="product__add-btn">
-                                                    <button type="button">Add to Cart</button>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="nokia" role="tabpanel" aria-labelledby="nokia-tab">
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
@@ -4951,39 +3259,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="htc" role="tabpanel" aria-labelledby="htc-tab">
-                                <div class="row">
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-12.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
@@ -4993,7 +3268,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -5064,35 +3338,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-19.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
@@ -5102,7 +3347,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -5118,23 +3362,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-14.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-1.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -5158,7 +3385,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -5229,35 +3455,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-21.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-5.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
@@ -5267,7 +3464,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -5319,37 +3515,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb product__thumb-big pb-15 p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-15.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
@@ -5510,7 +3675,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="tab-pane fade" id="cell" role="tabpanel" aria-labelledby="cell-tab">
                                     <div class="row">
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
@@ -5547,25 +3711,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                            </div>
-                            <div class="tab-pane fade" id="nokia" role="tabpanel" aria-labelledby="nokia-tab">
-                                <div class="row">
-                                    <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-12.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-8.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -5588,7 +3733,6 @@
                                                     <button type="button">Add to Cart</button>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
@@ -5603,22 +3747,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                        </div>
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-19.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-4.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -5755,7 +3883,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-sm-6 ">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -5790,23 +3917,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-17.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -5829,7 +3939,6 @@
                                                     <button type="button">Add to Cart</button>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
@@ -5844,22 +3953,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                        </div>
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-23.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -6148,7 +4241,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -6164,23 +4256,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-17.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-13.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -6204,7 +4279,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -6275,35 +4349,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-23.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-16.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="product__content text-center">
-                                                    <h6 class="product-name">
-                                                        <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
-                                                    </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
@@ -6313,7 +4358,6 @@
                                                 </div>
                                             </div>
                                         </div>
-<<<<<<< HEAD
                                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
@@ -6348,23 +4392,6 @@
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
-=======
-                                    </div>
-                                    <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-20.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-11.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -6387,7 +4414,6 @@
                                                     <button type="button">Add to Cart</button>
                                                 </div>
                                             </div>
-<<<<<<< HEAD
                                             <div class="product__item-wrapper mb-20">
                                               <div class="product__item white-bg" style="  border-radius:15px;">
                                                     <div class="product__thumb p-relative">
@@ -6402,22 +4428,6 @@
                                                                 <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
                                                             </ul>
                                                         </div>
-=======
-                                        </div>
-                                        <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg">
-                                                <div class="product__thumb p-relative">
-                                                    <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/shop/product/product-24.jpg" alt="product">
-                                                        <img class="second-img" src="assets/img/shop/product/product-15.jpg" alt="product">
-                                                    </a>
-                                                    <div class="product__action p-absolute">
-                                                        <ul>
-                                                            <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
-                                                            <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
-                                                        </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                                     </div>
                                                 </div>
                                                 <div class="product__content text-center">
@@ -6495,7 +4505,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="sale__slider owl-carousel">
@@ -6546,38 +4555,11 @@
                                             </div>
                                             <span class="new new-2">KWD 90.00</span>
                                             <span class="price-old"> <del>KWD 100.00</del> </span>
-=======
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="sale__slider owl-carousel">
-                            <div class="product__item-wrapper">
-                                <div class="product__item white-bg d-flex mb-20">
-                                    <div class="product__thumb product__thumb-sale p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/L-1.webp" alt="product">
-                                            <img class="second-img" src="assets/img/L-1.webp" alt="product">
-                                        </a>
-                                    </div>
-                                    <div class="product__content">
-                                        <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a>
-                                        </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                         </div>
                                         <span class="new new-2">$720.00</span>
                                         <span class="price-old"> <del>$800.00</del> </span>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="product__item-wrapper">
                                <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
@@ -6625,33 +4607,11 @@
                                             </div>
                                             <span class="new new-2">KWD 90.00</span>
                                             <span class="price-old"> <del>KWD 100.00</del> </span>
-=======
-                                <div class="product__item white-bg d-flex mb-20">
-                                    <div class="product__thumb product__thumb-sale p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/L-2.webp" alt="product">
-                                            <img class="second-img" src="assets/img/L-2.webp" alt="product">
-                                        </a>
-                                    </div>
-                                    <div class="product__content">
-                                        <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html">Portable Watch Phone with Blood Pressure Monitor OLED</a>
-                                        </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                         </div>
                                         <span class="new new-2">$90.00</span>
                                         <span class="price-old"> <del>$100.00</del> </span>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="product__item-wrapper">
                                <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
@@ -6699,35 +4659,11 @@
                                             </div>
                                             <span class="new new-2">KWD 90.00</span>
                                             <span class="price-old"> <del>KWD 100.00</del> </span>
-=======
-                            </div>
-                            <div class="product__item-wrapper">
-                                <div class="product__item white-bg d-flex mb-20">
-                                    <div class="product__thumb product__thumb-sale p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/L-3.webp" alt="product">
-                                            <img class="second-img" src="assets/img/L-3.webp" alt="product">
-                                        </a>
-                                    </div>
-                                    <div class="product__content">
-                                        <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function 1.14" IPS LCD IP68</a>
-                                        </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                         </div>
                                         <span class="new new-2">$150.00</span>
                                         <span class="price-old"> <del>$200.00</del> </span>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="product__item-wrapper">
                                <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
@@ -6775,33 +4711,11 @@
                                             </div>
                                             <span class="new new-2">KWD 250.00</span>
                                             <span class="price-old"> <del>KWD 300.00</del> </span>
-=======
-                                <div class="product__item white-bg d-flex mb-20">
-                                    <div class="product__thumb product__thumb-sale p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/L-4.webp" alt="product">
-                                            <img class="second-img" src="assets/img/L-4.webp" alt="product">
-                                        </a>
-                                    </div>
-                                    <div class="product__content">
-                                        <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
-                                        </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                         </div>
                                         <span class="new new-2">$90.00</span>
                                         <span class="price-old"> <del>$100.00</del> </span>
                                     </div>
                                 </div>
-<<<<<<< HEAD
                                 <div class="product__item-wrapper">
                                <div class="product__item white-bg d-flex mb-20" style=" border-radius: 15px;">
                                         <div class="product__thumb product__thumb-sale p-relative">
@@ -6833,29 +4747,6 @@
                                                 <img src="assets/img/shop/product/product-15.jpg" alt="product">
                                                 <img class="second-img" src="assets/img/shop/product/product-24.jpg" alt="product">
                                             </a>
-=======
-                            </div>
-                            <div class="product__item-wrapper">
-                                <div class="product__item white-bg d-flex mb-20">
-                                    <div class="product__thumb product__thumb-sale p-relative">
-                                        <a href="product-details.html" class="w-img">
-                                            <img src="assets/img/L-5.webp" alt="product">
-                                            <img class="second-img" src="assets/img/L-5.webp" alt="product">
-                                        </a>
-                                    </div>
-                                    <div class="product__content">
-                                        <h6 class="product-name">
-                                            <a class="product-item-link" href="product-details.html">TF Camera Clock Support Bt 4.0 for Ios Android Round Watch </a>
-                                        </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                         </div>
                                         <span class="new new-2">$40.00</span>
                                         <span class="price-old"> <del>$100.00</del> </span>
@@ -7006,7 +4897,6 @@
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="blog__slider owl-carousel" >
@@ -7038,27 +4928,9 @@
                                             <span class="date"> 05-Aug-2020</span>
                                         </div>
                                         <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
-=======
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="blog__slider owl-carousel">
-                            <div class="blog__item mb-30">
-                                <div class="blog__thumb fix">
-                                    <a href="blog-details.html">
-                                        <img src="assets/img/R-1.webp" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog__content white-bg">
-                                    <h3><a href="blog-details.html">Curabitur Lobortis News</a></h3>
-                                    <div class="blog__meta">
-                                        <span>Post Date:</span>
-                                        <span class="date"> 01-Jul-2020</span>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                     </div>
                                     <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
                                 </div>
-<<<<<<< HEAD
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
@@ -7087,24 +4959,9 @@
                                             <span class="date"> 20-Aug-2020</span>
                                         </div>
                                         <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
-=======
-                            </div>
-                            <div class="blog__item mb-30">
-                                <div class="blog__thumb fix">
-                                    <a href="blog-details.html">
-                                        <img src="assets/img/R-2.webp" alt="">
-                                    </a>
-                                </div>
-                                <div class="blog__content white-bg">
-                                    <h3><a href="blog-details.html">The Brushed Steel</a></h3>
-                                    <div class="blog__meta">
-                                        <span>Post Date:</span>
-                                        <span class="date"> 05-Aug-2020</span>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                     </div>
                                     <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
                                 </div>
-<<<<<<< HEAD
                                 <div class="blog__item mb-30">
                                     <div class="blog__thumb fix">
                                         <a href="blog-details.html">
@@ -7119,14 +4976,6 @@
                                         </div>
                                         <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. </p>
                                     </div>
-=======
-                            </div>
-                            <div class="blog__item mb-30">
-                                <div class="blog__thumb fix">
-                                    <a href="blog-details.html">
-                                        <img src="assets/img/R-3.webp" alt="">
-                                    </a>
->>>>>>> b53fa2af7afc4e5371c2044872af67db889f4cb4
                                 </div>
                                 <div class="blog__content white-bg">
                                     <h3><a href="blog-details.html">Koma and Torus</a></h3>
