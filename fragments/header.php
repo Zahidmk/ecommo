@@ -61,7 +61,7 @@
                                     <div style="text-align: center;">
                                         <a href="cart.php" style="color: black; text-decoration: none; display: flex; align-items: center;">
                                             <i class="fal fa-shopping-bag" style="font-size: 20px; margin-right: 5px;"></i>
-                                            <span style="font-size: 14px;">Cart: Rs. 0.00</span>
+                                            <span style="font-size: 14px;">Cart: Rs. 0.0000</span>
                                         </a>
                                     </div>
                                 </div>
