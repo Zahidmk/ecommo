@@ -4493,7 +4493,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">KWD 40.00</span>
+                                            <span class="new new-2">KWD 400.00</span>
                                             <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
