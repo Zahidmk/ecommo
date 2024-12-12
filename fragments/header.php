@@ -84,7 +84,7 @@
                                                    
                                                 <li>
                                                 <a href="product.php">Mobile & Tablet <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: 0;">
     <li><a href="product.php">Mobiles</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Infinix</a></li>
@@ -130,7 +130,7 @@
                                                     </li>
                                                     <li>
                                                     <a href="product.php">Computers & Gaming <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -100%;">
     <li><a href="product.php">Laptops</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Asus</a></li>
@@ -198,7 +198,7 @@
 <li>
 
 <a href="product.php">Electronics <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -200%;">
     <li><a href="product.php">Watches</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Smart Bands</a></li>
@@ -292,7 +292,7 @@
 <li>
 
 <a href="product.php">Home & Kitchen <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -300%;">
     <li><a href="product.php">Home</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Lightings</a></li>
@@ -373,7 +373,7 @@
 
 <li>
 <a href="product.php">Fashion <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -400%;">
     <li><a href="product.php">Luggages</a>
         <ul class="mega-item">
             <li><a href="product.php">View All</a></li>
@@ -410,7 +410,7 @@
 
 <li>
 <a href="product.php">Home & Kitchen <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -500%;">
     <li><a href="product.php">Home</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Lightings</a></li>
@@ -494,7 +494,7 @@
 
 <li>
 <a href="product.php">Offroad & Automotives <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -600%;">
     <li><a href="product.php">Car Electronics</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Camera & Sensor</a></li>
@@ -553,7 +553,7 @@
 
 <li>
 <a href="product.php">Toys, Games & Kids <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -700%;">
     <li><a href="product.php">Toys</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Educational Toys</a></li>
@@ -577,7 +577,7 @@
 
 <li>
 <a href="product.php">Offroad & Automotives <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu">
+<ul class="mega-menu" style="top: -800%;">
     <li><a href="product.php">Car Electronics</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Camera & Sensor</a></li>
