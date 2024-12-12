@@ -384,6 +384,17 @@
 }
 
 
+.logo-wrapper {
+  display: inline-block;
+  margin: 0 10px; /* Adjust the value to control spacing */
+}
+
+.custom-row-content {
+  display: flex;
+  align-items: center;
+}
+
+
 .unique-deals-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -678,7 +689,7 @@
     </div>
 
 
-            <img src="assets/img/free-delivery.webp" alt="slider" class="img-fluid"> 
+            <img src="assets/img/banner-main.webp" alt="slider" class="img-fluid"> 
 
 
          
@@ -826,10 +837,10 @@
                         <div class="col-xl-12">
                             <div class="section__head d-md-flex justify-content-between mb-40">
                                 <div class="section__title">
-                                    <h3>Best Selling<span>Products</span></h3>
+                                    <h3> Hot<span>Deals</span></h3>
                                 </div>
                                 <div class="product__nav-tab mr-75">
-                                    <ul class="nav nav-tabs" id="best-sell-tab" role="tablist">
+                                    <!-- <ul class="nav nav-tabs" id="best-sell-tab" role="tablist">
                                         <li class="nav-item" role="presentation">
                                           <button class="nav-link active" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="new" aria-selected="true">New Arrival</button>
                                         </li>
@@ -842,7 +853,7 @@
                                         <li class="nav-item" role="presentation">
                                           <button class="nav-link" id="random-tab" data-bs-toggle="tab" data-bs-target="#random" type="button" role="tab" aria-controls="random" aria-selected="false">Random</button>
                                         </li>
-                                      </ul>
+                                      </ul> -->
                                 </div>
                             </div>
 
@@ -856,8 +867,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-1.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-1.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -880,7 +891,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$500.00</span>
+                                                <span class="price">KWD 500.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -889,8 +900,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-2.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-2.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -913,7 +924,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$560.00</span>
+                                                <span class="price">KWD 560.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -922,8 +933,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-3.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-3.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -946,7 +957,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$450.00</span>
+                                                <span class="price">KWD  450.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -955,8 +966,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-4.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-4.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -979,7 +990,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -987,9 +998,8 @@
                                         </div>
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
-                                                <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                            <img src="assets/img/H-5.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-5.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -1012,7 +1022,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1021,8 +1031,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-6.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-6.webpp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -1045,7 +1055,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1054,8 +1064,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-7.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-7.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -1078,7 +1088,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1091,8 +1101,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-8.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-8.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -1115,7 +1125,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$500.00</span>
+                                                <span class="price">KWD 500.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1124,8 +1134,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/H-9.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/H-9.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -1148,7 +1158,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$560.00</span>
+                                                <span class="price">KWD 560.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1181,7 +1191,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$450.00</span>
+                                                <span class="price">KWD 450.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1214,7 +1224,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1247,7 +1257,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1280,7 +1290,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -1798,7 +1808,7 @@
             </section>
             <!-- best selling area end -->
 
-            <section class="promo-section" style="background: url('assets/img/special-deal.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative;">
+            <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative;">
 
     <div class="promo-content d-none d-md-block">
         <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
@@ -1929,77 +1939,73 @@
                                 <h3> special deals</h3>
                             </div>
     <!-- Product 1 -->
-    <div class="col-md-3" >
-      <div class="product-card position-relative p-5">
-        <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
-        <div class="card-content-wrapper ">
-          <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-5">
-          <div class="product-details">
-            <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
-            <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
-            <p class="mb-1 fs-5 fw-bold text-success">Rs. 4,400.00 <span class="text-decoration-line-through text-muted fs-6">Rs. 7,800.00</span></p>
-            <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
-            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 2 -->
     <div class="col-md-3">
-      <div class="product-card position-relative p-5">
-        <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
-        <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img">
-          <div class="product-details">
-            <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
-            <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
-            <p class="mb-1 fs-5 fw-bold text-success">Rs. 2,600.00 <span class="text-decoration-line-through text-muted fs-6">Rs. 3,200.00</span></p>
-            <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
-            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 3 -->
-    <div class="col-md-3">
-      <div class="product-card position-relative p-5">
-        <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
-        <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img">
-          <div class="product-details">
-            <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
-            <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
-            <p class="mb-1 fs-5 fw-bold text-success">Rs. 3,500.00 <span class="text-decoration-line-through text-muted fs-6">Rs. 4,900.00</span></p>
-            <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
-            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 4 -->
-    <div class="col-md-3">
-      <div class="product-card position-relative p-5">
-        <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
-        <div class="card-content-wrapper">
-          <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img">
-          <div class="product-details">
-            <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
-            <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
-            <p class="mb-1 fs-5 fw-bold text-success">Rs. 1,700.00 <span class="text-decoration-line-through text-muted fs-6">Rs. 2,200.00</span></p>
-            <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
-            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-          </div>
-        </div>
+  <div class="product-card position-relative p-5">
+    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
+    <div class="card-content-wrapper ">
+      <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-5">
+      <div class="product-details">
+        <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
+        <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
+        <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
+        <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
+        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
       </div>
     </div>
   </div>
 </div>
-</div>
+
+<!-- Product 2 -->
+<div class="col-md-3">
+  <div class="product-card position-relative p-5">
+    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
+    <div class="card-content-wrapper">
+      <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img">
+      <div class="product-details">
+        <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
+        <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
+        <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
+        <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
+        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- Product 3 -->
+<div class="col-md-3">
+  <div class="product-card position-relative p-5">
+    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
+    <div class="card-content-wrapper">
+      <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img">
+      <div class="product-details">
+        <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
+        <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
+        <p class="mb-1 fs-5 fw-bold text-success">3.50 KWD <span class="text-decoration-line-through text-muted fs-6">4.90 KWD</span></p>
+        <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
+        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Product 4 -->
+<div class="col-md-3">
+  <div class="product-card position-relative p-5">
+    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
+    <div class="card-content-wrapper">
+      <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img">
+      <div class="product-details">
+        <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
+        <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
+        <p class="mb-1 fs-5 fw-bold text-success">1.70 KWD <span class="text-decoration-line-through text-muted fs-6">2.20 KWD</span></p>
+        <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
+        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </section>
 
@@ -2010,25 +2016,25 @@
             <!-- First Banner: Mobile -->
             <div class="col-xl-6 col-lg-6">
                 <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                    <img src="assets/img/special-deal.jpg" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
-                    <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                    <img src="assets/img/small-banner.webp" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
+                    <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
                         <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Second Banner: Electronics -->
             <div class="col-xl-6 col-lg-6">
                 <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 10px; padding: 20px; text-align: center;">
-                    <img src="assets/img/special-deal.jpg" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
-                    <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                    <img src="assets/img/small-banner-1.webp" alt="Mobile Offer" style="width: 100%; height:300px; border-radius: 10px;">
+                    <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
                         <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -2062,8 +2068,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-1.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-1.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2086,7 +2092,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$500.00</span>
+                                                <span class="price">KWD 500.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2095,8 +2101,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-2.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-2.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2119,7 +2125,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$560.00</span>
+                                                <span class="price">KWD 560.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2128,8 +2134,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-3.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-3.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2152,7 +2158,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$450.00</span>
+                                                <span class="price">KWD 450.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2161,8 +2167,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-4.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-4.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2185,7 +2191,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2194,8 +2200,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-5.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-5.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2218,7 +2224,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2227,8 +2233,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative" >
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-6.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-6.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2251,7 +2257,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2260,8 +2266,8 @@
                                         <div class="product__item white-bg">
                                             <div class="product__thumb p-relative">
                                                 <a href="product-details.html" class="w-img">
-                                                    <img src="assets/img/product.webp" alt="product">
-                                                    <img class="second-img" src="assets/img/product.webp" alt="product">
+                                                    <img src="assets/img/new-7.webp" alt="product">
+                                                    <img class="second-img" src="assets/img/new-7.webp" alt="product">
                                                 </a>
                                                 <div class="product__action p-absolute">
                                                     <ul>
@@ -2284,7 +2290,7 @@
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <span class="price">$720.00</span>
+                                                <span class="price">KWD 720.00</span>
                                             </div>
                                             <div class="product__add-btn">
                                                 <button type="button">Add to Cart</button>
@@ -2325,7 +2331,7 @@
           <div class="product-details">
             <div class="product-name">Nescafe gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
           </div>
         </div>
         <!-- Product 2 -->
@@ -2334,7 +2340,7 @@
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
+            <div class="price">KWD  600.00 <span class="old-price">Rs. 700.00</span></div>
           </div>
         </div>
         <!-- Product 3 -->
@@ -2343,7 +2349,7 @@
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
           </div>
         </div>
       </div>
@@ -2360,7 +2366,7 @@
           <div class="product-details">
             <div class="product-name">Nescafe gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
           </div>
         </div>
         <!-- Product 2 -->
@@ -2369,7 +2375,7 @@
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
+            <div class="price">KWD  600.00 <span class="old-price">Rs. 700.00</span></div>
           </div>
         </div>
         <!-- Product 3 -->
@@ -2378,7 +2384,7 @@
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
           </div>
         </div>
       </div>
@@ -2395,7 +2401,7 @@
           <div class="product-details">
             <div class="product-name">NescafeEEEE gold blend coffee</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
           </div>
         </div>
         <!-- Product 2 -->
@@ -2404,7 +2410,7 @@
           <div class="product-details">
             <div class="product-name">Carnitos nacho crisps</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 600.00 <span class="old-price">Rs. 700.00</span></div>
+            <div class="price">KWD  600.00 <span class="old-price">Rs. 700.00</span></div>
           </div>
         </div>
         <!-- Product 3 -->
@@ -2413,7 +2419,7 @@
           <div class="product-details">
             <div class="product-name">Organic quinoa flour</div>
             <div class="text-warning">★★★★★</div>
-            <div class="price">Rs. 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
+            <div class="price">KWD  1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
           </div>
         </div>
       </div>
@@ -2426,165 +2432,162 @@
 
 
 <div class="custom-scroll-container">
-  <div class="custom-row custom-row-1">
-    <div class="custom-row-content">
-      <img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo">
-      <img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo">
-      <img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo">
-      <img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo">
-    <!-- </div>
-    <div class="custom-row-content"> -->
-      <img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo">
-      <img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo">
-      <img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo">
-      <img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo">
+    <div class="custom-row custom-row-1">
+      <div class="custom-row-content">
+        <div class="logo-wrapper"><img src="assets/img/logo/Ahastyle.svg" alt="Ahastyle Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/AMG.svg" alt="AMG Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/apple.svg" alt="Apple Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Belkin.svg" alt="Belkin Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/BMW.svg" alt="BMW Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/devia_logo_nZ2eiVZ.svg" alt="Devia Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Elago_2.svg" alt="Elago Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/ferrari.svg" alt="Ferrari Logo" class="custom-logo"></div>
+      </div>
+    </div>
+
+    <div class="custom-row custom-row-2">
+      <div class="custom-row-content">
+        <div class="logo-wrapper"><img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Viva_Madrid-2.svg" alt="Lguard Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo"></div>
+      </div>
+    </div>
+
+    <div class="custom-row custom-row-3">
+      <div class="custom-row-content">
+        <div class="logo-wrapper"><img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo"></div>
+        <div class="logo-wrapper"><img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo"></div>
+      </div>
     </div>
   </div>
 
-  <div class="custom-row custom-row-2">
-    <div class="custom-row-content">
-      <img src="assets/img/logo/green-lion.svg" alt="Green Lion Logo" class="custom-logo">
-      <img src="assets/img/logo/Guess_0pb0tNK.svg" alt="Guess Logo" class="custom-logo">
-      <img src="assets/img/logo/lguard.svg" alt="Lguard Logo" class="custom-logo">
-      <img src="assets/img/logo/jbl-2.svg" alt="JBL Logo" class="custom-logo">
-    <!-- </div>
-    <div class="custom-row-content"> -->
-      <img src="assets/img/logo/Karl.svg" alt="Karl Logo" class="custom-logo">
-      <img src="assets/img/logo/Levelo_logo_42vm701.svg" alt="Levelo Logo" class="custom-logo">
-      <img src="assets/img/logo/Liberty_Guard.svg" alt="Liberty Guard Logo" class="custom-logo">
-      <img src="assets/img/logo/Mercedes-Benz.svg" alt="Mercedes-Benz Logo" class="custom-logo">
+
+
+  <section class="unique-latest-deals p-4">
+  <div class="section__head section__title p-3 ">
+    <h3 class="ml-5">Best<span> in Powerbanks</span></h3>
+  </div>
+  <div class="unique-deals-grid pt-5">
+    <!-- Deal Item 1 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
+      <p class="unique-deal-price">Price: 10.50 KWD</p>
+    </div>
+    <!-- Deal Item 2 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-6.webp" alt="Ring Doorbell">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+      <p class="unique-deal-price">Price: 55.75 KWD</p>
+    </div>
+    <!-- Promo Banner -->
+    <div class="unique-deal-banner">
+      <h3 class="unique-banner-title">Daily Deals</h3>
+      <p class="unique-banner-description">Best Offers from UBUY</p>
+      <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+      <button class="unique-banner-button">Shop Now</button>
+    </div>
+    <!-- Deal Item 3 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
+      <p class="unique-deal-price">Price: 20.00 KWD</p>
+    </div>
+    <!-- Deal Item 4 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
+      <p class="unique-deal-price">Price: 75.00 KWD</p>
+    </div>
+    <!-- Deal Item 5 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
+      <p class="unique-deal-price">Price: 45.00 KWD</p>
+    </div>
+    <!-- Deal Item 6 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+      <p class="unique-deal-price">Price: 40.00 KWD</p>
     </div>
   </div>
+</section>
 
-  <div class="custom-row custom-row-3">
-    <div class="custom-row-content">
-      <img src="assets/img/logo/pawa.svg" alt="Pawa Logo" class="custom-logo">
-      <img src="assets/img/logo/polo.svg" alt="Polo Logo" class="custom-logo">
-      <img src="assets/img/logo/porodo.svg" alt="Porodo Logo" class="custom-logo">
-      <img src="assets/img/logo/powerology-logo-1wp.svg" alt="Powerology Logo" class="custom-logo">
-    <!-- </div>
-    <div class="custom-row-content"> -->
-      <img src="assets/img/logo/ravpower.svg" alt="Ravpower Logo" class="custom-logo">
-      <img src="assets/img/logo/Samsung_wordmark.svg" alt="Samsung Wordmark Logo" class="custom-logo">
-      <img src="assets/img/logo/Viva_Madrid-2.svg" alt="Viva Madrid Logo" class="custom-logo">
-      <img src="assets/img/logo/X-Doria.svg" alt="X-Doria Logo" class="custom-logo">
+<section class="unique-latest-deals p-4">
+  <div class="section__head section__title p-3">
+    <h3 class="ml-5">Mobile cases<span> with your Fashion</span></h3>
+  </div>
+  <div class="unique-deals-grid pt-5">
+    <!-- Promo Banner -->
+    <div class="unique-deal-banner">
+      <h3 class="unique-banner-title">Daily Deals</h3>
+      <p class="unique-banner-description">Best Offers from UBUY</p>
+      <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+      <button class="unique-banner-button">Shop Now</button>
+    </div>
+    <!-- Deal Item 1 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-1.webp" alt="Monster Energy Drink">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
+      <p class="unique-deal-price">Price: 10.50 KWD</p>
+    </div>
+    <!-- Deal Item 2 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-2.webp" alt="Ring Doorbell">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+      <p class="unique-deal-price">Price: 55.75 KWD</p>
+    </div>
+    <!-- Deal Item 3 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-3.webp" alt="Makeup Vanity Mirror">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
+      <p class="unique-deal-price">Price: 20.00 KWD</p>
+    </div>
+    <!-- Deal Item 4 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-4.webp" alt="Red Light Therapy Mask">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
+      <p class="unique-deal-price">Price: 75.00 KWD</p>
+    </div>
+    <!-- Deal Item 5 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-5.webp" alt="Amazon Fire HD Tablet">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
+      <p class="unique-deal-price">Price: 45.00 KWD</p>
+    </div>
+    <!-- Deal Item 6 -->
+    <div class="unique-deal-item">
+      <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
+      <p class="unique-deal-store">🇺🇸 US Store</p>
+      <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+      <p class="unique-deal-price">Price: 40.00 KWD</p>
     </div>
   </div>
-</div>
+</section>
 
-
-
-
-<section class="unique-latest-deals ">
-<div class="section__title">
-                                    <h3 class="ml-5">Best<span>in Powerbanks</span></h3>
-                                </div>
-    <div class="unique-deals-grid">
-      <!-- Deal Item 1 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
-      </div>
-      <!-- Deal Item 2 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-6.webp" alt="Ring Doorbell">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
-      </div>
-      <!-- Promo Banner -->
-      <div class="unique-deal-banner">
-        
-        <h3 class="unique-banner-title">Daily Deals</h3>
-        <p class="unique-banner-description">Best Offers from UBUY</p>
-        <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-        <button class="unique-banner-button">Shop Now</button>
-      </div>
-      <!-- Deal Item 3 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
-      </div>
-      <!-- Deal Item 4 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
-      </div>
-      <!-- Deal Item 5 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
-      </div>
-      <!-- Deal Item 6 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-  
-<section class="unique-latest-deals ">
-<div class="section__title">
-                                    <h3 class="ml-5">Mobile cases with your Fashion</span></h3>
-                                </div>
-    <div class="unique-deals-grid">
-      <!-- Deal Item 1 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-1.webp" alt="Monster Energy Drink">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
-      </div>
-      <!-- Deal Item 2 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-2.webp" alt="Ring Doorbell">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
-      </div>
-      
-      <!-- Deal Item 3 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-3.webp" alt="Makeup Vanity Mirror">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
-      </div>
-      <!-- Deal Item 4 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-4.webp" alt="Red Light Therapy Mask">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
-      </div>
-
-      <!-- Promo Banner -->
-      <div class="unique-deal-banner">
-        
-        <h3 class="unique-banner-title">Daily Deals</h3>
-        <p class="unique-banner-description">Best Offers from UBUY</p>
-        <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-        <button class="unique-banner-button">Shop Now</button>
-      </div>
-      <!-- Deal Item 5 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-5.webp" alt="Amazon Fire HD Tablet">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
-      </div>
-      <!-- Deal Item 6 -->
-      <div class="unique-deal-item">
-        <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
-        <p class="unique-deal-store">🇺🇸 US Store</p>
-        <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-      </div>
-    </div>
-  </section>
             <!-- Flash sell area start -->
             <section class="flash__sell pt-25 pb-40 grey-bg-2">
                 <div class="container">
@@ -2595,7 +2598,7 @@
                                     <h3>Lifestyle Gadgets<span> & Smart Gadgets</span></h3>
                                 </div>
                                 <div class="product__nav-tab"> 
-                                    <ul class="nav nav-tabs" id="flast-sell-tab" role="tablist">
+                                    <!-- <ul class="nav nav-tabs" id="flast-sell-tab" role="tablist">
                                         <li class="nav-item" role="presentation">
                                           <button class="nav-link active" id="computer-tab" data-bs-toggle="tab" data-bs-target="#computer" type="button" role="tab" aria-controls="computer" aria-selected="true">computer</button>
                                         </li>
@@ -2611,7 +2614,7 @@
                                         <li class="nav-item" role="presentation">
                                           <button class="nav-link" id="cell-tab" data-bs-toggle="tab" data-bs-target="#cell" type="button" role="tab"  aria-selected="false">Cell Phones</button>
                                         </li>
-                                      </ul>
+                                      </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -2650,8 +2653,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$720.00</span>
-                                                        <span class="price-old"> <del>$800.00</del> </span>
+                                                        <span class="new">KWD 720.00</span>
+                                                        <span class="price-old"> <del>KWD 800.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2686,8 +2689,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$350.00</span>
-                                                        <span class="price-old"> <del>$400.00</del> </span>
+                                                        <span class="new">KWD 350.00</span>
+                                                        <span class="price-old"> <del>KWD 400.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2724,8 +2727,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$120.00</span>
-                                                        <span class="price-old"> <del>$125.00</del> </span>
+                                                        <span class="new">KWD 120.00</span>
+                                                        <span class="price-old"> <del>KWD 125.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2760,8 +2763,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$250.00</span>
-                                                        <span class="price-old"> <del>$275.00</del> </span>
+                                                        <span class="new">KWD 250.00</span>
+                                                        <span class="price-old"> <del>KWD 275.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2837,8 +2840,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$90.00</span>
-                                                        <span class="price-old"> <del>$105.00</del> </span>
+                                                        <span class="new">KWD 90.00</span>
+                                                        <span class="price-old"> <del>KWD 105.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2873,8 +2876,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$300.00</span>
-                                                        <span class="price-old"> <del>$250.00</del> </span>
+                                                        <span class="new">KWD 300.00</span>
+                                                        <span class="price-old"> <del>KWD 250.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2911,8 +2914,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$175.00</span>
-                                                        <span class="price-old"> <del>$190.00</del> </span>
+                                                        <span class="new">KWD 175.00</span>
+                                                        <span class="price-old"> <del>KWD 190.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -2947,8 +2950,8 @@
                                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                                             </ul>
                                                         </div>
-                                                        <span class="new">$220.00</span>
-                                                        <span class="price-old"> <del>$230.00</del> </span>
+                                                        <span class="new">KWD 220.00</span>
+                                                        <span class="price-old"> <del>KWD 230.00</del> </span>
                                                     </div>
                                                     <div class="product__add-btn">
                                                         <button type="button">Add to Cart</button>
@@ -4390,8 +4393,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$720.00</span>
-                                            <span class="price-old"> <del>$800.00</del> </span>
+                                            <span class="new new-2">KWD 720.00</span>
+                                            <span class="price-old"> <del>KWD 800.00</del> </span>
                                         </div>
                                     </div>
                                     <div class="product__item white-bg d-flex mb-20">
@@ -4414,8 +4417,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$90.00</span>
-                                            <span class="price-old"> <del>$100.00</del> </span>
+                                            <span class="new new-2">KWD 90.00</span>
+                                            <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
                                 </div>
@@ -4440,8 +4443,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$150.00</span>
-                                            <span class="price-old"> <del>$200.00</del> </span>
+                                            <span class="new new-2">KWD 150.00</span>
+                                            <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
                                     <div class="product__item white-bg d-flex mb-20">
@@ -4464,8 +4467,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$90.00</span>
-                                            <span class="price-old"> <del>$100.00</del> </span>
+                                            <span class="new new-2">KWD 90.00</span>
+                                            <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
                                 </div>
@@ -4490,8 +4493,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$40.00</span>
-                                            <span class="price-old"> <del>$100.00</del> </span>
+                                            <span class="new new-2">KWD 40.00</span>
+                                            <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
                                     <div class="product__item white-bg d-flex mb-20">
@@ -4514,8 +4517,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$90.00</span>
-                                            <span class="price-old"> <del>$100.00</del> </span>
+                                            <span class="new new-2">KWD 90.00</span>
+                                            <span class="price-old"> <del>KWD 100.00</del> </span>
                                         </div>
                                     </div>
                                 </div>
@@ -4540,8 +4543,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$190.00</span>
-                                            <span class="price-old"> <del>$200.00</del> </span>
+                                            <span class="new new-2">KWD 190.00</span>
+                                            <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
                                     <div class="product__item white-bg d-flex mb-20">
@@ -4564,8 +4567,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$250.00</span>
-                                            <span class="price-old"> <del>$300.00</del> </span>
+                                            <span class="new new-2">KWD 250.00</span>
+                                            <span class="price-old"> <del>KWD 300.00</del> </span>
                                         </div>
                                     </div>
                                 </div>
@@ -4590,8 +4593,8 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="new new-2">$150.00</span>
-                                            <span class="price-old"> <del>$200.00</del> </span>
+                                            <span class="new new-2">KWD 150.00</span>
+                                            <span class="price-old"> <del>KWD 200.00</del> </span>
                                         </div>
                                     </div>
                                     <div class="product__item white-bg d-flex mb-20">
@@ -4913,35 +4916,54 @@
 
 		<!-- JS here -->
         <?php include('fragments/js.php'); ?>
-      <script>
-        const customRows = document.querySelectorAll('.custom-row');
+        <script>
+  // Select all custom rows
+  const customRows = document.querySelectorAll('.custom-row');
 
-function infiniteScroll(row, speed) {
-  let position = 0;
+  function infiniteScroll(row, speed) {
+    const content = row.querySelector('.custom-row-content');
+    const contentWidth = content.offsetWidth;
+    const rowWidth = row.offsetWidth;
 
-  function animate() {
-    position += speed;
+    // Duplicate the content enough times to cover the visible area + buffer
+    const requiredCopies = Math.ceil(rowWidth / contentWidth) + 1;
 
-    // Reset position when scrolled past one set of logos
-    const totalWidth = row.querySelector('.custom-row-content').offsetWidth;
-    if (speed > 0 && position >= totalWidth) {
-      position = 0;
-    } else if (speed < 0 && position <= -totalWidth) {
-      position = 0;
+    for (let i = 0; i < requiredCopies; i++) {
+      const clone = content.cloneNode(true);
+      row.appendChild(clone);
     }
 
-    row.style.transform = `translateX(${position}px)`;
-    requestAnimationFrame(animate);
+    let position = 0;
+
+    function animate() {
+      position += speed;
+
+      // Reset position for seamless scrolling
+      if (speed > 0 && position >= contentWidth) {
+        position = position - contentWidth;
+      } else if (speed < 0 && position <= -contentWidth) {
+        position = position + contentWidth;
+      }
+
+      row.style.transform = `translateX(${position}px)`;
+
+      // Request the next frame
+      requestAnimationFrame(animate);
+    }
+
+    // Start the animation
+    animate();
   }
 
-  animate();
-}
-
-// Start scrolling for each row with different speeds/directions
-infiniteScroll(customRows[0], 1);   // Row 1 scrolls right
-infiniteScroll(customRows[1], -1);  // Row 2 scrolls left
-infiniteScroll(customRows[2], 1);   // Row 3 scrolls right
+  // Apply infinite scrolling to each row with specified speeds
+  infiniteScroll(customRows[0], 1);  // Row 1 scrolls right
+  infiniteScroll(customRows[1], -1); // Row 2 scrolls left
+  infiniteScroll(customRows[2], 1);  // Row 3 scrolls right
 </script>
+
+
+
+
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
