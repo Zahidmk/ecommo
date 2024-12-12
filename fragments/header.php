@@ -85,6 +85,7 @@
                                                 <li>
                                                 <a href="product.php">Mobile & Tablet <i class="far fa-angle-down"></i></a>
 <ul class="mega-menu" style="top: 0;">
+    
     <li><a href="product.php">Mobiles</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Infinix</a></li>
@@ -734,6 +735,10 @@ parentLis.forEach(megaMenu => {
 const element = document.querySelector('.side-menu');
 
 // Set styles
+// min height 400px
+if(height < 400){
+megaMenu.style.minHeight = "400px"
+}
 element.style.height = `${height}px`;
 
     }
