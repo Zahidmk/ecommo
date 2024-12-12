@@ -715,6 +715,49 @@
                     </div>
                 </div>
             </div>
+            <script>
+
+                console.log("header")
+  // Select the parent <li> containing the mega-menu
+  // Add event listeners to all parent <li> elements containing a .mega-menu
+let parentLis = document.querySelectorAll('li > ul.mega-menu');
+
+parentLis.forEach(megaMenu => {
+    let parentLi = megaMenu.parentElement;
+
+    // Function to log the height of the current .mega-menu
+    function logMegaMenuHeight() {
+        let height = megaMenu.offsetHeight;
+        console.log('Mega-menu height on hover:', height);
+        //  add style to side-menu class
+        // Select the element
+const element = document.querySelector('.side-menu');
+
+// Set styles
+element.style.height = `${height}px`;
+
+    }
+
+    // Add event listeners for hover events on the parent <li>
+    parentLi.addEventListener('mouseenter', () => {
+        logMegaMenuHeight(); // Log the height when hover starts
+        console.log('Hovered parent <li>:', parentLi);
+    });
+
+    parentLi.addEventListener('mouseleave', () => {
+        logMegaMenuHeight(); // Log the height when hover ends
+        console.log('Hover ended for parent <li>:', parentLi);
+    });
+
+    // Optional: Use ResizeObserver for dynamic size changes
+    let resizeObserver = new ResizeObserver(() => {
+        logMegaMenuHeight(); // Log height on size changes
+    });
+    resizeObserver.observe(megaMenu);
+});
+
+
+                </script>
 
 
            
