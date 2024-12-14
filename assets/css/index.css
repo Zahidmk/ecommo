@@ -218,7 +218,7 @@
     -webkit-overflow-scrolling: touch;
     /* Smooth scrolling for mobile devices */
     padding-bottom: 10px;
-    gap: 15px;
+    gap: 10px;
     /* Optional spacing between items */
     scroll-behavior: smooth;
     /* Smooth scrolling effect */
