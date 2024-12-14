@@ -153,7 +153,7 @@
         <section class="py-5">
             <div class="container">
                 <!-- <h2 class="text-center mb-4">Love Our Categories</h2> -->
-                <div class="category-row d-flex overflow-auto">
+                <div class="category-row d-flex overflow-auto" style="gap:10px">
                     <!-- Phones -->
                     <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="https://youtube.com/shorts/8XUunkGJw4g?si=HK8Jc0juItbaEQFV">
                         <div class="category-circle mx-auto">
