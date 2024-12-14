@@ -17,5 +17,5 @@
 <link rel="stylesheet" href="assets/css/ui-range-slider.css">
 <link rel="stylesheet" href="assets/css/default.css">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/index.css">
+<!-- <link rel="stylesheet" href="assets/css/index.css"> -->
 
