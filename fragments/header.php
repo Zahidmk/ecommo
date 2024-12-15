@@ -578,7 +578,7 @@
 
 <li>
 <a href="product.php">Offroad & Automotives <i class="far fa-angle-down"></i></a>
-<ul class="mega-menu" style="top: -800%;">
+<ul class="mega-menu" style="top: -820%;">
     <li><a href="product.php">Car Electronics</a>
         <ul class="mega-item">
             <li><a href="product-details.php">Camera & Sensor</a></li>
@@ -739,6 +739,11 @@ const element = document.querySelector('.side-menu');
 if(height < 400){
 megaMenu.style.minHeight = "400px"
 }
+if(height > 500){
+megaMenu.style.maxHeight = "500px"
+megaMenu.style.overflow = "scroll"
+}
+
 element.style.height = `${height}px`;
 
     }

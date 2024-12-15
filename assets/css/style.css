@@ -874,6 +874,8 @@ p {
   top: 100%;
   left: 100%;
   width: 800px;
+  max-height: 500px;
+  overflow: scroll;
   background: #ffffff;
   z-index: 1;
   padding: 40px 50px;
