@@ -12,8 +12,8 @@
     <style>
         .banner__content {
             position: absolute;
-            top: 20px;
-            left: 20px;
+            top: 0px;
+            left:3px;
             color: white;
 
             padding: 15px;
@@ -886,7 +886,7 @@
         <section class="banner__area pt-20 pb-10 grey-bg-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="banner__item w-img mb-30 position-relative">
                             <a href="product-details.html"><img src="assets/img/top-1.jpg" alt="" style=" border-radius:15px;"></a>
                             <div class="banner__content">
@@ -896,7 +896,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="banner__item mb-30 w-img position-relative">
                             <a href="product-details.html"><img src="assets/img/top-2.jpg" alt="" style=" border-radius:15px;"></a>
                             <div class="banner__content">
@@ -906,7 +906,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="banner__item mb-30 w-img position-relative">
+                            <a href="product-details.html"><img src="assets/img/top-3.jpg" alt="" style=" border-radius:15px;"></a>
+                            <div class="banner__content">
+                                <h3>Smart TVs & <BR> Accessories</h3>
+
+                                <a href="product-details.php" class="shop-now-btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="banner__item mb-30 w-img position-relative">
                             <a href="product-details.html"><img src="assets/img/top-3.jpg" alt="" style=" border-radius:15px;"></a>
                             <div class="banner__content">
