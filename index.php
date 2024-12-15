@@ -449,9 +449,10 @@
 
         .unique-deals-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 20px;
             align-items: stretch;
+            zoom: .9
         }
 
         .unique-deal-item,
@@ -467,7 +468,7 @@
         }
 
         .unique-deal-banner {
-            grid-column: span 2;
+            grid-column: span 3;
             /* Spans across two columns */
             background: url('assets/img/power-bank.jpg') no-repeat center center;
             background-size: cover;
@@ -629,7 +630,7 @@
 
 
 
-        <div class="container py-5">
+        <div class="container pt-4">
             <div class="row g-2">
                 <!-- 10 cards -->
                 <div class="col">
@@ -699,7 +700,7 @@
 
 
         </section>
-        <section class="py-5">
+        <section class="">
             <div class="container">
                 <!-- <h2 class="text-center mb-4">Love Our Categories</h2> -->
                 <div class="category-row d-flex overflow-auto" style="gap:10px">
@@ -771,7 +772,7 @@
                     <div class="col-xxl-2">
 
                     </div>
-                    <div class="col-xxl-12 col-xl-12 offset-xxl-0 offset-xl-3 col-lg-12">
+                    <!-- <div class="col-xxl-12 col-xl-12 offset-xxl-0 offset-xl-3 col-lg-12">
                         <div class="row">
                             <div class="col-xxl-8 col-lg-12 col-md-8 mb-20">
                                 <div class="slider__inner slider-active">
@@ -804,7 +805,35 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+                    <div class="col-xxl-12 col-xl-12 offset-xxl-0 offset-xl-3 col-lg-12">
+                        <div class="row">
+                            <!-- First Box -->
+                            <div class="col-xxl-8 col-lg-12 col-md-8 mb-20">
+                                <div class="slider__inner slider-active">
+                                    <div class="single-slider single-slider-4 w-img">
+                                        <img src="assets/img/hero-2.jpg" alt="slider" style="border-radius:15px;">
+                                    </div>
+                                    <div class="single-slider single-slider-4 w-img" style="border-radius:15px;">
+                                        <img src="assets/img/hero-1.jpg" alt="slider">
+                                    </div>
+                                    <div class="single-slider single-slider-4 w-img" style="border-radius:15px;">
+                                        <img src="assets/img/hero-1.1.jpg" alt="slider">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Box -->
+                            <div class="col-xxl-4 col-lg-12 col-md-4 col-sm-12">
+                                <div class="banner__item w-img" style="height: 100%; margin-top:-7px; border-radius:15px; overflow: hidden;">
+                                    <a href="product-details.html">
+                                        <img src="assets/img/hero-1.jpg" alt="" style="width: 100%; height: 98%; object-fit: cover; border-radius: 15px;">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -922,7 +951,7 @@
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pt-3">
                     <div class="col-xl-12">
                         <div class="tab-content" id="best-sell">
                             <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
@@ -945,15 +974,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -978,15 +999,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1011,15 +1024,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1044,15 +1049,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01 </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1076,15 +1073,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1109,15 +1098,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1142,15 +1123,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blink Home Security Camera <br> System 01 </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1179,15 +1152,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1212,15 +1177,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1245,15 +1202,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1278,15 +1227,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1311,15 +1252,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1344,15 +1277,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1377,15 +1302,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1414,15 +1331,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$500.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1447,15 +1356,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$560.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1480,15 +1381,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$450.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1513,15 +1406,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1546,15 +1431,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1579,15 +1456,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1612,15 +1481,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1649,15 +1510,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$500.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1682,15 +1535,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$560.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1715,15 +1560,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$450.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1748,15 +1585,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1781,15 +1610,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1814,15 +1635,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1847,15 +1660,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">$720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1886,7 +1691,7 @@
 
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pt-3">
                     <div class="col-xl-12">
                         <div class="tab-content" id="best-sell">
                             <div class="tab-pane fade show active" id="new" role="tabpanel" aria-labelledby="new-tab">
@@ -1909,15 +1714,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1942,15 +1739,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -1975,15 +1764,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -2008,15 +1789,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blink Home Security <br> Camera System 01 </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -2041,15 +1814,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -2074,15 +1839,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -2107,15 +1864,7 @@
                                             <h6 class="product-name">
                                                 <a class="product-item-link" href="product-details.html"> Blink Home Security Camera <br> System 01 </a>
                                             </h6>
-                                            <div class="rating">
-                                                <ul>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
+
                                             <span class="price">KWD 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
@@ -2138,7 +1887,7 @@
                 <div class="row">
                     <!-- First Banner: Mobile -->
                     <div class="col-xl-6 col-lg-6">
-                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px; padding: 20px; text-align: center; margin-left:-20px; ">
+                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px;  text-align: center; ">
                             <img src="assets/img/small-banner.webp" alt="Mobile Offer" style="width: 120%; height:300px; border-radius: 15px; margin-right:250px;">
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
@@ -2150,7 +1899,7 @@
                     </div>
                     <!-- Second Banner: Electronics -->
                     <div class="col-xl-6 col-lg-6">
-                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px; padding: 20px; text-align: center;">
+                        <div class="banner__item mb-30 w-img position-relative" style=" border-radius: 15px;  text-align: center;">
                             <img src="assets/img/small-banner-1.webp" alt="Mobile Offer" style="width: 120%; height:300px; border-radius: 15px;">
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
@@ -2220,15 +1969,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 720.00</span>
                                                     <span class="price-old"> <del>KWD 800.00</del> </span>
                                                 </div>
@@ -2256,15 +1997,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 350.00</span>
                                                     <span class="price-old"> <del>KWD 400.00</del> </span>
                                                 </div>
@@ -2294,15 +2027,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 120.00</span>
                                                     <span class="price-old"> <del>KWD 125.00</del> </span>
                                                 </div>
@@ -2330,15 +2055,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 250.00</span>
                                                     <span class="price-old"> <del>KWD 275.00</del> </span>
                                                 </div>
@@ -2350,7 +2067,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                         <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg" style="  border-radius:15px; height: 780px;">
+                                            <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                     <a href="product-details.html" class="w-img">
                                                         <img src="assets/img/jbl.webp" alt="product">
@@ -2368,15 +2085,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <!-- <span class="new mb-5">$120.00</span>
                                                         <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -2407,15 +2116,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 90.00</span>
                                                     <span class="price-old"> <del>KWD 105.00</del> </span>
                                                 </div>
@@ -2443,15 +2144,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 300.00</span>
                                                     <span class="price-old"> <del>KWD 250.00</del> </span>
                                                 </div>
@@ -2481,15 +2174,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 175.00</span>
                                                     <span class="price-old"> <del>KWD 190.00</del> </span>
                                                 </div>
@@ -2517,15 +2202,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 220.00</span>
                                                     <span class="price-old"> <del>KWD 230.00</del> </span>
                                                 </div>
@@ -2559,15 +2236,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -2595,15 +2264,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -2633,15 +2294,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -2669,15 +2322,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -2707,15 +2352,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -2746,15 +2383,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -2782,15 +2411,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -2820,15 +2441,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -2856,15 +2469,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -2898,15 +2503,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -2934,15 +2531,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -2972,15 +2561,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -3008,15 +2589,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -3046,15 +2619,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -3085,15 +2650,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -3121,15 +2678,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -3159,15 +2708,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -3195,15 +2736,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -3237,15 +2770,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -3273,15 +2798,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -3311,15 +2828,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -3347,15 +2856,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -3385,15 +2886,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -3424,15 +2917,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -3460,15 +2945,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -3498,15 +2975,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -3534,15 +3003,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -3576,15 +3037,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -3612,15 +3065,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -3650,15 +3095,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -3686,15 +3123,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -3724,15 +3153,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -3763,15 +3184,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -3799,15 +3212,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -3837,15 +3242,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -3873,15 +3270,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -4083,15 +3472,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 720.00</span>
                                                     <span class="price-old"> <del>KWD 800.00</del> </span>
                                                 </div>
@@ -4119,15 +3500,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 350.00</span>
                                                     <span class="price-old"> <del>KWD 400.00</del> </span>
                                                 </div>
@@ -4157,15 +3530,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 120.00</span>
                                                     <span class="price-old"> <del>KWD 125.00</del> </span>
                                                 </div>
@@ -4193,15 +3558,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 250.00</span>
                                                     <span class="price-old"> <del>KWD 275.00</del> </span>
                                                 </div>
@@ -4213,7 +3570,7 @@
                                     </div>
                                     <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                         <div class="product__item-wrapper mb-20">
-                                            <div class="product__item white-bg" style="  border-radius:15px; height: 780px;">
+                                            <div class="product__item white-bg" style="  border-radius:15px; ">
                                                 <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                     <a href="product-details.html" class="w-img">
                                                         <img src="assets/img/jbl.webp" alt="product">
@@ -4231,15 +3588,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <!-- <span class="new mb-5">$120.00</span>
                                                         <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -4270,15 +3619,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 90.00</span>
                                                     <span class="price-old"> <del>KWD 105.00</del> </span>
                                                 </div>
@@ -4306,15 +3647,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 300.00</span>
                                                     <span class="price-old"> <del>KWD 250.00</del> </span>
                                                 </div>
@@ -4344,15 +3677,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 175.00</span>
                                                     <span class="price-old"> <del>KWD 190.00</del> </span>
                                                 </div>
@@ -4380,15 +3705,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">KWD 220.00</span>
                                                     <span class="price-old"> <del>KWD 230.00</del> </span>
                                                 </div>
@@ -4422,15 +3739,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -4458,15 +3767,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -4496,15 +3797,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -4532,15 +3825,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -4570,15 +3855,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -4609,15 +3886,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -4645,15 +3914,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -4683,15 +3944,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -4719,15 +3972,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -4761,15 +4006,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -4797,15 +4034,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -4835,15 +4064,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -4871,15 +4092,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -4909,15 +4122,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -4948,15 +4153,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -4984,15 +4181,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -5022,15 +4211,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -5058,15 +4239,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -5100,15 +4273,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -5136,15 +4301,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -5174,15 +4331,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -5210,15 +4359,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -5248,15 +4389,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -5287,15 +4420,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -5323,15 +4448,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -5361,15 +4478,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -5397,15 +4506,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -5439,15 +4540,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$720.00</span>
                                                     <span class="price-old"> <del>$800.00</del> </span>
                                                 </div>
@@ -5475,15 +4568,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$350.00</span>
                                                     <span class="price-old"> <del>$400.00</del> </span>
                                                 </div>
@@ -5513,15 +4598,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$120.00</span>
                                                     <span class="price-old"> <del>$125.00</del> </span>
                                                 </div>
@@ -5549,15 +4626,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$250.00</span>
                                                     <span class="price-old"> <del>$275.00</del> </span>
                                                 </div>
@@ -5587,15 +4656,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new mb-5">$120.00</span>
                                                     <span class="price-old mb-5"> <del>$125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
@@ -5626,15 +4687,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$90.00</span>
                                                     <span class="price-old"> <del>$105.00</del> </span>
                                                 </div>
@@ -5662,15 +4715,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$300.00</span>
                                                     <span class="price-old"> <del>$250.00</del> </span>
                                                 </div>
@@ -5700,15 +4745,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$175.00</span>
                                                     <span class="price-old"> <del>$190.00</del> </span>
                                                 </div>
@@ -5736,15 +4773,7 @@
                                                     <h6 class="product-name">
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
-                                                    <div class="rating">
-                                                        <ul>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
+
                                                     <span class="new">$220.00</span>
                                                     <span class="price-old"> <del>$230.00</del> </span>
                                                 </div>
@@ -5790,15 +4819,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 720.00</span>
                                         <span class="price-old"> <del>KWD 800.00</del> </span>
                                     </div>
@@ -5814,15 +4835,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">Portable Watch Phone with Blood Pressure Monitor OLED</a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 90.00</span>
                                         <span class="price-old"> <del>KWD 100.00</del> </span>
                                     </div>
@@ -5840,15 +4853,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function 1.14" IPS LCD IP68</a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 150.00</span>
                                         <span class="price-old"> <del>KWD 200.00</del> </span>
                                     </div>
@@ -5864,15 +4869,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 90.00</span>
                                         <span class="price-old"> <del>KWD 100.00</del> </span>
                                     </div>
@@ -5890,15 +4887,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">TF Camera Clock Support Bt 4.0 for Ios Android Round Watch </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 400.00</span>
                                         <span class="price-old"> <del>KWD 100.00</del> </span>
                                     </div>
@@ -5914,15 +4903,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html"> 24 Inch LCD Monitor with Touch Screen for Computer Display </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 90.00</span>
                                         <span class="price-old"> <del>KWD 100.00</del> </span>
                                     </div>
@@ -5940,15 +4921,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">Capacitive Touch Screen 22 Inch Advertising LCD Display Monitor </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 190.00</span>
                                         <span class="price-old"> <del>KWD 200.00</del> </span>
                                     </div>
@@ -5964,15 +4937,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html"> Original Smart Phone for Original for iPhone 6s </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 250.00</span>
                                         <span class="price-old"> <del>KWD 300.00</del> </span>
                                     </div>
@@ -5990,15 +4955,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function 1.14" IPS LCD IP68</a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">KWD 150.00</span>
                                         <span class="price-old"> <del>KWD 200.00</del> </span>
                                     </div>
@@ -6014,15 +4971,7 @@
                                         <h6 class="product-name">
                                             <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
                                         </h6>
-                                        <div class="rating">
-                                            <ul>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                         <span class="new new-2">$90.00</span>
                                         <span class="price-old"> <del>$100.00</del> </span>
                                     </div>
@@ -6035,7 +4984,7 @@
         </section>
         <!-- trending product area end -->
 
-        <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; ">
+        <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; max-height:300px">
 
             <div class="promo-content d-none d-md-block">
                 <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
@@ -6092,7 +5041,7 @@
 
 
 
-        
+
 
 
 
@@ -6283,8 +5232,16 @@
                     <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
                     <p class="unique-deal-price">Price: 40.00 KWD</p>
                 </div>
+                <!-- Deal Item 7 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+                    <p class="unique-deal-price">Price: 40.00 KWD</p>
+                </div>
             </div>
         </section>
+
 
         <section class="unique-latest-deals p-4">
             <div class="section__head section__title p-3">
@@ -6340,10 +5297,17 @@
                     <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
                     <p class="unique-deal-price">Price: 40.00 KWD</p>
                 </div>
+                <!-- Deal Item 7 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+                    <p class="unique-deal-price">Price: 40.00 KWD</p>
+                </div>
             </div>
         </section>
 
-    
+
 
 
 
@@ -6379,7 +5343,7 @@
             </section> -->
         <!-- banner area end -->
 
-        
+
 
 
 
@@ -6527,7 +5491,7 @@
         <!-- subscribe area end -->
 
         <!-- free shipping area start -->
-        <section class="features__area grey-bg-2 pt-40 pb-20 pl-10 pr-10">
+        <section class="features__area  pt-40 pb-20 pl-10 pr-10">
             <div class="container">
                 <div class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 gx-0">
                     <div class="col">
@@ -6591,7 +5555,7 @@
         <!-- free shipping area end -->
 
         <!-- back to top btn area start -->
-        <section class="back-btn-top">
+        <!-- <section class="back-btn-top">
             <div class="container-fluid p-0">
                 <div class="row gx-0">
                     <div class="col-xl-12">
@@ -6601,7 +5565,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- back to top btn area end -->
 
 

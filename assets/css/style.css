@@ -5597,7 +5597,7 @@ p.checkout-coupon input[type=text]:focus {
 
 .category-item {
   text-align: center;
-  margin: 30px;
+  margin:  10px 30px;
   cursor: pointer;
 }
 
