@@ -13,7 +13,7 @@
         .banner__content {
             position: absolute;
             top: 0px;
-            left:3px;
+            left: 3px;
             color: white;
 
             padding: 15px;
@@ -389,6 +389,7 @@
             align-items: center;
             padding: 20px;
             background-color: #f9f9f9;
+            overflow: hidden;
             /* Soft background color */
         }
 
@@ -449,7 +450,7 @@
 
         .unique-deals-grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             align-items: stretch;
             zoom: .9
@@ -3342,89 +3343,88 @@
         </div>
         <!-- logos scroll end -->
 
-        <!-- special deals start -->
-        <section>
+       <!-- special deals start -->
+<section>
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-xl-12">
+                <div class="section__title text-center mb-40">
+                    <h3>Special Deals</h3>
+                </div>
+            </div>
 
+            <!-- Product 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
+                    <div class="text-center">
+                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-3 img-fluid">
+                    </div>
+                    <div class="product-details mt-3">
+                        <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
+                        <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
+                        <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
+                        <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
+                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
-            <div class="container my-5">
-                <div class="row g-4">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12"></div>
-                            <div class="section__title text-center mb-40">
-                                <h3> special deals</h3>
-                            </div>
-                            <!-- Product 1 -->
-                            <div class="col-md-3">
-                                <div class="product-card position-relative p-5" style="  border-radius:15px;">
-                                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
-                                    <div class="card-content-wrapper ">
-                                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-5">
-                                        <div class="product-details">
-                                            <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
-                                            <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
-                                            <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
-                                            <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
-                                            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Product 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
+                    <div class="text-center">
+                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                    </div>
+                    <div class="product-details mt-3">
+                        <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
+                        <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
+                        <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
+                        <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
+                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
-                            <!-- Product 2 -->
-                            <div class="col-md-3">
-                                <div class="product-card position-relative p-5" style="  border-radius:15px;">
-                                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
-                                    <div class="card-content-wrapper">
-                                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img">
-                                        <div class="product-details">
-                                            <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
-                                            <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
-                                            <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
-                                            <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
-                                            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Product 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
+                    <div class="text-center">
+                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                    </div>
+                    <div class="product-details mt-3">
+                        <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
+                        <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
+                        <p class="mb-1 fs-5 fw-bold text-success">3.50 KWD <span class="text-decoration-line-through text-muted fs-6">4.90 KWD</span></p>
+                        <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
+                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
-                            <!-- Product 3 -->
-                            <div class="col-md-3">
-                                <div class="product-card position-relative p-5" style="  border-radius:15px;">
-                                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
-                                    <div class="card-content-wrapper">
-                                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img">
-                                        <div class="product-details">
-                                            <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
-                                            <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
-                                            <p class="mb-1 fs-5 fw-bold text-success">3.50 KWD <span class="text-decoration-line-through text-muted fs-6">4.90 KWD</span></p>
-                                            <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
-                                            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <!-- Product 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
+                    <div class="text-center">
+                        <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                    </div>
+                    <div class="product-details mt-3">
+                        <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
+                        <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
+                        <p class="mb-1 fs-5 fw-bold text-success">1.70 KWD <span class="text-decoration-line-through text-muted fs-6">2.20 KWD</span></p>
+                        <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
+                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- special deals end -->
 
-                            <!-- Product 4 -->
-                            <div class="col-md-3">
-                                <div class="product-card position-relative p-5" style="  border-radius:15px;">
-                                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
-                                    <div class="card-content-wrapper">
-                                        <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img">
-                                        <div class="product-details">
-                                            <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
-                                            <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
-                                            <p class="mb-1 fs-5 fw-bold text-success">1.70 KWD <span class="text-decoration-line-through text-muted fs-6">2.20 KWD</span></p>
-                                            <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
-                                            <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-        </section>
-        <!-- specail deals end -->
 
         <!-- Lifestyle Gadgets  area start -->
         <section class="flash__sell pt-25 pb-40 grey-bg-2">
@@ -5192,64 +5192,92 @@
             <div class="section__head section__title p-3 ">
                 <h3 class="ml-5">Best<span> in Powerbanks</span></h3>
             </div>
-            <div class="unique-deals-grid pt-5">
-                <!-- Deal Item 1 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
-                    <p class="unique-deal-price">Price: 10.50 KWD</p>
-                </div>
-                <!-- Deal Item 2 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-6.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
-                    <p class="unique-deal-price">Price: 55.75 KWD</p>
-                </div>
-                <!-- Promo Banner -->
-                <div class="unique-deal-banner">
-                    <h3 class="unique-banner-title">Daily Deals</h3>
-                    <p class="unique-banner-description">Best Offers from UBUY</p>
-                    <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-                    <button class="unique-banner-button">Shop Now</button>
-                </div>
-                <!-- Deal Item 3 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
-                    <p class="unique-deal-price">Price: 20.00 KWD</p>
-                </div>
-                <!-- Deal Item 4 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
-                    <p class="unique-deal-price">Price: 75.00 KWD</p>
-                </div>
-                <!-- Deal Item 5 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
-                    <p class="unique-deal-price">Price: 45.00 KWD</p>
-                </div>
-                <!-- Deal Item 6 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-                    <p class="unique-deal-price">Price: 40.00 KWD</p>
-                </div>
-                <!-- Deal Item 7 -->
-                <div class="unique-deal-item">
-                    <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
-                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
-                    <p class="unique-deal-price">Price: 40.00 KWD</p>
+            <div class="container pt-5">
+                <div class="row g-3">
+                    <!-- Deal Item 1 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="card">
+                            <img src="assets/img/power-5.webp" class="card-img-top" alt="Monster Energy Drink">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h5>
+                                <p class="card-text">Price: 10.50 KWD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deal Item 2 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="card">
+                            <img src="assets/img/power-6.webp" class="card-img-top" alt="Ring Doorbell">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h5>
+                                <p class="card-text">Price: 55.75 KWD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Promo Banner -->
+                    <div class="col-12 col-lg-3 unique-deal-banner">
+                        <div class="bg-light p-4 text-center">
+                            <h3 class="fw-bold">Daily Deals</h3>
+                            <p class="mb-2">Best Offers from UBUY</p>
+                            <p class="mb-4">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+                            <button class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+
+                    <!-- Deal Item 3 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="">
+                            <img src="assets/img/power-1.webp" class="card-img-top" alt="Makeup Vanity Mirror">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h5>
+                                <p class="card-text">Price: 20.00 KWD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deal Item 4 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="card">
+                            <img src="assets/img/power-2.webp" class="card-img-top" alt="Red Light Therapy Mask">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h5>
+                                <p class="card-text">Price: 75.00 KWD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deal Item 5 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="card">
+                            <img src="assets/img/power-3.webp" class="card-img-top" alt="Amazon Fire HD Tablet">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h5>
+                                <p class="card-text">Price: 45.00 KWD</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deal Item 6 -->
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="card">
+                            <img src="assets/img/power-4.webp" class="card-img-top" alt="Amazon Kids Tablet">
+                            <div class="card-body">
+                                <p class="text-muted">🇺🇸 US Store</p>
+                                <h5 class="card-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h5>
+                                <p class="card-text">Price: 40.00 KWD</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </section>
 
 
