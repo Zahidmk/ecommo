@@ -5500,67 +5500,73 @@
         <!-- subscribe area end -->
 
         <!-- free shipping area start -->
-        <section class="features__area  pt-40 pb-20 pl-10 pr-10">
-            <div class="container">
-                <div class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 gx-0">
-                    <div class="col">
-                        <div class="features__item d-flex white-bg" style=" margin-left:-40px;">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-rocket-launch"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Free Shipping</h6>
-                                <p>Free Shipping On All Order</p>
-                            </div>
-                        </div>
+        <section class="features__area pt-40 pb-20 pl-10 pr-10">
+    <div class="container">
+        <div class="row gx-3 gy-3">
+            <!-- Free Shipping -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="features__item d-flex align-items-center white-bg">
+                    <div class="features__icon mr-15">
+                        <i class="fal fa-rocket-launch"></i>
                     </div>
-                    <div class="col">
-                        <div class="features__item d-flex white-bg" style=" margin-left:-40px;">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-sync"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Money Guarantee</h6>
-                                <p>30 Day Money Back Guarantee</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item d-flex white-bg" style=" margin-left:-40px;">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-user-headset"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Online Support 24/7</h6>
-                                <p>Technical Support Stand By</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item d-flex white-bg" style=" margin-left:-40px;">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-thumbs-up"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Secure Payment</h6>
-                                <p>All Payment Method are accepted</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="features__item features__item-last d-flex white-bg" style=" margin-left:0px;">
-                            <div class="features__icon mr-15">
-                                <i class="fal fa-badge-dollar"></i>
-                            </div>
-                            <div class="features__content">
-                                <h6>Member Discount</h6>
-                                <p>Upto 40% Discount All Products</p>
-                            </div>
-                        </div>
+                    <div class="features__content">
+                        <h6>Free Shipping</h6>
+                        <p>Free Shipping On All Order</p>
                     </div>
                 </div>
             </div>
-        </section>
+            <!-- Money Guarantee -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="features__item d-flex align-items-center white-bg">
+                    <div class="features__icon mr-15">
+                        <i class="fal fa-sync"></i>
+                    </div>
+                    <div class="features__content">
+                        <h6>Money Guarantee</h6>
+                        <p>30 Day Money Back Guarantee</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Online Support -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="features__item d-flex align-items-center white-bg">
+                    <div class="features__icon mr-15">
+                        <i class="fal fa-user-headset"></i>
+                    </div>
+                    <div class="features__content">
+                        <h6>Online Support 24/7</h6>
+                        <p>Technical Support Stand By</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Secure Payment -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="features__item d-flex align-items-center white-bg">
+                    <div class="features__icon mr-15">
+                        <i class="fal fa-thumbs-up"></i>
+                    </div>
+                    <div class="features__content">
+                        <h6>Secure Payment</h6>
+                        <p>All Payment Methods Accepted</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Member Discount -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="features__item d-flex align-items-center white-bg">
+                    <div class="features__icon mr-15">
+                        <i class="fal fa-badge-dollar"></i>
+                    </div>
+                    <div class="features__content">
+                        <h6>Member Discount</h6>
+                        <p>Upto 40% Discount On All Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
         <!-- free shipping area end -->
 
         <!-- back to top btn area start -->
