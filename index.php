@@ -448,118 +448,117 @@
         }
 
 
-        .unique-deals-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            align-items: stretch;
-            zoom: .9
-        }
+       /* Grid Container */
+.unique-deals-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns in one row */
+    gap: 20px;
+    align-items: stretch;
+    zoom: 0.9;
+}
 
-        .unique-deal-item,
-        .unique-deal-banner {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            padding: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+/* Deal Items and Banner */
+.unique-deal-item,
+.unique-deal-banner {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow retained */
+    text-align: center;
+    padding: 15px; /* Ensures consistent padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box; /* Prevents padding from affecting dimensions */
+}
 
-        .unique-deal-banner {
-            grid-column: span 3;
-            /* Spans across two columns */
-            background: url('assets/img/power-bank.jpg') no-repeat center center;
-            background-size: cover;
-            /* Ensures the image covers the entire container */
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            color: #fff;
-            /* Text color to contrast with the background */
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            object-fit: cover;
-        }
+/* Banner Adjustments */
+.unique-deal-banner {
+    grid-column: span 3; /* Spans 3 columns */
+    background: url('assets/img/power-bank.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 30px; /* Adequate padding for larger banner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Reapplies shadow */
+}
 
-        .unique-deal-item img {
-            width: 250px;
-            height: auto;
-            margin-bottom: 10px;
-        }
+/* Text Styles */
+.unique-deal-store {
+    font-size: 12px; /* Smaller, consistent size */
+    margin: 5px 0;
+    color: #999;
+}
 
-        .unique-deal-store {
-            font-size: 12px;
-            margin: 5px 0;
-            color: #999;
-        }
+.unique-deal-title {
+    font-size: 14px; /* Uniform title font size */
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+}
 
-        .unique-deal-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: #333;
-            margin-top: 10px;
-        }
+.unique-deal-price {
+    font-size: 13px;
+    font-weight: bold;
+    color: #e63946;
+    margin: 10px 0;
+}
 
-        .unique-banner-title {
-            color: #e63946;
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
+.unique-banner-title {
+    color: #e63946;
+    font-size: 20px; /* Slightly smaller */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
-        .unique-banner-description {
-            font-size: 14px;
-            color: #444;
-        }
+.unique-banner-description {
+    font-size: 14px; /* Consistent with the deal description */
+    color: #f0f0f0;
+    margin: 5px 0;
+}
 
-        .unique-banner-code {
-            font-size: 16px;
-            font-weight: bold;
-            color: #333;
-            margin: 10px 0;
-        }
+.unique-banner-code {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+}
 
-        .unique-banner-button {
-            background: #e63946;
-            color: #fff;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            font-size: 14px;
-            cursor: pointer;
-        }
+.unique-banner-button {
+    background: #e63946;
+    color: #fff;
+    padding: 10px 20px; /* Balanced padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
 
-        .unique-banner-button:hover {
-            background: #c5303d;
-        }
+.unique-banner-button:hover {
+    background: #c5303d;
+}
 
-        /* Responsive Design */
-        @media (max-width: 992px) {
-            .unique-deals-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .unique-deals-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
 
-            .unique-deal-banner {
-                grid-column: span 2;
-                /* Full width in smaller screens */
-            }
-        }
+    .unique-deal-banner {
+        grid-column: span 2; /* Banner spans 2 columns */
+    }
+}
 
-        @media (max-width: 576px) {
-            .unique-deals-grid {
-                grid-template-columns: 1fr;
-            }
+@media (max-width: 576px) {
+    .unique-deals-grid {
+        grid-template-columns: 1fr; /* Single column for small screens */
+    }
 
-            .unique-deal-banner {
-                grid-column: span 1;
-            }
-        }
+    .unique-deal-banner {
+        grid-column: span 1; /* Banner spans full width */
+    }
+}
+
+
     </style>
 </head>
 
@@ -5193,92 +5192,63 @@
             <div class="section__head section__title p-3 ">
                 <h3 class="ml-5">Best<span> in Powerbanks</span></h3>
             </div>
-            <div class="container pt-5">
-                <div class="row g-3">
-                    <!-- Deal Item 1 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="card">
-                            <img src="assets/img/power-5.webp" class="card-img-top" alt="Monster Energy Drink">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h5>
-                                <p class="card-text">Price: 10.50 KWD</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Deal Item 2 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="card">
-                            <img src="assets/img/power-6.webp" class="card-img-top" alt="Ring Doorbell">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h5>
-                                <p class="card-text">Price: 55.75 KWD</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Promo Banner -->
-                    <div class="col-12 col-lg-3 unique-deal-banner">
-                        <div class="bg-light p-4 text-center">
-                            <h3 class="fw-bold">Daily Deals</h3>
-                            <p class="mb-2">Best Offers from UBUY</p>
-                            <p class="mb-4">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
-                            <button class="btn btn-primary">Shop Now</button>
-                        </div>
-                    </div>
-
-                    <!-- Deal Item 3 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="">
-                            <img src="assets/img/power-1.webp" class="card-img-top" alt="Makeup Vanity Mirror">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h5>
-                                <p class="card-text">Price: 20.00 KWD</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Deal Item 4 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="card">
-                            <img src="assets/img/power-2.webp" class="card-img-top" alt="Red Light Therapy Mask">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h5>
-                                <p class="card-text">Price: 75.00 KWD</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Deal Item 5 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="card">
-                            <img src="assets/img/power-3.webp" class="card-img-top" alt="Amazon Fire HD Tablet">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h5>
-                                <p class="card-text">Price: 45.00 KWD</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Deal Item 6 -->
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="card">
-                            <img src="assets/img/power-4.webp" class="card-img-top" alt="Amazon Kids Tablet">
-                            <div class="card-body">
-                                <p class="text-muted">🇺🇸 US Store</p>
-                                <h5 class="card-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h5>
-                                <p class="card-text">Price: 40.00 KWD</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="unique-deals-grid pt-5">
+                <!-- Deal Item 1 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
+                    <p class="unique-deal-price">Price: 10.50 KWD</p>
+                </div>
+                <!-- Deal Item 2 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-6.webp" alt="Ring Doorbell">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+                    <p class="unique-deal-price">Price: 55.75 KWD</p>
+                </div>
+                <!-- Promo Banner -->
+                <div class="unique-deal-banner">
+                    <h3 class="unique-banner-title">Daily Deals</h3>
+                    <p class="unique-banner-description">Best Offers from UBUY</p>
+                    <p class="unique-banner-code">Get Upto 15% off<br>USE CODE: <strong>UBFIRST</strong></p>
+                    <button class="unique-banner-button">Shop Now</button>
+                </div>
+                <!-- Deal Item 3 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
+                    <p class="unique-deal-price">Price: 20.00 KWD</p>
+                </div>
+                <!-- Deal Item 4 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
+                    <p class="unique-deal-price">Price: 75.00 KWD</p>
+                </div>
+                <!-- Deal Item 5 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
+                    <p class="unique-deal-price">Price: 45.00 KWD</p>
+                </div>
+                <!-- Deal Item 6 -->
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
+                    <p class="unique-deal-price">Price: 40.00 KWD</p>
+                </div>
+                <div class="unique-deal-item">
+                    <img src="assets/img/power-6.webp" alt="Ring Doorbell">
+                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                    <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
+                    <p class="unique-deal-price">Price: 55.75 KWD</p>
                 </div>
             </div>
-
         </section>
 
 

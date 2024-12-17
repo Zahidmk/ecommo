@@ -408,89 +408,41 @@
                                                 </li>
                                             </ul>
 
-                                        <li>
-                                            <a href="product.php">Home & Kitchen <i class="far fa-angle-down"></i></a>
-                                            <ul class="mega-menu" style="top: -500%;">
-                                                <li><a href="product.php">Home</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Lightings</a></li>
-                                                        <li><a href="product-details.php">Furnitures & Decors</a></li>
-                                                        <li><a href="product-details.php">Tools</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Kitchen</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Smart Kitchen Appliances</a></li>
-                                                        <li><a href="product-details.php">Microwaves</a></li>
-                                                        <li><a href="product-details.php">Water Dispenser</a></li>
-                                                        <li><a href="product-details.php">Popcorn Maker</a></li>
-                                                        <li><a href="product-details.php">Candy Maker</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Office</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Stationery</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <img src="sixth.jpg" alt="Uploaded Image" style="width:100%; height:auto;" />
-                                                </li>
-                                                <li><a href="product.php">Cleaning</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Washers & Dryers</a></li>
-                                                        <li><a href="product-details.php">Soap Dispensers</a></li>
-                                                        <li><a href="product-details.php">Vacuum Cleaners & Floor Care</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Air Conditioning</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Fan & Coolers</a></li>
-                                                        <li><a href="product-details.php">Air Coolers</a></li>
-                                                        <li><a href="product-details.php">Air Purifiers</a></li>
-                                                        <li><a href="product-details.php">Aroma Diffusers</a></li>
-                                                        <li><a href="product-details.php">Fans</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Refrigerators</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Display Freezers & Fridges</a></li>
-                                                        <li><a href="product-details.php">Portable Fridges</a></li>
-                                                        <li><a href="product-details.php">Mini Fridges</a></li>
-                                                        <li><a href="product-details.php">Ice Makers</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Small Appliances</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Pet Supplies</a></li>
-                                                        <li><a href="product-details.php">Batteries</a></li>
-                                                        <li><a href="product-details.php">Other Small Appliances</a></li>
-                                                        <li><a href="product-details.php">Air Purifiers & Humidifiers</a></li>
-                                                        <li><a href="product-details.php">Irons & Steamers</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Smart Devices</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Smart Home</a></li>
-                                                        <li><a href="product-details.php">Smart Keychains</a></li>
-                                                        <li><a href="product-details.php">Smart Doorbells</a></li>
-                                                        <li><a href="product-details.php">Smart Sockets</a></li>
-                                                        <li><a href="product-details.php">Other Smart Devices & Accessories</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Smart Major Appliances</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                            <li>
+    <a href="product.php">Health & Beauty <i class="far fa-angle-down"></i></a>
+    <ul class="mega-menu" style="top: -500%;">
+        <li><a href="product.php">Beauty & Cosmetics</a>
+            <ul class="mega-item">
+                <li><a href="product-details.php">Make-Up Organizer</a></li>
+                <li><a href="product-details.php">Makeup Mirrors</a></li>
+                <li><a href="product-details.php">Fragrances & Perfumes</a></li>
+                <li><a href="product-details.php">Manicure & Pedicure</a></li>
+                <li><a href="product-details.php">Hair Styling</a></li>
+                <li><a href="product.php">View All</a></li>
+            </ul>
+        </li>
+        <li><a href="product.php">Health</a>
+            <ul class="mega-item">
+                <li><a href="product-details.php">Medical Care</a></li>
+                <li><a href="product-details.php">Face Masks & Shields</a></li>
+                <li><a href="product-details.php">Massage & Relaxation</a></li>
+                <li><a href="product-details.php">Digital Body Scales</a></li>
+                <li><a href="product-details.php">Baby Care</a></li>
+                <li><a href="product.php">View All</a></li>
+            </ul>
+        </li>
+        <li><a href="product.php">Fitness</a>
+            <ul class="mega-item">
+                <li><a href="product-details.php">Other Fitness</a></li>
+                <li><a href="product-details.php">Home Gyms</a></li>
+                <li><a href="product-details.php">Health & Fitness Equipment</a></li>
+                <li><a href="product-details.php">Flexibility & Recovery</a></li>
+                <li><a href="product.php">View All</a></li>
+            </ul>
+        </li>
+    </ul>
+</li>
+
 
                                         <li>
                                             <a href="product.php">Offroad & Automotives <i class="far fa-angle-down"></i></a>
@@ -576,62 +528,17 @@
                                             </ul>
 
                                         <li>
-                                            <a href="product.php">Offroad & Automotives <i class="far fa-angle-down"></i></a>
+                                            <a href="product.php">Sports Goods <i class="far fa-angle-down"></i></a>
                                             <ul class="mega-menu" style="top: -820%;">
-                                                <li><a href="product.php">Car Electronics</a>
+                                                <li><a href="product.php">Activities</a>
                                                     <ul class="mega-item">
-                                                        <li><a href="product-details.php">Camera & Sensor</a></li>
-                                                        <li><a href="product-details.php">Jump Starters</a></li>
-                                                        <li><a href="product-details.php">Tire Gauge</a></li>
-                                                        <li><a href="product-details.php">Car Multimedia</a></li>
-                                                        <li><a href="product-details.php">Mobile Mounts & Chargers</a></li>
+                                                        <li><a href="product-details.php">Swimming</a></li>
+                                                        <li><a href="product-details.php">Cycling</a></li>
+                                                      
                                                         <li><a href="product.php">View All</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="product.php">Car Interior</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Interior Care</a></li>
-                                                        <li><a href="product-details.php">Interior Light</a></li>
-                                                        <li><a href="product-details.php">Car Organizers</a></li>
-                                                        <li><a href="product-details.php">Seat Covers & Upholstery</a></li>
-                                                        <li><a href="product-details.php">Other Interior</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Car Exterior</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Exterior Care</a></li>
-                                                        <li><a href="product-details.php">Compressor & Inflators</a></li>
-                                                        <li><a href="product-details.php">Frame & Plates</a></li>
-                                                        <li><a href="product-details.php">Wiper Blades</a></li>
-                                                        <li><a href="product-details.php">Car Covers</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <img src="nine.jpg" alt="Offroad and Automotives Image" style="width:100%; height:auto;" />
-                                                </li>
-                                                <li><a href="product.php">Offroad</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Camping, Outdoor and Tools</a></li>
-                                                        <li><a href="product-details.php">Power Generators</a></li>
-                                                        <li><a href="product-details.php">Jerry Can & Holder</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Auto Detailing</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Car Wash</a></li>
-                                                        <li><a href="product-details.php">Polishing Materials</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="product.php">Car Lightings</a>
-                                                    <ul class="mega-item">
-                                                        <li><a href="product-details.php">Headlight</a></li>
-                                                        <li><a href="product.php">View All</a></li>
-                                                    </ul>
-                                                </li>
+                                               
                                             </ul>
 
 
@@ -656,7 +563,7 @@
                                         <a href="index.php" style="color:WHITE">Home </i></a>
 
                                     </li>
-                                    <li><a href="features" style="color:WHITE">Features <i class="far fa-angle-dow"></i></a>
+                                  
                                         <!-- <ul class="submenu">
                                                     <li><a href="product.php">Product Type</a></li>
                                                     <li><a href="product.php">Product Features <i class="far fa-angle-down"></i></a>
@@ -701,14 +608,14 @@
                 <div class="col-xl-3 col-lg-3  col-sm-6  col-6 d-md-none d-lg-block">
                     <div class="header__bottom-right d-flex justify-content-end">
 
-                        <div class="header__lang d-md-none d-lg-block">
+                        <!-- <div class="header__lang d-md-none d-lg-block">
                             <select>
                                 <option>English</option>
 
                                 <option>Arabic</option>
 
                             </select>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
