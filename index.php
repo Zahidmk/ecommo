@@ -3343,87 +3343,87 @@
         </div>
         <!-- logos scroll end -->
 
-       <!-- special deals start -->
-<section>
-    <div class="container my-5">
-        <div class="row g-4">
-            <div class="col-xl-12">
-                <div class="section__title text-center mb-40">
-                    <h3>Special Deals</h3>
-                </div>
-            </div>
+        <!-- special deals start -->
+        <section>
+            <div class="container my-5">
+                <div class="row g-4">
+                    <div class="col-xl-12">
+                        <div class="section__title text-center mb-40">
+                            <h3>Special Deals</h3>
+                        </div>
+                    </div>
 
-            <!-- Product 1 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
-                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
-                    <div class="text-center">
-                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-3 img-fluid">
+                    <!-- Product 1 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
+                            <div class="text-center">
+                                <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-3 img-fluid">
+                            </div>
+                            <div class="product-details mt-3">
+                                <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
+                                <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
+                                <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
+                                <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
+                                <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-details mt-3">
-                        <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
-                        <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
-                        <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
-                        <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
-                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Product 2 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
-                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
-                    <div class="text-center">
-                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                    <!-- Product 2 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
+                            <div class="text-center">
+                                <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                            </div>
+                            <div class="product-details mt-3">
+                                <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
+                                <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
+                                <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
+                                <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
+                                <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-details mt-3">
-                        <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
-                        <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
-                        <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
-                        <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
-                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Product 3 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
-                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
-                    <div class="text-center">
-                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                    <!-- Product 3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
+                            <div class="text-center">
+                                <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                            </div>
+                            <div class="product-details mt-3">
+                                <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
+                                <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
+                                <p class="mb-1 fs-5 fw-bold text-success">3.50 KWD <span class="text-decoration-line-through text-muted fs-6">4.90 KWD</span></p>
+                                <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
+                                <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-details mt-3">
-                        <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
-                        <h5 class="text-truncate mb-2">Milk chocolate + <br> Pancake mix combo</h5>
-                        <p class="mb-1 fs-5 fw-bold text-success">3.50 KWD <span class="text-decoration-line-through text-muted fs-6">4.90 KWD</span></p>
-                        <p class="text-muted mb-3">Available: <span class="fw-bold">29088 Products</span></p>
-                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Product 4 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
-                    <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
-                    <div class="text-center">
-                        <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img img-fluid">
-                    </div>
-                    <div class="product-details mt-3">
-                        <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
-                        <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
-                        <p class="mb-1 fs-5 fw-bold text-success">1.70 KWD <span class="text-decoration-line-through text-muted fs-6">2.20 KWD</span></p>
-                        <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
-                        <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                    <!-- Product 4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
+                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
+                            <div class="text-center">
+                                <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                            </div>
+                            <div class="product-details mt-3">
+                                <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
+                                <h5 class="text-truncate mb-2">Yoga bar protein <br> nutrition bar combo</h5>
+                                <p class="mb-1 fs-5 fw-bold text-success">1.70 KWD <span class="text-decoration-line-through text-muted fs-6">2.20 KWD</span></p>
+                                <p class="text-muted mb-3">Available: <span class="fw-bold">593 Products</span></p>
+                                <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- special deals end -->
+        </section>
+        <!-- special deals end -->
 
 
         <!-- Lifestyle Gadgets  area start -->
@@ -5148,12 +5148,12 @@
                 <div class="col-md-4">
 
                     <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header orange">RECEIVE 20% OFF<br>Featured products</div>
+                        <div class="section-header orange">RECEIVE 20% OFF ON <br>Featured products</div>
                         <!-- Product 1 -->
                         <div class="product p-4 ">
                             <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
                             <div class="product-details">
-                                <div class="product-name">NescafeEEEE gold blend coffee</div>
+                                <div class="product-name">Nescafe gold blend coffee</div>
                                 <div class="text-warning">★★★★★</div>
                                 <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
                             </div>
@@ -5178,6 +5178,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -5609,113 +5610,128 @@
 
 
         <!-- shop modal start -->
-        <div class="modal fade" id="productModalId" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered product__modal" role="document">
+        <!-- Shop Modal -->
+        <div class="modal fade" id="productModalId" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
-                    <div class="product__modal-wrapper p-relative">
-                        <div class="product__modal-close p-absolute">
-                            <button data-bs-dismiss="modal"><i class="fal fa-times"></i></button>
+                    <div class="product__modal-wrapper position-relative">
+                        <!-- Close Button -->
+                        <div class="product__modal-close position-absolute top-0 end-0 p-3">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+
                         <div class="product__modal-inner">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <!-- Product Images Column - Reordered for responsiveness -->
+                                <div class="col-12 col-md-6 order-md-1">
                                     <div class="product__modal-box">
+                                        <!-- Tab Content for Main Images -->
                                         <div class="tab-content" id="modalTabContent">
-                                            <div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav1-tab">
-                                                <div class="product__modal-img w-img">
-                                                    <img src="assets/img/shop/product/quick-view/quick-view-1.jpg" alt="">
+                                            <div class="tab-pane fade show active" id="nav1" role="tabpanel">
+                                                <div class="product__modal-img">
+                                                    <img src="assets/img/shop/product/quick-view/quick-view-1.jpg" alt="Product Image 1" class="img-fluid">
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav2-tab">
-                                                <div class="product__modal-img w-img">
-                                                    <img src="assets/img/shop/product/quick-view/quick-view-2.jpg" alt="">
+                                            <div class="tab-pane fade" id="nav2" role="tabpanel">
+                                                <div class="product__modal-img">
+                                                    <img src="assets/img/shop/product/quick-view/quick-view-2.jpg" alt="Product Image 2" class="img-fluid">
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav3-tab">
-                                                <div class="product__modal-img w-img">
-                                                    <img src="assets/img/shop/product/quick-view/quick-view-3.jpg" alt="">
+                                            <div class="tab-pane fade" id="nav3" role="tabpanel">
+                                                <div class="product__modal-img">
+                                                    <img src="assets/img/shop/product/quick-view/quick-view-3.jpg" alt="Product Image 3" class="img-fluid">
                                                 </div>
                                             </div>
-                                            <div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav4-tab">
-                                                <div class="product__modal-img w-img">
-                                                    <img src="assets/img/shop/product/quick-view/quick-view-4.jpg" alt="">
+                                            <div class="tab-pane fade" id="nav4" role="tabpanel">
+                                                <div class="product__modal-img">
+                                                    <img src="assets/img/shop/product/quick-view/quick-view-4.jpg" alt="Product Image 4" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul class="nav nav-tabs" id="modalTab" role="tablist">
+
+                                        <!-- Navigation Thumbnails -->
+                                        <ul class="nav nav-tabs mt-3 justify-content-center" id="modalTab" role="tablist">
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link active" id="nav1-tab" data-bs-toggle="tab" data-bs-target="#nav1" type="button" role="tab" aria-controls="nav1" aria-selected="true">
-                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-1.jpg" alt="">
+                                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#nav1">
+                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-1.jpg" alt="Thumbnail 1" class="img-thumbnail">
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="nav2-tab" data-bs-toggle="tab" data-bs-target="#nav2" type="button" role="tab" aria-controls="nav2" aria-selected="false">
-                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-2.jpg" alt="">
+                                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#nav2">
+                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-2.jpg" alt="Thumbnail 2" class="img-thumbnail">
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="nav3-tab" data-bs-toggle="tab" data-bs-target="#nav3" type="button" role="tab" aria-controls="nav3" aria-selected="false">
-                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-3.jpg" alt="">
+                                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#nav3">
+                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-3.jpg" alt="Thumbnail 3" class="img-thumbnail">
                                                 </button>
                                             </li>
                                             <li class="nav-item" role="presentation">
-                                                <button class="nav-link" id="nav4-tab" data-bs-toggle="tab" data-bs-target="#nav4" type="button" role="tab" aria-controls="nav4" aria-selected="false">
-                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-4.jpg" alt="">
+                                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#nav4">
+                                                    <img src="assets/img/shop/product/quick-view/nav/quick-nav-4.jpg" alt="Thumbnail 4" class="img-thumbnail">
                                                 </button>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                    <div class="product__modal-content">
-                                        <h4><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h4>
-                                        <div class="product__modal-des mb-40">
-                                            <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt </p>
+
+                                <!-- Product Details Column - Reordered for responsiveness -->
+                                <div class="col-12 col-md-6 order-md-2">
+                                    <div class="product__modal-content p-3">
+                                        <h4 class="mb-3"><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h4>
+
+                                        <div class="product__modal-des mb-3">
+                                            <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt</p>
                                         </div>
-                                        <div class="product__stock">
-                                            <span>Availability :</span>
-                                            <span>In Stock</span>
+
+                                        <div class="product__stock mb-2">
+                                            <span class="fw-bold">Availability:</span>
+                                            <span class="text-success">In Stock</span>
                                         </div>
-                                        <div class="product__stock sku mb-30">
-                                            <span>SKU:</span>
+
+                                        <div class="product__stock sku mb-3">
+                                            <span class="fw-bold">SKU:</span>
                                             <span>Samsung C49J89: £875, Debenhams Plus</span>
                                         </div>
-                                        <div class="product__review d-sm-flex">
-                                            <div class="rating rating__shop mb-15 mr-35">
-                                                <ul>
-                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fal fa-star"></i></a></li>
+
+                                        <div class="product__review d-flex align-items-center mb-3">
+                                            <div class="rating me-3">
+                                                <ul class="d-flex">
+                                                    <li><i class="fas fa-star text-warning"></i></li>
+                                                    <li><i class="fas fa-star text-warning"></i></li>
+                                                    <li><i class="fas fa-star text-warning"></i></li>
+                                                    <li><i class="fas fa-star text-warning"></i></li>
+                                                    <li><i class="fas fa-star text-warning"></i></li>
                                                 </ul>
                                             </div>
-                                            <div class="product__add-review mb-15">
-                                                <span><a href="#">1 Review</a></span>
-                                                <span><a href="#">Add Review</a></span>
+                                            <div class="product__add-review">
+                                                <a href="#" class="me-2">1 Review</a>
+                                                <a href="#">Add Review</a>
                                             </div>
                                         </div>
-                                        <div class="product__price">
-                                            <span>$560.00</span>
+
+                                        <div class="product__price mb-3">
+                                            <span class="h4 text-primary">$560.00</span>
                                         </div>
-                                        <div class="product__modal-form mb-30">
+
+                                        <div class="product__modal-form mb-3">
                                             <form action="#">
-                                                <div class="pro-quan-area d-lg-flex align-items-center">
-                                                    <div class="product-quantity mr-20 mb-25">
-                                                        <div class="cart-plus-minus p-relative"><input type="text" value="1" /></div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="me-3">
+                                                        <input type="number" class="form-control" value="1" min="1" style="width: 80px;">
                                                     </div>
-                                                    <div class="pro-cart-btn mb-25">
-                                                        <button class="t-y-btn" type="submit">Add to cart</button>
+                                                    <div>
+                                                        <button class="btn btn-primary" type="submit">Add to cart</button>
                                                     </div>
                                                 </div>
                                             </form>
                                         </div>
-                                        <div class="product__modal-links">
-                                            <ul>
-                                                <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
 
-                                                <li><a href="#" title="Print"><i class="fal fa-print"></i></a></li>
-                                                <li><a href="#" title="Print"><i class="fal fa-share-alt"></i></a></li>
+                                        <div class="product__modal-links">
+                                            <ul class="d-flex">
+                                                <li><a href="#" title="Add to Wishlist" class="text-decoration-none"><i class="far fa-heart"></i> Wishlist</a></li>
+                                                <li><a href="#" title="Print" class="text-decoration-none"><i class="fas fa-print"></i> Print</a></li>
+                                                <li><a href="#" title="Share" class="text-decoration-none"><i class="fas fa-share-alt"></i> Share</a></li>
                                             </ul>
                                         </div>
                                     </div>

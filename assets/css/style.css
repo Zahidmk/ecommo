@@ -1219,6 +1219,57 @@ p {
   border-top-color: transparent;
   border-bottom-color: #0066c0;
 }
+.product__modal-box {
+  margin-bottom: 20px;
+}
+.product__modal-img img {
+  width: 100%;
+  height: auto;
+}
+.nav-tabs .nav-link img {
+  max-width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+.product__review ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.product__review ul li {
+  margin-right: 5px;
+}
+.product__modal-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+ /* Hide sections based on screen size */
+ @media (max-width: 576px) {
+  /* Small devices: show only 1 section */
+  .modal-dialog .row > div:nth-child(n+2) {
+      display: none !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  /* Medium devices: show first 2 sections */
+  .modal-dialog .row > div:nth-child(n+3) {
+      display: none !important;
+  }
+}
+
+.product__modal-img img {
+  width: 100%;
+  height: auto;
+}
+.nav-tabs .nav-link img {
+  max-width: 100px;
+  height: auto;
+  cursor: pointer;
+}
 
 /*----------------------------------------*/
 /*  00. OFF CANVAS CSS START
