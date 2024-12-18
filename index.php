@@ -42,11 +42,16 @@
 
 
 
-        .product-img {
-            width: 80px;
-            /* Small image */
-            height: auto;
-        }
+        .product-img-container {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Optional, centers horizontally too */
+    height: 50%; /* Ensure the container has a height */
+    margin-top: 50%;
+}
+
+
+
 
         .sale-badge {
             position: absolute;
@@ -525,13 +530,16 @@
 .unique-banner-button {
     background: #e63946;
     color: #fff;
-    padding: 10px 20px; /* Balanced padding */
+    padding: 9px 18px; /* Smaller padding for reduced size */
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
     transition: background 0.3s ease-in-out;
+    display: inline-block; /* Ensure the button is treated as an inline-block element */
+    margin: 0 auto; /* Center alignment if its container uses `text-align: center` */
 }
+
 
 .unique-banner-button:hover {
     background: #c5303d;
@@ -557,6 +565,10 @@
         grid-column: span 1; /* Banner spans full width */
     }
 }
+
+
+
+
 
 
     </style>
@@ -818,18 +830,19 @@
                                         <img src="assets/img/hero-1.jpg" alt="slider">
                                     </div>
                                     <div class="single-slider single-slider-4 w-img" style="border-radius:15px;">
-                                        <img src="assets/img/hero-1.1.jpg" alt="slider">
+                                        <img src="assets/img/
+                                        " alt="slider">
                                     </div>
                                 </div>
                             </div>
-                            <!-- Second Box -->
                             <div class="col-xxl-4 col-lg-12 col-md-4 col-sm-12">
-                                <div class="banner__item w-img" style="height: 100%; margin-top:-7px; border-radius:15px; overflow: hidden;">
-                                    <a href="product-details.html">
-                                        <img src="assets/img/hero-1.jpg" alt="" style="width: 100%; height: 98%; object-fit: cover; border-radius: 15px;">
-                                    </a>
-                                </div>
-                            </div>
+    <div class="banner__item w-img" id="carousel" style="height: 100%; margin-top:-7px; border-radius:15px; overflow: hidden;">
+        <a href="product-details.html">
+            <img src="assets/img/hero-1.jpg" alt="Image 1" class="carousel-image" style="width: 100%; height: 96%; object-fit: cover; border-radius: 15px; margin-top:8px;">
+        </a>
+    </div>
+</div>
+
 
                         </div>
                     </div>
@@ -898,21 +911,21 @@
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="banner__item mb-30 w-img position-relative">
-                            <a href="product-details.html"><img src="assets/img/top-2.jpg" alt="" style=" border-radius:15px;"></a>
+                            <a href="product-details.html"><img src="assets/img/free-gift.jpg" alt="" style=" border-radius:15px; height:165px;"></a>
                             <div class="banner__content">
-                                <h3>Upgrade <BR> Your Gear</h3>
+                                <!-- <h3>Upgrade <BR> Your Gear</h3>
 
-                                <a href="product-details.php" class="shop-now-btn">Shop Now</a>
+                                <a href="product-details.php" class="shop-now-btn">Shop Now</a> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="banner__item mb-30 w-img position-relative">
-                            <a href="product-details.html"><img src="assets/img/top-3.jpg" alt="" style=" border-radius:15px;"></a>
+                            <a href="product-details.html"><img src="assets/img/iphone13.jpg" alt="" style=" border-radius:15px; height:165px;"></a>
                             <div class="banner__content">
-                                <h3>Smart TVs & <BR> Accessories</h3>
+                                <!-- <h3>Smart TVs & <BR> Accessories</h3>
 
-                                <a href="product-details.php" class="shop-now-btn">Shop Now</a>
+                                <a href="product-details.php" class="shop-now-btn">Shop Now</a> -->
                             </div>
                         </div>
                     </div>
@@ -1964,14 +1977,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-1.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-1.web" alt="product">
+                                                        <img src="assets/img/for-1.webp" alt="product">
+                                                        <img class="second-img" src="assets/img/for-1.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1992,14 +2005,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-2.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-2.webp" alt="product">
+                                                        <img src="assets/img/for-2.jpg" alt="product">
+                                                        <img class="second-img" src="assets/img/for-2.jpg" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2022,14 +2035,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-3.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-3.webp" alt="product">
+                                                        <img src="assets/img/for700-1.webp" alt="product">
+                                                        <img class="second-img" src="assets/img/for700-1.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2050,14 +2063,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-4.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-4.webp" alt="product">
+                                                        <img src="assets/img/for700-2.webp" alt="product">
+                                                        <img class="second-img" src="assets/img/for700-2.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2080,14 +2093,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/jbl.webp" alt="product">
+                                                        <img src="assets/img/jbl.webp" alt="product" style="height:628px;">
                                                         <img class="second-img" src="assets/img/jbl.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2111,14 +2124,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-5.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-5.webp" alt="product">
+                                                        <img src="assets/img/for700-3.webp" alt="product">
+                                                        <img class="second-img" src="assets/img/for700-3.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2139,14 +2152,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-6.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-6.webp" alt="product">
+                                                        <img src="assets/img/for-8.jpeg" alt="product">
+                                                        <img class="second-img" src="assets/img/for-8.jpeg" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2169,14 +2182,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-7.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-7.webp" alt="product">
+                                                        <img src="assets/img/for-6.jpg" alt="product">
+                                                        <img class="second-img" src="assets/img/for-6.jpg" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2197,14 +2210,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-8.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-8.webp" alt="product">
+                                                        <img src="assets/img/for-7.webp" alt="product">
+                                                        <img class="second-img" src="assets/img/for-7.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2231,14 +2244,14 @@
                                             <div class="product__item white-bg" style="  border-radius:15px;">
                                                 <div class="product__thumb p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/L-9.webp" alt="product">
-                                                        <img class="second-img" src="assets/img/L-9.webp" alt="product">
+                                                        <img src="assets/img/for-8.jpeg" alt="product">
+                                                        <img class="second-img" src="assets/img/for-8.jpeg" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2266,7 +2279,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                     
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2296,7 +2309,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2324,7 +2337,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                    
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2354,7 +2367,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                      
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2385,7 +2398,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2413,7 +2426,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2443,7 +2456,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                        
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2471,7 +2484,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                        
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2505,7 +2518,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                   
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2533,7 +2546,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2563,7 +2576,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                          
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2591,7 +2604,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                     
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2621,7 +2634,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -2652,7 +2665,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3352,29 +3365,33 @@
                         </div>
                     </div>
 
-                    <!-- Product 1 -->
+                   
+
+
+
                     <div class="col-md-6 col-lg-3">
                         <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
-                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 44%</div>
+                            <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
                             <div class="text-center">
-                                <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img mt-3 img-fluid">
+                                <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-img-container img-fluid">
                             </div>
                             <div class="product-details mt-3">
-                                <h6 class="fw-bold text-uppercase text-secondary">ACME</h6>
-                                <h5 class="text-truncate mb-2">Saffola healthy <br> classic masala oats</h5>
-                                <p class="mb-1 fs-5 fw-bold text-success">4.40 KWD <span class="text-decoration-line-through text-muted fs-6">7.80 KWD</span></p>
-                                <p class="text-muted mb-3">Available: <span class="fw-bold">586 Products</span></p>
+                                <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
+                                <h5 class="text-truncate mb-2">Yoga bar chunk nut, <br> Yoga bar nutty bar</h5>
+                                <p class="mb-1 fs-5 fw-bold text-success">2.60 KWD <span class="text-decoration-line-through text-muted fs-6">3.20 KWD</span></p>
+                                <p class="text-muted mb-3">Available: <span class="fw-bold">2063 Products</span></p>
                                 <button class="btn btn-success w-100 fw-bold">Add to Cart</button>
                             </div>
                         </div>
                     </div>
+
 
                     <!-- Product 2 -->
                     <div class="col-md-6 col-lg-3">
                         <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
                             <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 19%</div>
                             <div class="text-center">
-                                <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                                <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-img-container img-fluid">
                             </div>
                             <div class="product-details mt-3">
                                 <h6 class="fw-bold text-uppercase text-secondary">HAMOFY</h6>
@@ -3391,7 +3408,7 @@
                         <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
                             <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 29%</div>
                             <div class="text-center">
-                                <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                                <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-img-container img-fluid">
                             </div>
                             <div class="product-details mt-3">
                                 <h6 class="fw-bold text-uppercase text-secondary">HURRY</h6>
@@ -3408,7 +3425,7 @@
                         <div class="product-card position-relative p-4 h-100" style="border-radius:15px;">
                             <div class="sale-badge bg-danger text-white rounded-pill px-3 py-1 small">SALE 23%</div>
                             <div class="text-center">
-                                <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img img-fluid">
+                                <img src="assets/img/grosery-product-14.webp.jpg" alt="Product Image" class="product-img-container img-fluid">
                             </div>
                             <div class="product-details mt-3">
                                 <h6 class="fw-bold text-uppercase text-secondary">MASSIVE</h6>
@@ -3473,7 +3490,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3501,7 +3518,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                 
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3559,7 +3576,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                       
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3582,14 +3599,15 @@
                                             <div class="product__item white-bg" style="  border-radius:15px; ">
                                                 <div class="product__thumb product__thumb-big pb-15 p-relative">
                                                     <a href="product-details.html" class="w-img">
-                                                        <img src="assets/img/jbl.webp" alt="product">
+                                                        <img src="assets/img/jbl.webp" alt="product" style="height:628px;"
+                                                        >
                                                         <img class="second-img" src="assets/img/jbl.webp" alt="product">
                                                     </a>
                                                     <div class="product__action p-absolute">
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                       
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3620,7 +3638,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                      
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3648,7 +3666,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                       
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3678,7 +3696,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                      
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3706,7 +3724,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                            
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3740,7 +3758,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3768,7 +3786,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                      
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3798,7 +3816,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                           
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3826,7 +3844,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                         
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3856,7 +3874,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                     
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3887,7 +3905,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                        
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -3915,7 +3933,7 @@
                                                         <ul>
                                                             <li><a href="#" title="Add to Wishlist"><i class="fal fa-heart"></i></a></li>
                                                             <li><a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#productModalId"><i class="fal fa-search"></i></a></li>
-                                                            <li><a href="#" title="Compare"><i class="far fa-sliders-h"></i></a></li>
+                                                      
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -5072,114 +5090,128 @@
 
 
         <div class="container my-5">
-            <div class="row g-4">
-                <!-- Section 1 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Nescafe gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
+    <div class="row g-4">
+        <!-- Section 1 -->
+        <div class="col-md-4">
+            <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
+                <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
+                <!-- Product 1 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Nescafe gold blend coffee</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
                     </div>
                 </div>
-
-                <!-- Section 2 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Nescafe gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
+                <!-- Product 2 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Carnitos nacho crisps</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
                     </div>
                 </div>
-
-                <!-- Section 3 -->
-                <div class="col-md-4">
-
-                    <div class="product-list  " style=" box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); ">
-                        <div class="section-header orange">RECEIVE 20% OFF ON <br>Featured products</div>
-                        <!-- Product 1 -->
-                        <div class="product p-4 ">
-                            <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Nescafe gold blend coffee</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 2 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Carnitos nacho crisps</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
-                            </div>
-                        </div>
-                        <!-- Product 3 -->
-                        <div class="product p-4">
-                            <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
-                            <div class="product-details">
-                                <div class="product-name">Organic quinoa flour</div>
-                                <div class="text-warning">★★★★★</div>
-                                <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
-                            </div>
-                        </div>
+                <!-- Product 3 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Organic quinoa flour</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
                     </div>
                 </div>
-
             </div>
         </div>
+
+        <!-- Section 2 -->
+        <div class="col-md-4">
+            <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
+                <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
+                <!-- Product 1 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Nescafe gold blend coffee</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Carnitos nacho crisps</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Organic quinoa flour</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="col-md-4">
+            <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
+                <div class="section-header orange">RECEIVE 20% OFF ON <br>Featured products</div>
+                <!-- Product 1 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-11.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Nescafe gold blend coffee</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,600.00</span></div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-12.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Carnitos nacho crisps</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 600.00 <span class="old-price">Rs. 700.00</span></div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product p-4">
+                    <a href="product-details.php">
+                        <img src="assets/img/grosery-product-13.webp.jpg" alt="Product Image" class="product-image">
+                    </a>
+                    <div class="product-details">
+                        <div class="product-name">Organic quinoa flour</div>
+                        <div class="text-warning">★★★★★</div>
+                        <div class="price">KWD 1,300.00 <span class="old-price">Rs. 1,700.00</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -5196,14 +5228,14 @@
                 <!-- Deal Item 1 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-5.webp" alt="Monster Energy Drink">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                  
                     <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
                     <p class="unique-deal-price">Price: 10.50 KWD</p>
                 </div>
                 <!-- Deal Item 2 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-6.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                  
                     <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
                     <p class="unique-deal-price">Price: 55.75 KWD</p>
                 </div>
@@ -5217,34 +5249,34 @@
                 <!-- Deal Item 3 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-1.webp" alt="Makeup Vanity Mirror">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+              
                     <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
                     <p class="unique-deal-price">Price: 20.00 KWD</p>
                 </div>
                 <!-- Deal Item 4 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-2.webp" alt="Red Light Therapy Mask">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+               
                     <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
                     <p class="unique-deal-price">Price: 75.00 KWD</p>
                 </div>
                 <!-- Deal Item 5 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-3.webp" alt="Amazon Fire HD Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+              
                     <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
                     <p class="unique-deal-price">Price: 45.00 KWD</p>
                 </div>
                 <!-- Deal Item 6 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/power-4.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+         
                     <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
                     <p class="unique-deal-price">Price: 40.00 KWD</p>
                 </div>
                 <div class="unique-deal-item">
                     <img src="assets/img/power-6.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+               
                     <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
                     <p class="unique-deal-price">Price: 55.75 KWD</p>
                 </div>
@@ -5267,49 +5299,49 @@
                 <!-- Deal Item 1 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-1.webp" alt="Monster Energy Drink">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+           
                     <h3 class="unique-deal-title">Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 Fl Oz (Pack of 15)</h3>
                     <p class="unique-deal-price">Price: 10.50 KWD</p>
                 </div>
                 <!-- Deal Item 2 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-2.webp" alt="Ring Doorbell">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+               
                     <h3 class="unique-deal-title">Ring Battery Doorbell with Ring Indoor Cam 2nd Gen (Black)</h3>
                     <p class="unique-deal-price">Price: 55.75 KWD</p>
                 </div>
                 <!-- Deal Item 3 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-3.webp" alt="Makeup Vanity Mirror">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                
                     <h3 class="unique-deal-title">Rechargeable Wall Mounted Lighted Makeup Vanity Mirror</h3>
                     <p class="unique-deal-price">Price: 20.00 KWD</p>
                 </div>
                 <!-- Deal Item 4 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-4.webp" alt="Red Light Therapy Mask">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+            
                     <h3 class="unique-deal-title">LED Facial Mask, Blue Red Light Therapy with Remote Control</h3>
                     <p class="unique-deal-price">Price: 75.00 KWD</p>
                 </div>
                 <!-- Deal Item 5 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-5.webp" alt="Amazon Fire HD Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                   
                     <h3 class="unique-deal-title">Amazon Fire HD 10 tablet (newest model) built for relaxation</h3>
                     <p class="unique-deal-price">Price: 45.00 KWD</p>
                 </div>
                 <!-- Deal Item 6 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+                 
                     <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
                     <p class="unique-deal-price">Price: 40.00 KWD</p>
                 </div>
                 <!-- Deal Item 7 -->
                 <div class="unique-deal-item">
                     <img src="assets/img/cover-6.webp" alt="Amazon Kids Tablet">
-                    <p class="unique-deal-store">🇺🇸 US Store</p>
+            
                     <h3 class="unique-deal-title">Amazon Fire 10 Kids tablet with ad-free content and parental controls</h3>
                     <p class="unique-deal-price">Price: 40.00 KWD</p>
                 </div>
@@ -5502,9 +5534,9 @@
         <!-- free shipping area start -->
         <section class="features__area pt-40 pb-20 pl-10 pr-10">
     <div class="container">
-        <div class="row gx-3 gy-3">
+        <div class="row gx-3 gy-3 justify-content-center">
             <!-- Free Shipping -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto">
                 <div class="features__item d-flex align-items-center white-bg">
                     <div class="features__icon mr-15">
                         <i class="fal fa-rocket-launch"></i>
@@ -5516,7 +5548,7 @@
                 </div>
             </div>
             <!-- Money Guarantee -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto">
                 <div class="features__item d-flex align-items-center white-bg">
                     <div class="features__icon mr-15">
                         <i class="fal fa-sync"></i>
@@ -5528,7 +5560,7 @@
                 </div>
             </div>
             <!-- Online Support -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto">
                 <div class="features__item d-flex align-items-center white-bg">
                     <div class="features__icon mr-15">
                         <i class="fal fa-user-headset"></i>
@@ -5540,7 +5572,7 @@
                 </div>
             </div>
             <!-- Secure Payment -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto">
                 <div class="features__item d-flex align-items-center white-bg">
                     <div class="features__icon mr-15">
                         <i class="fal fa-thumbs-up"></i>
@@ -5552,7 +5584,7 @@
                 </div>
             </div>
             <!-- Member Discount -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto">
                 <div class="features__item d-flex align-items-center white-bg">
                     <div class="features__icon mr-15">
                         <i class="fal fa-badge-dollar"></i>
@@ -5773,7 +5805,26 @@
     </script>
 
 
+<script>
+    // Image Array
+    const images = [
+        "assets/img/hero-1.jpg",
+        "assets/img/hero-2.jpg",
+        "assets/img/hero-1.1.jpg"
+    ];
 
+    let currentImageIndex = 0;
+    const carouselElement = document.querySelector("#carousel .carousel-image");
+
+    // Function to change image
+    function changeImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        carouselElement.src = images[currentImageIndex];
+    }
+
+    // Automatically change image every 3 seconds
+    setInterval(changeImage, 3000);
+</script>
 
 
     <script>

@@ -34,7 +34,7 @@
     <!-- Become a Seller Section -->
     <div class="d-flex align-items-center mb-2 me-3">
         <a href="wishlist.php" class="text-black text-decoration-none d-flex align-items-center">
-            <i class="fas fa-dollar-sign me-2" style="font-size: 20px;"></i>
+            <!-- <i class="fas fa-dollar-sign me-2" style="font-size: 20px;"></i> -->
             <span class="d-none d-lg-inline" style="font-size: 14px;">Become a Seller</span>
         </a>
     </div>
@@ -56,7 +56,7 @@
     <div class="d-flex align-items-center mb-2">
         <a href="cart.php" class="text-black text-decoration-none d-flex align-items-center">
             <i class="fal fa-shopping-bag me-2" style="font-size: 20px;"></i>
-            <span class="d-none d-lg-inline" style="font-size: 14px;">Cart: Rs. 0.00</span>
+            <span class="d-none d-lg-inline" style="font-size: 14px;">Cart</span>
         </a>
     </div>
 </div>
