@@ -566,6 +566,17 @@
     }
 }
 
+/* Specific adjustment for iPad Pro in landscape (greater than 992px but less than 1366px) */
+@media (min-width: 993px) and (max-width: 1366px) {
+    .unique-deals-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for wider screens */
+    }
+
+    .unique-deal-banner {
+        grid-column: span 3; /* Banner spans all 3 columns */
+    }
+}
+
 
 
 

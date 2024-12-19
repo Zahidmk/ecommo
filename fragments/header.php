@@ -15,8 +15,8 @@
                     <!-- Logo Section -->
                     <div class="col-lg-2 col-md-3 col-6 d-flex">
                         <div class="logo">
-                            <a href="index.php" style="display: flex; align-items: start;">
-                                <img src="assets/img/logo.png" alt="logo" style="max-height: 80px; margin-right: 5px; width: 180px;">
+                            <a href="index.php" style="display: flex; align-items: center;">
+                                <img src="assets/img/logo.png" alt="logo" style="max-height: 80px;  width: 180px;">
                             </a>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                     <!-- Right Side: Help, Wishlist, Login, Cart -->
                     <div class="col-lg-4 col-md-4 col-12 d-flex flex-wrap">
     <!-- Become a Seller Section -->
-    <div class="d-flex align-items-center mb-2 me-3">
-        <a href="wishlist.php" class="text-black text-decoration-none d-flex align-items-center">
+    <div class="d-flex align-items-center mb-2 me-3 ">
+        <a href="wishlist.php" class="text-black text-decoration-none d-flex align-items-center ">
             <!-- <i class="fas fa-dollar-sign me-2" style="font-size: 20px;"></i> -->
             <span class="d-none d-lg-inline" style="font-size: 14px;">Become a Seller</span>
         </a>
@@ -41,7 +41,7 @@
     <!-- Wishlist Section -->
     <div class="d-flex align-items-center mb-2 me-3">
         <a href="wishlist.php" class="text-black text-decoration-none d-flex align-items-center">
-            <i class="fal fa-heart me-2" style="font-size: 20px;"></i>
+            <i class="fal fa-heart me-2" style="font-size: 20px; "></i>
             <span class="d-none d-lg-inline" style="font-size: 14px;">Wishlist</span>
         </a>
     </div>
