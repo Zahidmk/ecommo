@@ -79,11 +79,13 @@
       max-height: 30px;
       margin: 5px;
     }
+
+    
   </style>
 
 <footer class="footer">
     <div class="container">
-      <div class="footer-colum">
+      <div class="footer-colum d-none d-lg-block">
       <img> <img src="assets/img/logo.png"  alt="logo" width="250px" height="100px">
         <p>Aswaq Al-Qurain, <br> Mubarak Al-Kabeer 35706 Kuwait<br>Email: mymarkasouq@gmail.com</p>
         <div class="social-icons " style="margin-bottom: 50px;">
@@ -92,6 +94,9 @@
   <a href="#"><i class="fab fa-instagram"></i></a>
   <a href="#"><i class="fab fa-dribbble"></i></a>
 </div>
+
+
+
 
 
       </div>

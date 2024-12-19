@@ -86,6 +86,8 @@
             background-repeat: no-repeat;
         }
 
+  
+
         .section-header.blue {
             background-image: url('https://via.placeholder.com/400x150/003366/FFFFFF?text=');
         }
@@ -117,6 +119,23 @@
             background-color: #fff;
         }
 
+
+        /* Media query for iPad Pro and similar devices */
+@media (min-width: 768px) and (max-width: 1366px) {
+    .product-card {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+        gap: 10px; /* Reduce gap between elements */
+        padding: 20px; /* Adjust padding for better spacing */
+        margin-bottom: 20px; /* Slightly increase spacing between cards */
+    }
+
+    .product-card img {
+        width: 100%; /* Ensure images take full width of their container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px; /* Match the card's border-radius */
+    }
+}
         .product-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -338,52 +357,98 @@
 
 
 
-
+        
 
 
 
         .category-card {
-            width: 120px;
-            /* Fixed width */
-            height: 150px;
-            /* Fixed height */
-            text-align: center;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    width: 100%; /* Use percentage width for responsiveness */
+    max-width: 120px; /* Limit maximum width */
+    height: 8rem; /* Adjust height based on content */
+    aspect-ratio: 4/5; /* Maintain a consistent aspect ratio */
+    text-align: center;
+    padding: 10px; /* Reduced padding for smaller devices */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Add spacing between cards */
+}
 
-        .category-card img {
-            width: 50px;
-            height: 50px;
-            object-fit: contain;
-            margin-bottom: 10px;
-        }
+.category-card img {
+    width: 40%; /* Make the image responsive */
+    max-width: 60px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    margin-bottom: 10px;
+}
 
-        .category-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-        .category-card p {
-            margin: 0;
-            font-size: 14px;
-            font-weight: bold;
-            color: #333;
-            text-align: center;
-        }
+.category-card p {
+    margin: 0;
+    font-size: 12px; /* Default font size */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
 
-        .row>.col {
-            display: flex;
-            justify-content: center;
-        }
+/* Adjust grid layout for different screen sizes */
+.row > .col {
+    display: flex;
+    justify-content: center;
+}
 
+/* Media Queries for Responsiveness */
+
+/* For larger screens (desktop) */
+@media (min-width: 1024px) {
+    .category-card {
+        max-width: 150px;
+        padding: 15px;
+    }
+    .category-card img {
+        max-width: 80px;
+    }
+    .category-card p {
+        font-size: 14px;
+    }
+}
+
+
+/* For smaller screens (mobile devices) */
+@media (max-width: 767px) {
+    .category-card {
+        max-width: 100px;
+        padding: 10px;
+    }
+    .category-card img {
+        max-width: 50px;
+    }
+    .category-card p {
+        font-size: 12px;
+    }
+}
+
+/* Media query for iPad Pro, Mini, and Air */
+@media (min-width: 768px) and (max-width: 1366px) {
+    .category {
+        display: grid; /* Switch to grid layout */
+        grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+        gap: 20px; /* Space between items */
+    }
+
+    .category-card {
+        max-width: 100%; /* Adjust to fit grid cells */
+    }
+}
 
 
         /* Container Styling */
@@ -579,9 +644,26 @@
 
 
 
+    /* Default margin for mobile and desktop */
+    .promo-section {
+        margin: 1.5rem !important; /* Default m-4 (1.5rem) */
+    }
 
+    /* Margin for iPad Pro (768px to 1024px) */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .promo-section {
+            margin: 3rem !important; /* m-5 (3rem) */
+            
+        }
+    }
 
+    @media (max-width: 576px) {
+        .Promo-Banner{
+        height: 15rem; /* Single column for small screens */
+    }
 
+   
+}
     </style>
 </head>
 
@@ -654,7 +736,7 @@
 
 
         <div class="container pt-4">
-            <div class="row g-2">
+            <div class="row category g-2">
                 <!-- 10 cards -->
                 <div class="col">
                     <div class="category-card">
@@ -719,7 +801,14 @@
             </div>
         </div>
 
-        <section class="promo-section m-4" style="background: url('assets/img/banner-main.webp') no-repeat center center/cover; padding: 120px; text-align: center; position: relative; border-radius:15px; object-fit:cover; ">
+        <section class="promo-section" style="
+    position: relative; 
+    padding: 0; 
+    text-align: center; 
+    border-radius: 15px;">
+    <img src="assets/img/banner-main.webp" alt="Promo Banner" class="Promo-Banner" style="width: 100%;  border-radius: 15px; object-fit:cover;">
+</section>
+
 
 
         </section>
@@ -5022,10 +5111,10 @@
         </section>
         <!-- trending product area end -->
 
-        <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; max-height:300px">
+        <section class="promo-section m-4" style="background: url('assets/img/center-banner.jpg') no-repeat center center/cover; padding: 150px; text-align: center; position: relative; border-radius:15px; height:500px; ">
 
             <div class="promo-content d-none d-md-block">
-                <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
+                <!-- <h4 style="font-size: 16px; color: #333; font-weight: 600; margin-bottom: 10px;">EXCLUSIVE DEALS ON ELECTRONICS</h4>
                 <h1 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">Get up to 30% off on mobile gadgets!</h1>
                 <div class="countdown-timer" style="font-size: 24px; font-weight: 500; display: flex; justify-content: center; gap: 15px; margin-bottom: 20px;">
                     <div class="countdown-item">00 <br><span style="font-size: 14px; color: #666;">DAYS</span></div>
@@ -5035,16 +5124,16 @@
                 </div>
                 <button class="promo-button" style="background-color: #000; color: #fff; padding: 12px 30px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
                     SHOP NOW!
-                </button>
+                </button> -->
             </div>
 
 
             <div class="promo-content d-block d-md-none"
                 style="width: 300%; max-width: 320px; text-align: center; position: relative; left: 50%; transform: translateX(-50%);">
-                <h4 style="font-size: 10px; color: #333; font-weight: 600; margin-bottom: 5px; word-wrap: break-word;">
+                <!-- <h4 style="font-size: 10px; color: #333; font-weight: 600; margin-bottom: 5px; word-wrap: break-word;">
                     EXCLUSIVE DEALS ON ELECTRONICS
-                </h4>
-                <h1 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; word-wrap: break-word;">
+                </h4> -->
+                <!-- <h1 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; word-wrap: break-word;">
                     Get up to 30% off on mobile gadgets!
                 </h1>
                 <div class="countdown-timer"
@@ -5065,7 +5154,7 @@
                 <button class="promo-button"
                     style="background-color: #000; color: #fff; padding: 8px 20px; border: none; border-radius: 5px; font-size: 14px; cursor: pointer; width: 100%; max-width: 200px; margin: 0 auto;">
                     SHOP NOW!
-                </button>
+                </button> -->
             </div>
 
 
@@ -5103,7 +5192,7 @@
         <div class="container my-5">
     <div class="row g-4">
         <!-- Section 1 -->
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4 ">
             <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
                 <div class="section-header blue">SAVE UP TO 20% OFF<br>Top selling products</div>
                 <!-- Product 1 -->
@@ -5143,7 +5232,7 @@
         </div>
 
         <!-- Section 2 -->
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
                 <div class="section-header green">GET 10% OFF ON ALL<br>Top rated products</div>
                 <!-- Product 1 -->
@@ -5183,7 +5272,7 @@
         </div>
 
         <!-- Section 3 -->
-        <div class="col-md-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <div class="product-list" style="box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);">
                 <div class="section-header orange">RECEIVE 20% OFF ON <br>Featured products</div>
                 <!-- Product 1 -->
