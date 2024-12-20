@@ -930,7 +930,7 @@
                                         <img src="assets/img/hero-1.jpg" alt="slider">
                                     </div>
                                     <div class="single-slider single-slider-4 w-img" style="border-radius:15px;">
-                                        <img src="assets/img/
+                                        <img src="assets/img/hero-2.jpg
                                         " alt="slider">
                                     </div>
                                 </div>

@@ -17,13 +17,13 @@
         <!-- Add your site or application content here -->
 
         <!-- preloader area start -->
-        <div id="loading">
+        <!-- <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
                     <div id="object"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- preloader area end -->
 
         <!-- back to top start -->

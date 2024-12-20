@@ -4,10 +4,118 @@
         display: none;
         /* Hidden by default */
     }
+
+
+     /* Hide navbar on larger screens */
+     .mobile-bottom-nav {
+      display: none;
+    }
+
+    /* Sticky bottom navbar styles */
+    .mobile-bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+
+    .mobile-bottom-nav .nav-item {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .mobile-bottom-nav .nav-item a {
+      color: #333;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .mobile-bottom-nav .nav-item a.active {
+      color: #007bff;
+    }
+
+    .mobile-bottom-nav .nav-item i {
+      font-size: 20px;
+    }
+
+    /* Media query to display bottom navbar only on smaller screens */
+    @media (max-width: 991px) {
+      .mobile-bottom-nav {
+        display: flex;
+      }
+    }
 </style>
 
+
+
+
+
+<!-- Sticky Bottom Navbar for Mobile and Tablets -->
+<div class="mobile-bottom-nav d-flex d-xl-none">
+  <div class="nav-item">
+    <a href="index.php" class="active">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+  </div>
+  <div class="nav-item">
+    <a href="categories.php">
+      <i class="fas fa-th-large"></i>
+      <span>Categories</span>
+    </a>
+  </div>
+  <div class="nav-item">
+    <a href="login.php">
+      <i class="fas fa-user"></i>
+      <span>Sign In</span>
+    </a>
+  </div>
+  <div class="nav-item">
+    <a href="cart.php">
+      <i class="fas fa-shopping-cart"></i>
+      <span>Cart</span>
+    </a>
+  </div>
+</div>
+
+
+
+<div style="background-color: #ededed; color: black; padding: 10px 0; ">
+
+    <!-- Logo Section -->
+    <div class="d-block d-xl-none " style="text-align: center;">
+        <div class="logo">
+            <a href="index.php">
+                <img src="assets/img/logo.png" alt="logo" style="max-height: 80px; width: 180px;">
+            </a>
+        </div>
+    </div>
+
+    <!-- Search Section -->
+    <div class="col-12 d-flex d-xl-none p-2" style="margin-top: 10px; >
+        <form action="#" class="d-flex align-items-center w-100" style="max-width: 400px; background: white; border-radius: 20px; padding: 5px 10px;">
+            <input type="text" placeholder="I'm looking for..." class="form-control border-0" 
+                style="border-radius: 20px; padding: 8px; font-size: 14px;">
+            <button type="submit" class="btn btn-link text-black p-0 ms-2" style="font-size: 16px;">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </div>
+
+</div>
+
+
+
 <header>
-<div class="header__area" style="background-color:#ededed; color: black; padding: 10px 0;">
+<div class="header__area d-none d-md-none d-xl-block" style="background-color:#ededed; color: black; padding: 10px 0;">
     <header>
         <div class="header__area" style="background-color:#ededed; color: black; padding: 10px 0;">
             <div class="container">
@@ -25,17 +133,18 @@
                         <form action="#" class="d-flex align-items-center w-100" style="background: white; border-radius: 20px; padding: 5px 10px;">
                             <input type="text" placeholder="I'm looking for..." class="form-control border-0" style="border-radius: 20px; padding: 8px;">
                             <button type="submit" class="btn btn-link text-black p-0 ms-2">
-                                <i class="fas fa-search"></i>
+     
+                            <i class="fas fa-search"></i>
                             </button>
                         </form>
                     </div>
                     <!-- Right Side: Help, Wishlist, Login, Cart -->
-                    <div class="col-lg-4 col-md-4 col-12 d-flex flex-wrap">
+                    <div class="col-lg-4 col-md-4 col-12 d-flex flex-wrap ">
     <!-- Become a Seller Section -->
     <div class="d-flex align-items-center mb-2 me-3 ">
         <a href="wishlist.php" class="text-black text-decoration-none d-flex align-items-center ">
             <!-- <i class="fas fa-dollar-sign me-2" style="font-size: 20px;"></i> -->
-            <span class="d-none d-lg-inline" style="font-size: 14px;">Become a Seller</span>
+            <span class="d-none d-lg-inline" style="font-size: 14px; margin-left:90px;">Become a Seller</span>
         </a>
     </div>
     <!-- Wishlist Section -->
@@ -551,7 +660,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-7 col-xl-9 col-lg-9 col-md-12 col-sm-6 col-6">
+                <div class="col-xxl-7 col-xl-9 col-lg-9 col-md-12 col-sm-6 col-6  d-none d-xl-block ">
                     <div class="header__bottom-left d-flex d-xl-block align-items-center">
                         <div class="side-menu d-xl-none mr-20">
                             <button type="button" class="side-menu-btn side-menu-btn-4 offcanvas-toggle-btn"><i class="fas fa-bars"></i></button>
