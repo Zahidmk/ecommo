@@ -2250,7 +2250,9 @@ p {
   right: 0;
 }
 @media (max-width: 575px) {
- 
+  .product__slider .owl-nav {
+    display: block;
+  }
 }
 .product__slider .owl-nav div {
   margin: 0 7px;
