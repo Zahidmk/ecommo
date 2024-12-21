@@ -360,16 +360,16 @@
     }
 
     .category-circle {
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
     }
 
     .category-icon {
-        font-size: 8px;
+        font-size: 18px;
     }
 
     .category-title {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
