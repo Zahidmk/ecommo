@@ -365,11 +365,11 @@
     }
 
     .category-icon {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .category-title {
-        font-size: 12px;
+        font-size: 8px;
     }
 }
 
