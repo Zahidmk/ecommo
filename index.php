@@ -302,57 +302,76 @@
             background-color: #0056b3;
         }
 
-        /* Category Item Styling */
-        .category-item {
-            flex: 0 0 auto;
-            /* Prevent items from shrinking and fit to their content */
-            text-align: center;
-            width: 120px;
-            /* Width of each item */
-        }
+        .category-grid {
+    display: grid;
+    gap: 20px;
+    margin: 0 auto; /* Center the grid */
+    padding: 0 15px; /* Add some padding for content */
+    max-width: 100%; /* Ensure the grid doesn't overflow */
+}
 
-        .category-circle {
-            width: 80px;
-            height: 80px;
-            border: 2px solid #007bff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8f9fa;
-        }
+.category-item {
+    text-align: center;
+}
 
-        .category-icon {
-            font-size: 30px;
-            color: #007bff;
-        }
+.category-circle {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
 
-        .category-title {
-            font-size: 16px;
-            font-weight: 500;
-            margin-top: 8px;
-        }
+.category-icon {
+    font-size: 24px;
+    color: black;
+}
 
-        /* Mobile Adjustments */
-        @media (max-width: 576px) {
-            .category-item {
-                width: 50px;
-                /* Reduce width on small screens */
-            }
+.category-title {
+    font-size: 16px;
+    margin-top: 8px;
+    color: black;
+}
 
-            .category-circle {
-                width: 60px;
-                height: 60px;
-            }
+/* Desktop (8 items in a row) */
+@media (min-width: 1200px) {
+    .category-grid {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
 
-            .category-icon {
-                font-size: 24px;
-            }
+/* Tablets (4 items in a row) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
-            .category-title {
-                font-size: 14px;
-            }
-        }
+/* Mobile (4 items per row) */
+@media (max-width: 767px) {
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 0 0px; /* Avoid side overflows */
+      
+    }
+
+    .category-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .category-icon {
+        font-size: 8px;
+    }
+
+    .category-title {
+        font-size: 8px;
+    }
+}
 
 
 
@@ -741,7 +760,7 @@
                 <div class="col">
                     <div class="category-card">
                         <img src="assets/img/mobile-tablet.webp" alt="Mobile & Tablet">
-                        <p>Mobile & Tablet</p>
+                        <p>Mobile Accessories</p>
                     </div>
                 </div>
                 <div class="col">
@@ -811,70 +830,69 @@
 
 
 
-        </section>
-        <section class="">
-            <div class="container">
-                <!-- <h2 class="text-center mb-4">Love Our Categories</h2> -->
-                <div class="category-row d-flex overflow-auto" style="gap:10px">
-                    <!-- Phones -->
-                    <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="https://youtube.com/shorts/8XUunkGJw4g?si=HK8Jc0juItbaEQFV">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-phone category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Phones</div>
-                    </div>
-                    <!-- Laptops -->
-                    <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/laptops.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-laptop category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Laptops</div>
-                    </div>
-                    <!-- TVs -->
-                    <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/tvs.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-tv category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">TVs</div>
-                    </div>
-                    <!-- Cameras -->
-                    <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/cameras.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-camera category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Cameras</div>
-                    </div>
-                    <!-- Speakers -->
-                    <div class="category-item text-center me-3" data-video="assets/img/v-1.mp4" data-link="assets/videos/speakers.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-speaker category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Speakers</div>
-                    </div>
-                    <!-- Tablets -->
-                    <div class="category-item text-center me-3" data-video="assets/videos/tablets.mp4" data-link="assets/videos/tablets.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-tablet category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Tablets</div>
-                    </div>
-                    <!-- Watches -->
-                    <div class="category-item text-center me-3" data-video="assets/videos/watches.mp4" data-link="assets/videos/watches.mp4">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-watch category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Watches</div>
-                    </div>
-                    <!-- Headphones -->
-                    <div class="category-item text-center me-3" data-video="assets/videos/headphones.mp4" data-link="product.php">
-                        <div class="category-circle mx-auto">
-                            <i class="bi bi-headphones category-icon"></i>
-                        </div>
-                        <div class="category-title mt-2">Headphones</div>
-                    </div>
+    
+<section>
+    <div class="container">
+        <div class="category-grid">
+            <!-- Phones -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-phone category-icon"></i>
                 </div>
+                <div class="category-title mt-2">Phones</div>
             </div>
-        </section>
+            <!-- Laptops -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-laptop category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Laptops</div>
+            </div>
+            <!-- TVs -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-tv category-icon"></i>
+                </div>
+                <div class="category-title mt-2">TVs</div>
+            </div>
+            <!-- Cameras -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-camera category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Cameras</div>
+            </div>
+            <!-- Speakers -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-speaker category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Speakers</div>
+            </div>
+            <!-- Tablets -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-tablet category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Tablets</div>
+            </div>
+            <!-- Watches -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-watch category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Watches</div>
+            </div>
+            <!-- Headphones -->
+            <div class="category-item text-center">
+                <div class="category-circle mx-auto">
+                    <i class="bi bi-headphones category-icon"></i>
+                </div>
+                <div class="category-title mt-2">Headphones</div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- slider area satrt -->
         <!-- slider area satrt -->
@@ -1038,7 +1056,7 @@
                                 <a href="product-details.php" class="shop-now-btn">Shop Now</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </section>
