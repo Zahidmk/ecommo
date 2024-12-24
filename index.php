@@ -302,12 +302,14 @@
             background-color: #0056b3;
         }
 
-        .category-grid {
+     /* General styling */
+.category-grid {
     display: grid;
-    gap: 20px;
-    margin: 0 auto; /* Center the grid */
-    padding: 0 15px; /* Add some padding for content */
-    max-width: 100%; /* Ensure the grid doesn't overflow */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    overflow: hidden; /* Ensures hidden content */
+    max-height: 220px; /* Show only 2 rows of items initially */
+    transition: max-height 0.3s ease; /* Smooth toggle transition */
 }
 
 .category-item {
@@ -315,8 +317,8 @@
 }
 
 .category-circle {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border: 2px solid #007bff;
     border-radius: 50%;
     display: flex;
@@ -331,11 +333,30 @@
 }
 
 .category-title {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 8px;
     color: black;
 }
 
+/* Button Styling */
+.show-more-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hide "Show More" button on non-mobile devices */
+@media (min-width: 768px) {
+    .show-more-btn {
+        display: none;
+    }
+}
 /* Desktop (8 items in a row) */
 @media (min-width: 1200px) {
     .category-grid {
@@ -833,7 +854,7 @@
     
 <section>
     <div class="container">
-        <div class="category-grid">
+        <div class="category-grid" id="categoryGrid">
             <!-- Phones -->
             <div class="category-item text-center">
                 <div class="category-circle mx-auto">
@@ -890,9 +911,11 @@
                 </div>
                 <div class="category-title mt-2">Headphones</div>
             </div>
-        </div>
-    </div>
+        </div>    
+        <button id="showMoreBtn" class="show-more-btn " Style= "border-radius: ">Show More</button>
+    </div>   
 </section>
+
 
         <!-- slider area satrt -->
         <!-- slider area satrt -->
@@ -6034,6 +6057,23 @@
     </script>
 
 
+<script>
+document.getElementById("showMoreBtn").addEventListener("click", function () {
+    const grid = document.getElementById("categoryGrid");
+    const btn = document.getElementById("showMoreBtn");
+
+    // Check if grid is already expanded
+    if (grid.style.maxHeight === "none" || grid.style.maxHeight === "") {
+        // Collapse the grid to show only 2 rows
+        grid.style.maxHeight = "220px"; // Adjust based on your rows' height
+        btn.textContent = "Show More";
+    } else {
+        // Expand the grid to show all items
+        grid.style.maxHeight = "none";
+        btn.textContent = "Show Less";
+    }
+});
+</script>
 
 
 
