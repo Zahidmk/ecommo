@@ -1467,7 +1467,7 @@
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1496,7 +1496,7 @@
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
 
-                                            <span class="price">$500.00</span>
+                                            <span class="price">kwa 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1521,7 +1521,7 @@
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$560.00</span>
+                                            <span class="price">kwa 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1546,7 +1546,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
 
-                                            <span class="price">$450.00</span>
+                                            <span class="price">kwa 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1571,7 +1571,7 @@
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1596,7 +1596,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1621,7 +1621,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1646,7 +1646,7 @@
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1675,7 +1675,7 @@
                                                 <a class="product-item-link" href="product-details.html"> High Quality Glass Ultra-Thin Kitchen Scale</a>
                                             </h6>
 
-                                            <span class="price">$500.00</span>
+                                            <span class="price">kwa 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1700,7 +1700,7 @@
                                                 <a class="product-item-link" href="product-details.html"> LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$560.00</span>
+                                            <span class="price">kwa 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1725,7 +1725,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Samsung C49J89: £875, Debenhams Plus </a>
                                             </h6>
 
-                                            <span class="price">$450.00</span>
+                                            <span class="price">kwa 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1750,7 +1750,7 @@
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1775,7 +1775,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Blue t-shir for men <br> (X, M, XL, XXL) </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1800,7 +1800,7 @@
                                                 <a class="product-item-link" href="product-details.html"> Samsung A20 Pro Ultra <br> CPU 4/64 GB </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1825,7 +1825,7 @@
                                                 <a class="product-item-link" href="product-details.html">LG 27UD58: £347.21, <br> Ebuyer.com </a>
                                             </h6>
 
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -2056,7 +2056,7 @@
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
+                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">kwa 499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div> -->
                         </div>
@@ -2068,7 +2068,7 @@
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
+                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">kwa 499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div> -->
                         </div>
@@ -2250,8 +2250,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <!-- <span class="new mb-5">$120.00</span>
-                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <!-- <span class="new mb-5">kwa 120.00</span>
+                                                        <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                         <div class="add-cart">
                                                             <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -2401,8 +2401,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2429,8 +2429,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2459,8 +2459,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2487,8 +2487,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2517,8 +2517,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -2548,8 +2548,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2576,8 +2576,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2606,8 +2606,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2634,8 +2634,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2668,8 +2668,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2696,8 +2696,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2726,8 +2726,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2754,8 +2754,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2784,8 +2784,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -2815,8 +2815,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2843,8 +2843,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2873,8 +2873,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2901,8 +2901,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2935,8 +2935,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2963,8 +2963,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -2993,8 +2993,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3021,8 +3021,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3051,8 +3051,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3082,8 +3082,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3110,8 +3110,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3140,8 +3140,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3168,8 +3168,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3202,8 +3202,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3230,8 +3230,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3260,8 +3260,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3288,8 +3288,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3318,8 +3318,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3349,8 +3349,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3377,8 +3377,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3407,8 +3407,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3435,8 +3435,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3757,8 +3757,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <!-- <span class="new mb-5">$120.00</span>
-                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <!-- <span class="new mb-5">kwa 120.00</span>
+                                                        <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                         <div class="add-cart">
                                                             <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3908,8 +3908,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3936,8 +3936,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3966,8 +3966,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3994,8 +3994,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4024,8 +4024,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -4055,8 +4055,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4083,8 +4083,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4113,8 +4113,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4141,8 +4141,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4175,8 +4175,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4203,8 +4203,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4233,8 +4233,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4261,8 +4261,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4291,8 +4291,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -4322,8 +4322,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4350,8 +4350,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4380,8 +4380,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4408,8 +4408,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4442,8 +4442,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4470,8 +4470,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4500,8 +4500,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4528,8 +4528,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4558,8 +4558,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -4589,8 +4589,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4617,8 +4617,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4647,8 +4647,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4675,8 +4675,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4709,8 +4709,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Blink Home Security Camera System 01 </a>
                                                     </h6>
 
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4737,8 +4737,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Capacitive Touch Screen 22 Inch LCD Display Monitor</a>
                                                     </h6>
 
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4767,8 +4767,8 @@
                                                         <a class="product-item-link" href="product-details.html">New Model Watch Mobile with Bpm Function </a>
                                                     </h6>
 
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4795,8 +4795,8 @@
                                                         <a class="product-item-link" href="product-details.html">Original Smart Phone for Original for iPhone 6s</a>
                                                     </h6>
 
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4825,8 +4825,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Original Mobile Android Dual SIM Smart Phone G3 </a>
                                                     </h6>
 
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -4856,8 +4856,8 @@
                                                         <a class="product-item-link" href="product-details.html"> TF Camera Clock Support Bt 4.0 for Ios </a>
                                                     </h6>
 
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4884,8 +4884,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Ipad 2019 6th Gen 64GB Memory </a>
                                                     </h6>
 
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4914,8 +4914,8 @@
                                                         <a class="product-item-link" href="product-details.html">Samsung Note 5 Pro, 4.5Ghz CPU </a>
                                                     </h6>
 
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4942,8 +4942,8 @@
                                                         <a class="product-item-link" href="product-details.html"> Samsung Grand 2 2/64GB, with Charger </a>
                                                     </h6>
 
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -5140,8 +5140,8 @@
                                             <a class="product-item-link" href="product-details.html">Original Mobile Android Dual SIM Smart Phone G3 </a>
                                         </h6>
 
-                                        <span class="new new-2">$90.00</span>
-                                        <span class="price-old"> <del>$100.00</del> </span>
+                                        <span class="new new-2">kwa 90.00</span>
+                                        <span class="price-old"> <del>kwa 100.00</del> </span>
                                     </div>
                                 </div>
                             </div>
@@ -5653,7 +5653,7 @@
                                 </div>
                                 <div class="subscribe__text">
                                     <h4>Sign up to Newsletter</h4>
-                                    <p>Get email updates about our latest shop...and receive <span>$30 Coupon For First Shopping</span></p>
+                                    <p>Get email updates about our latest shop...and receive <span>kwa 30 Coupon For First Shopping</span></p>
                                 </div>
                             </div>
                         </div>
@@ -5860,7 +5860,7 @@
                                         </div>
 
                                         <div class="product__price mb-3">
-                                            <span class="h4 text-primary">$560.00</span>
+                                            <span class="h4 text-primary">kwa 560.00</span>
                                         </div>
 
                                         <div class="product__modal-form mb-3">
@@ -5929,7 +5929,7 @@
                     position = position + contentWidth;
                 }
 
-                row.style.transform = `translateX(${position}px)`;
+                row.style.transform = `translateX(kwa {position}px)`;
 
                 // Request the next frame
                 requestAnimationFrame(animate);

@@ -117,7 +117,7 @@
                                         </a>
                                         <span class="cart__content">
                                             <span class="cart__my">My Cart:</span>
-                                            <span class="cart__total-price">$ 255.00</span>
+                                            <span class="cart__total-price">kwa  255.00</span>
                                         </span>
                                         <div class="cart__mini">
                                           <div class="cart__close"><button type="button" class="cart__close-btn"><i class="fal fa-times"></i></button></div>
@@ -139,7 +139,7 @@
                                                     <div class="cart__details">
                                                       <h6><a href="product-details.html"> Samsung C49J89: £875, Debenhams Plus  </a></h6>
                                                       <div class="cart__price">
-                                                        <span>$255.00</span>
+                                                        <span>kwa 255.00</span>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -151,7 +151,7 @@
                                               <li>
                                                 <div class="cart__sub d-flex justify-content-between align-items-center">
                                                   <h6>Car Subtotal</h6>
-                                                  <span class="cart__sub-total">$255.00</span>
+                                                  <span class="cart__sub-total">kwa 255.00</span>
                                                 </div>
                                               </li>
                                               <li>
@@ -328,21 +328,21 @@
                                             <tr>
                                                 <td class="product-thumbnail"><a href="product-details.html"><img src="assets/img/shop/product/product-1.jpg" alt=""></a></td>
                                                 <td class="product-name"><a href="product-details.html">Bakix Furniture</a></td>
-                                                <td class="product-price"><span class="amount">$130.00</span></td>
+                                                <td class="product-price"><span class="amount">kwa 130.00</span></td>
                                                 <td class="product-quantity">
                                                     <button class="t-y-btn t-y-btn-grey" type="submit">Add TO Cart</button>
                                                 </td>
-                                                <td class="product-subtotal"><span class="amount">$130.00</span></td>
+                                                <td class="product-subtotal"><span class="amount">kwa 130.00</span></td>
                                                 <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td class="product-thumbnail"><a href="product-details.html"><img src="assets/img/shop/product/product-2.jpg" alt=""></a></td>
                                                 <td class="product-name"><a href="product-details.html">Sujon Chair Set</a></td>
-                                                <td class="product-price"><span class="amount">$120.50</span></td>
+                                                <td class="product-price"><span class="amount">kwa 120.50</span></td>
                                                 <td class="product-quantity">
                                                     <button class="t-y-btn t-y-btn-grey" type="submit">Add TO Cart</button>
                                                 </td>
-                                                <td class="product-subtotal"><span class="amount">$120.50</span></td>
+                                                <td class="product-subtotal"><span class="amount">kwa 120.50</span></td>
                                                 <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
                                             </tr>
                                         </tbody>

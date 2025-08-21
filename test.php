@@ -1379,7 +1379,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1416,7 +1416,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$500.00</span>
+                                            <span class="price">kwa 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1449,7 +1449,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$560.00</span>
+                                            <span class="price">kwa 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1482,7 +1482,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$450.00</span>
+                                            <span class="price">kwa 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1515,7 +1515,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1548,7 +1548,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1581,7 +1581,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1614,7 +1614,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1651,7 +1651,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$500.00</span>
+                                            <span class="price">kwa 500.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1684,7 +1684,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$560.00</span>
+                                            <span class="price">kwa 560.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1717,7 +1717,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$450.00</span>
+                                            <span class="price">kwa 450.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1750,7 +1750,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1783,7 +1783,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1816,7 +1816,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -1849,7 +1849,7 @@
                                                     <li><a href="#"><i class="far fa-star"></i></a></li>
                                                 </ul>
                                             </div>
-                                            <span class="price">$720.00</span>
+                                            <span class="price">kwa 720.00</span>
                                         </div>
                                         <div class="product__add-btn">
                                             <button type="button">Add to Cart</button>
@@ -2076,7 +2076,7 @@
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
+                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">kwa 499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div> -->
                         </div>
@@ -2088,7 +2088,7 @@
                             <!-- <div class="banner__content position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
                         <p style="font-size: 16px; font-weight: bold;">SAVE UP TO 30% OFF</p>
                         <h3 style="font-size: 24px; font-weight: bold; margin: 10px 0;">Latest Smartphones</h3>
-                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">$499</span></p>
+                        <p style="font-size: 16px;">ONLY <span style="font-size: 24px; font-weight: bold;">kwa 499</span></p>
                         <a href="product-details.html" class="btn btn-dark" style="border-radius: 30px; padding: 10px 20px; font-size: 16px;">SHOP NOW →</a>
                     </div> -->
                         </div>
@@ -2857,8 +2857,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <!-- <span class="new mb-5">$120.00</span>
-                                                        <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <!-- <span class="new mb-5">kwa 120.00</span>
+                                                        <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                         <div class="add-cart">
                                                             <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3048,8 +3048,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3084,8 +3084,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3122,8 +3122,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3158,8 +3158,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3196,8 +3196,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3235,8 +3235,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3271,8 +3271,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3309,8 +3309,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3345,8 +3345,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3387,8 +3387,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3423,8 +3423,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3461,8 +3461,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3497,8 +3497,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3535,8 +3535,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3574,8 +3574,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3610,8 +3610,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3648,8 +3648,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3684,8 +3684,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3726,8 +3726,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3762,8 +3762,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3800,8 +3800,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3836,8 +3836,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3874,8 +3874,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -3913,8 +3913,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3949,8 +3949,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -3987,8 +3987,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4023,8 +4023,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4065,8 +4065,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$720.00</span>
-                                                    <span class="price-old"> <del>$800.00</del> </span>
+                                                    <span class="new">kwa 720.00</span>
+                                                    <span class="price-old"> <del>kwa 800.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4101,8 +4101,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$350.00</span>
-                                                    <span class="price-old"> <del>$400.00</del> </span>
+                                                    <span class="new">kwa 350.00</span>
+                                                    <span class="price-old"> <del>kwa 400.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4139,8 +4139,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$120.00</span>
-                                                    <span class="price-old"> <del>$125.00</del> </span>
+                                                    <span class="new">kwa 120.00</span>
+                                                    <span class="price-old"> <del>kwa 125.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4175,8 +4175,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$250.00</span>
-                                                    <span class="price-old"> <del>$275.00</del> </span>
+                                                    <span class="new">kwa 250.00</span>
+                                                    <span class="price-old"> <del>kwa 275.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4213,8 +4213,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new mb-5">$120.00</span>
-                                                    <span class="price-old mb-5"> <del>$125.00</del> </span>
+                                                    <span class="new mb-5">kwa 120.00</span>
+                                                    <span class="price-old mb-5"> <del>kwa 125.00</del> </span>
                                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod</p>
                                                     <div class="add-cart">
                                                         <button class="t-y-btn t-y-btn-2">add to cart</button>
@@ -4252,8 +4252,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$90.00</span>
-                                                    <span class="price-old"> <del>$105.00</del> </span>
+                                                    <span class="new">kwa 90.00</span>
+                                                    <span class="price-old"> <del>kwa 105.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4288,8 +4288,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$300.00</span>
-                                                    <span class="price-old"> <del>$250.00</del> </span>
+                                                    <span class="new">kwa 300.00</span>
+                                                    <span class="price-old"> <del>kwa 250.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4326,8 +4326,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$175.00</span>
-                                                    <span class="price-old"> <del>$190.00</del> </span>
+                                                    <span class="new">kwa 175.00</span>
+                                                    <span class="price-old"> <del>kwa 190.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4362,8 +4362,8 @@
                                                             <li><a href="#"><i class="far fa-star"></i></a></li>
                                                         </ul>
                                                     </div>
-                                                    <span class="new">$220.00</span>
-                                                    <span class="price-old"> <del>$230.00</del> </span>
+                                                    <span class="new">kwa 220.00</span>
+                                                    <span class="price-old"> <del>kwa 230.00</del> </span>
                                                 </div>
                                                 <div class="product__add-btn">
                                                     <button type="button">Add to Cart</button>
@@ -4673,8 +4673,8 @@
                                                 <li><a href="#"><i class="far fa-star"></i></a></li>
                                             </ul>
                                         </div>
-                                        <span class="new new-2">$90.00</span>
-                                        <span class="price-old"> <del>$100.00</del> </span>
+                                        <span class="new new-2">kwa 90.00</span>
+                                        <span class="price-old"> <del>kwa 100.00</del> </span>
                                     </div>
                                 </div>
                             </div>
@@ -4810,7 +4810,7 @@
                                 </div>
                                 <div class="subscribe__text">
                                     <h4>Sign up to Newsletter</h4>
-                                    <p>Get email updates about our latest shop...and receive <span>$30 Coupon For First Shopping</span></p>
+                                    <p>Get email updates about our latest shop...and receive <span>kwa 30 Coupon For First Shopping</span></p>
                                 </div>
                             </div>
                         </div>
@@ -4933,7 +4933,7 @@
                                             </div>
                                         </div>
                                         <div class="product__price">
-                                            <span>$560.00</span>
+                                            <span>kwa 560.00</span>
                                         </div>
                                         <div class="product__modal-form mb-30">
                                             <form action="#">
@@ -5001,7 +5001,7 @@
                     position = position + contentWidth;
                 }
 
-                row.style.transform = `translateX(${position}px)`;
+                row.style.transform = `translateX(kwa {position}px)`;
 
                 // Request the next frame
                 requestAnimationFrame(animate);

@@ -357,7 +357,7 @@
                                                         Vestibulum suscipit <strong class="product-quantity"> × 1</strong>
                                                     </td>
                                                     <td class="product-total">
-                                                        <span class="amount">$165.00</span>
+                                                        <span class="amount">kwa 165.00</span>
                                                     </td>
                                                 </tr>
                                                 <tr class="cart_item">
@@ -365,14 +365,14 @@
                                                         Vestibulum dictum magna <strong class="product-quantity"> × 1</strong>
                                                     </td>
                                                     <td class="product-total">
-                                                        <span class="amount">$50.00</span>
+                                                        <span class="amount">kwa 50.00</span>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                             <tfoot>
                                                 <tr class="cart-subtotal">
                                                     <th>Cart Subtotal</th>
-                                                    <td><span class="amount">$215.00</span></td>
+                                                    <td><span class="amount">kwa 215.00</span></td>
                                                 </tr>
                                                 <tr class="shipping">
                                                     <th>Shipping</th>
@@ -381,7 +381,7 @@
                                                             <li>
                                                                 <input type="radio"  name="shipping" />
                                                                 <label>
-                                                                    Flat Rate: <span class="amount">$7.00</span>
+                                                                    Flat Rate: <span class="amount">kwa 7.00</span>
                                                                 </label>
                                                             </li>
                                                             <li>
@@ -393,7 +393,7 @@
                                                 </tr>
                                                 <tr class="order-total">
                                                     <th>Order Total</th>
-                                                    <td><strong><span class="amount">$215.00</span></strong>
+                                                    <td><strong><span class="amount">kwa 215.00</span></strong>
                                                     </td>
                                                 </tr>
                                             </tfoot>
