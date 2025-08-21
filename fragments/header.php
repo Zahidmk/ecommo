@@ -88,7 +88,7 @@
 
 
 
-<div style="background-color: #ededed; color: black; padding: 10px 0; ">
+<div style="background-color: #ededed; color: black; padding: 0px 0; ">
 
     <!-- Logo Section -->
     <div class="d-block d-xl-none " style="text-align: center;">

@@ -94,7 +94,7 @@
             <section class="product__area box-plr-75 pb-70">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xxl-5 col-xl-5 col-lg-5">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6">
                             <div class="product__details-nav d-sm-flex align-items-start">
                                 <ul class="nav nav-tabs flex-sm-column justify-content-between" id="productThumbTab" role="tablist">
                                     <li class="nav-item" role="presentation">
@@ -164,7 +164,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-7 col-xl-7 col-lg-7">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6">
                             <div class="product__details-wrapper">
                                 <div class="product__details">
                                     <h3 class="product__details-title">
@@ -200,7 +200,12 @@
                                     <div class="product__details-des mb-30">
                                         <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when anunknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                                     </div>
-                                   
+                                    <div class="product__details-stock">
+                                        <h3><span>Hurry Up!</span> Only 98 products left in stock.</h3>
+                                        <!-- <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-width="100%"></div>
+                                          </div> -->
+                                    </div>
                                     <div class="product__details-quantity mb-20">
                                         <form action="#">
                                             <div class="pro-quan-area d-lg-flex align-items-center">
